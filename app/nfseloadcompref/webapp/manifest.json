@@ -1,0 +1,161 @@
+{
+	"_version": "",
+
+	"sap.app": {
+		"id": "com.santander.nfse.app.nfseloadcompref",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"resources": "resources.json",
+		"dataSources": {
+			"mainService": {
+				"uri": "v2/nfse-load-data/",
+				"type": "OData",
+				"settings": {
+                    "odataVersion": "2.0",
+                    "count": true,
+                    "localUri": "localService/metadata.xml"
+				}
+			}
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "com-santander-nfse-app-nfseloadcompref-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "prefecturesLink",
+                    "action": "post",
+                    "title": "{{appTile}}",
+                    "subTitle": "",
+                    "icon": "sap-icon://chain-link"
+                }
+            }
+        }        
+	},
+    "sap.cloud": {
+        "service": "nfse",
+        "public": true
+    },
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://task",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "com.santander.nfse.app.nfseloadcompref.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		},
+
+		"dependencies": {
+			"minUI5Version": "1.66.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.f": {}
+			}
+		},
+
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.santander.nfse.app.nfseloadcompref.i18n.i18n"
+				}
+			},
+			"appView": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"logsCompanyPrefecture": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"preload": false
+			},
+			"fieldControl": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"columnsExcel": {
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true,
+				"settings": {
+					"operationMode": "Server",
+					"groupId": "$direct",
+					"synchronizationMode": "None",
+                    "autoExpandSelect":true,
+                    "defaultBindingMode": "TwoWay",
+                    "refreshAfterChange": true
+				}
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.santander.nfse.app.nfseloadcompref.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"bypassed": {
+					"target": ["notFound"]
+				},
+				"async": true
+			},
+
+			"routes": [
+				{
+					"pattern": "",
+					"name": "main",
+					"target": ["main"]
+				}
+			],
+
+			"targets": {
+				"main": {
+					"viewName": "Main",
+					"viewId": "main",
+					"viewLevel": 1,
+					"title": "{i18n>mainViewTitle}"
+				}
+			}
+		}
+    },
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.nfse_admin"
+        ]
+    }     
+}

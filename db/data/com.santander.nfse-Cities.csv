@@ -1,0 +1,5571 @@
+cityCode;cityName;cityNameNoAccents
+1100015;Alta Floresta D'Oeste;Alta Floresta D'Oeste
+1100379;Alto Alegre dos Parecis;Alto Alegre dos Parecis
+1100403;Alto Paraíso;Alto Paraiso
+1100346;Alvorada D'Oeste;Alvorada D'Oeste
+1100023;Ariquemes;Ariquemes
+1100452;Buritis;Buritis
+1100031;Cabixi;Cabixi
+1100601;Cacaulândia;Cacaulandia
+1100049;Cacoal;Cacoal
+1100700;Campo Novo de Rondônia;Campo Novo de Rondonia
+1100809;Candeias do Jamari;Candeias do Jamari
+1100908;Castanheiras;Castanheiras
+1100056;Cerejeiras;Cerejeiras
+1100924;Chupinguaia;Chupinguaia
+1100064;Colorado do Oeste;Colorado do Oeste
+1100072;Corumbiara;Corumbiara
+1100080;Costa Marques;Costa Marques
+1100940;Cujubim;Cujubim
+1100098;Espigão D'Oeste;Espigao D'Oeste
+1101005;Governador Jorge Teixeira;Governador Jorge Teixeira
+1100106;Guajará-Mirim;Guajara-Mirim
+1101104;Itapuã do Oeste;Itapua do Oeste
+1100114;Jaru;Jaru
+1100122;Ji-Paraná;Ji-Parana
+1100130;Machadinho D'Oeste;Machadinho D'Oeste
+1101203;Ministro Andreazza;Ministro Andreazza
+1101302;Mirante da Serra;Mirante da Serra
+1101401;Monte Negro;Monte Negro
+1100148;Nova Brasilândia D'Oeste;Nova Brasilandia D'Oeste
+1100338;Nova Mamoré;Nova Mamore
+1101435;Nova União;Nova Uniao
+1100502;Novo Horizonte do Oeste;Novo Horizonte do Oeste
+1100155;Ouro Preto do Oeste;Ouro Preto do Oeste
+1101450;Parecis;Parecis
+1100189;Pimenta Bueno;Pimenta Bueno
+1101468;Pimenteiras do Oeste;Pimenteiras do Oeste
+1100205;Porto Velho;Porto Velho
+1100254;Presidente Médici;Presidente Medici
+1101476;Primavera de Rondônia;Primavera de Rondonia
+1100262;Rio Crespo;Rio Crespo
+1100288;Rolim de Moura;Rolim de Moura
+1100296;Santa Luzia D'Oeste;Santa Luzia D'Oeste
+1101484;São Felipe D'Oeste;Sao Felipe D'Oeste
+1101492;São Francisco do Guaporé;Sao Francisco do Guapore
+1100320;São Miguel do Guaporé;Sao Miguel do Guapore
+1101500;Seringueiras;Seringueiras
+1101559;Teixeirópolis;Teixeiropolis
+1101609;Theobroma;Theobroma
+1101708;Urupá;Urupa
+1101757;Vale do Anari;Vale do Anari
+1101807;Vale do Paraíso;Vale do Paraiso
+1100304;Vilhena;Vilhena
+1200013;Acrelândia;Acrelandia
+1200054;Assis Brasil;Assis Brasil
+1200104;Brasiléia;Brasileia
+1200138;Bujari;Bujari
+1200179;Capixaba;Capixaba
+1200203;Cruzeiro do Sul;Cruzeiro do Sul
+1200252;Epitaciolândia;Epitaciolandia
+1200302;Feijó;Feijo
+1200328;Jordão;Jordao
+1200336;Mâncio Lima;Mancio Lima
+1200344;Manoel Urbano;Manoel Urbano
+1200351;Marechal Thaumaturgo;Marechal Thaumaturgo
+1200385;Plácido de Castro;Placido de Castro
+1200807;Porto Acre;Porto Acre
+1200393;Porto Walter;Porto Walter
+1200401;Rio Branco;Rio Branco
+1200427;Rodrigues Alves;Rodrigues Alves
+1200435;Santa Rosa do Purus;Santa Rosa do Purus
+1200500;Sena Madureira;Sena Madureira
+1200450;Senador Guiomard;Senador Guiomard
+1200609;Tarauacá;Tarauaca
+1200708;Xapuri;Xapuri
+1300029;Alvarães;Alvaraes
+1300060;Amaturá;Amatura
+1300086;Anamã;Anama
+1300102;Anori;Anori
+1300144;Apuí;Apui
+1300201;Atalaia do Norte;Atalaia do Norte
+1300300;Autazes;Autazes
+1300409;Barcelos;Barcelos
+1300508;Barreirinha;Barreirinha
+1300607;Benjamin Constant;Benjamin Constant
+1300631;Beruri;Beruri
+1300680;Boa Vista do Ramos;Boa Vista do Ramos
+1300706;Boca do Acre;Boca do Acre
+1300805;Borba;Borba
+1300839;Caapiranga;Caapiranga
+1300904;Canutama;Canutama
+1301001;Carauari;Carauari
+1301100;Careiro;Careiro
+1301159;Careiro da Várzea;Careiro da Varzea
+1301209;Coari;Coari
+1301308;Codajás;Codajas
+1301407;Eirunepé;Eirunepe
+1301506;Envira;Envira
+1301605;Fonte Boa;Fonte Boa
+1301654;Guajará;Guajara
+1301704;Humaitá;Humaita
+1301803;Ipixuna;Ipixuna
+1301852;Iranduba;Iranduba
+1301902;Itacoatiara;Itacoatiara
+1301951;Itamarati;Itamarati
+1302009;Itapiranga;Itapiranga
+1302108;Japurá;Japura
+1302207;Juruá;Jurua
+1302306;Jutaí;Jutai
+1302405;Lábrea;Labrea
+1302504;Manacapuru;Manacapuru
+1302553;Manaquiri;Manaquiri
+1302603;Manaus;Manaus
+1302702;Manicoré;Manicore
+1302801;Maraã;Maraa
+1302900;Maués;Maues
+1303007;Nhamundá;Nhamunda
+1303106;Nova Olinda do Norte;Nova Olinda do Norte
+1303205;Novo Airão;Novo Airao
+1303304;Novo Aripuanã;Novo Aripuana
+1303403;Parintins;Parintins
+1303502;Pauini;Pauini
+1303536;Presidente Figueiredo;Presidente Figueiredo
+1303569;Rio Preto da Eva;Rio Preto da Eva
+1303601;Santa Isabel do Rio Negro;Santa Isabel do Rio Negro
+1303700;Santo Antônio do Içá;Santo Antonio do Ica
+1303809;São Gabriel da Cachoeira;Sao Gabriel da Cachoeira
+1303908;São Paulo de Olivença;Sao Paulo de Olivenca
+1303957;São Sebastião do Uatumã;Sao Sebastiao do Uatuma
+1304005;Silves;Silves
+1304062;Tabatinga;Tabatinga
+1304104;Tapauá;Tapaua
+1304203;Tefé;Tefe
+1304237;Tonantins;Tonantins
+1304260;Uarini;Uarini
+1304302;Urucará;Urucara
+1304401;Urucurituba;Urucurituba
+1400050;Alto Alegre;Alto Alegre
+1400027;Amajari;Amajari
+1400100;Boa Vista;Boa Vista
+1400159;Bonfim;Bonfim
+1400175;Cantá;Canta
+1400209;Caracaraí;Caracarai
+1400233;Caroebe;Caroebe
+1400282;Iracema;Iracema
+1400308;Mucajaí;Mucajai
+1400407;Normandia;Normandia
+1400456;Pacaraima;Pacaraima
+1400472;Rorainópolis;Rorainopolis
+1400506;São João da Baliza;Sao Joao da Baliza
+1400605;São Luiz;Sao Luiz
+1400704;Uiramutã;Uiramuta
+1500107;Abaetetuba;Abaetetuba
+1500131;Abel Figueiredo;Abel Figueiredo
+1500206;Acará;Acara
+1500305;Afuá;Afua
+1500347;Água Azul do Norte;Agua Azul do Norte
+1500404;Alenquer;Alenquer
+1500503;Almeirim;Almeirim
+1500602;Altamira;Altamira
+1500701;Anajás;Anajas
+1500800;Ananindeua;Ananindeua
+1500859;Anapu;Anapu
+1500909;Augusto Corrêa;Augusto Correa
+1500958;Aurora do Pará;Aurora do Para
+1501006;Aveiro;Aveiro
+1501105;Bagre;Bagre
+1501204;Baião;Baiao
+1501253;Bannach;Bannach
+1501303;Barcarena;Barcarena
+1501402;Belém;Belem
+1501451;Belterra;Belterra
+1501501;Benevides;Benevides
+1501576;Bom Jesus do Tocantins;Bom Jesus do Tocantins
+1501600;Bonito;Bonito
+1501709;Bragança;Braganca
+1501725;Brasil Novo;Brasil Novo
+1501758;Brejo Grande do Araguaia;Brejo Grande do Araguaia
+1501782;Breu Branco;Breu Branco
+1501808;Breves;Breves
+1501907;Bujaru;Bujaru
+1502004;Cachoeira do Arari;Cachoeira do Arari
+1501956;Cachoeira do Piriá;Cachoeira do Piria
+1502103;Cametá;Cameta
+1502152;Canaã dos Carajás;Canaa dos Carajas
+1502202;Capanema;Capanema
+1502301;Capitão Poço;Capitao Poco
+1502400;Castanhal;Castanhal
+1502509;Chaves;Chaves
+1502608;Colares;Colares
+1502707;Conceição do Araguaia;Conceicao do Araguaia
+1502756;Concórdia do Pará;Concordia do Para
+1502764;Cumaru do Norte;Cumaru do Norte
+1502772;Curionópolis;Curionopolis
+1502806;Curralinho;Curralinho
+1502855;Curuá;Curua
+1502905;Curuçá;Curuca
+1502939;Dom Eliseu;Dom Eliseu
+1502954;Eldorado do Carajás;Eldorado do Carajas
+1503002;Faro;Faro
+1503044;Floresta do Araguaia;Floresta do Araguaia
+1503077;Garrafão do Norte;Garrafao do Norte
+1503093;Goianésia do Pará;Goianesia do Para
+1503101;Gurupá;Gurupa
+1503200;Igarapé-Açu;Igarape-Acu
+1503309;Igarapé-Miri;Igarape-Miri
+1503408;Inhangapi;Inhangapi
+1503457;Ipixuna do Pará;Ipixuna do Para
+1503507;Irituia;Irituia
+1503606;Itaituba;Itaituba
+1503705;Itupiranga;Itupiranga
+1503754;Jacareacanga;Jacareacanga
+1503804;Jacundá;Jacunda
+1503903;Juruti;Juruti
+1504000;Limoeiro do Ajuru;Limoeiro do Ajuru
+1504059;Mãe do Rio;Mae do Rio
+1504109;Magalhães Barata;Magalhaes Barata
+1504208;Marabá;Maraba
+1504307;Maracanã;Maracana
+1504406;Marapanim;Marapanim
+1504422;Marituba;Marituba
+1504455;Medicilândia;Medicilandia
+1504505;Melgaço;Melgaco
+1504604;Mocajuba;Mocajuba
+1504703;Moju;Moju
+1504752;Mojuí dos Campos;Mojui dos Campos
+1504802;Monte Alegre;Monte Alegre
+1504901;Muaná;Muana
+1504950;Nova Esperança do Piriá;Nova Esperanca do Piria
+1504976;Nova Ipixuna;Nova Ipixuna
+1505007;Nova Timboteua;Nova Timboteua
+1505031;Novo Progresso;Novo Progresso
+1505064;Novo Repartimento;Novo Repartimento
+1505106;Óbidos;Obidos
+1505205;Oeiras do Pará;Oeiras do Para
+1505304;Oriximiná;Oriximina
+1505403;Ourém;Ourem
+1505437;Ourilândia do Norte;Ourilandia do Norte
+1505486;Pacajá;Pacaja
+1505494;Palestina do Pará;Palestina do Para
+1505502;Paragominas;Paragominas
+1505536;Parauapebas;Parauapebas
+1505551;Pau D'Arco;Pau D'Arco
+1505601;Peixe-Boi;Peixe-Boi
+1505635;Piçarra;Picarra
+1505650;Placas;Placas
+1505700;Ponta de Pedras;Ponta de Pedras
+1505809;Portel;Portel
+1505908;Porto de Moz;Porto de Moz
+1506005;Prainha;Prainha
+1506104;Primavera;Primavera
+1506112;Quatipuru;Quatipuru
+1506138;Redenção;Redencao
+1506161;Rio Maria;Rio Maria
+1506187;Rondon do Pará;Rondon do Para
+1506195;Rurópolis;Ruropolis
+1506203;Salinópolis;Salinopolis
+1506302;Salvaterra;Salvaterra
+1506351;Santa Bárbara do Pará;Santa Barbara do Para
+1506401;Santa Cruz do Arari;Santa Cruz do Arari
+1506500;Santa Izabel do Pará;Santa Izabel do Para
+1506559;Santa Luzia do Pará;Santa Luzia do Para
+1506583;Santa Maria das Barreiras;Santa Maria das Barreiras
+1506609;Santa Maria do Pará;Santa Maria do Para
+1506708;Santana do Araguaia;Santana do Araguaia
+1506807;Santarém;Santarem
+1506906;Santarém Novo;Santarem Novo
+1507003;Santo Antônio do Tauá;Santo Antonio do Taua
+1507102;São Caetano de Odivelas;Sao Caetano de Odivelas
+1507151;São Domingos do Araguaia;Sao Domingos do Araguaia
+1507201;São Domingos do Capim;Sao Domingos do Capim
+1507300;São Félix do Xingu;Sao Felix do Xingu
+1507409;São Francisco do Pará;Sao Francisco do Para
+1507458;São Geraldo do Araguaia;Sao Geraldo do Araguaia
+1507466;São João da Ponta;Sao Joao da Ponta
+1507474;São João de Pirabas;Sao Joao de Pirabas
+1507508;São João do Araguaia;Sao Joao do Araguaia
+1507607;São Miguel do Guamá;Sao Miguel do Guama
+1507706;São Sebastião da Boa Vista;Sao Sebastiao da Boa Vista
+1507755;Sapucaia;Sapucaia
+1507805;Senador José Porfírio;Senador Jose Porfirio
+1507904;Soure;Soure
+1507953;Tailândia;Tailandia
+1507961;Terra Alta;Terra Alta
+1507979;Terra Santa;Terra Santa
+1508001;Tomé-Açu;Tome-Acu
+1508035;Tracuateua;Tracuateua
+1508050;Trairão;Trairao
+1508084;Tucumã;Tucuma
+1508100;Tucuruí;Tucurui
+1508126;Ulianópolis;Ulianopolis
+1508159;Uruará;Uruara
+1508209;Vigia;Vigia
+1508308;Viseu;Viseu
+1508357;Vitória do Xingu;Vitoria do Xingu
+1508407;Xinguara;Xinguara
+1600105;Amapá;Amapa
+1600204;Calçoene;Calcoene
+1600212;Cutias;Cutias
+1600238;Ferreira Gomes;Ferreira Gomes
+1600253;Itaubal;Itaubal
+1600279;Laranjal do Jari;Laranjal do Jari
+1600303;Macapá;Macapa
+1600402;Mazagão;Mazagao
+1600501;Oiapoque;Oiapoque
+1600154;Pedra Branca do Amapari;Pedra Branca do Amapari
+1600535;Porto Grande;Porto Grande
+1600550;Pracuúba;Pracuuba
+1600600;Santana;Santana
+1600055;Serra do Navio;Serra do Navio
+1600709;Tartarugalzinho;Tartarugalzinho
+1600808;Vitória do Jari;Vitoria do Jari
+1700251;Abreulândia;Abreulandia
+1700301;Aguiarnópolis;Aguiarnopolis
+1700350;Aliança do Tocantins;Alianca do Tocantins
+1700400;Almas;Almas
+1700707;Alvorada;Alvorada
+1701002;Ananás;Ananas
+1701051;Angico;Angico
+1701101;Aparecida do Rio Negro;Aparecida do Rio Negro
+1701309;Aragominas;Aragominas
+1701903;Araguacema;Araguacema
+1702000;Araguaçu;Araguacu
+1702109;Araguaína;Araguaina
+1702158;Araguanã;Araguana
+1702208;Araguatins;Araguatins
+1702307;Arapoema;Arapoema
+1702406;Arraias;Arraias
+1702554;Augustinópolis;Augustinopolis
+1702703;Aurora do Tocantins;Aurora do Tocantins
+1702901;Axixá do Tocantins;Axixa do Tocantins
+1703008;Babaçulândia;Babaculandia
+1703057;Bandeirantes do Tocantins;Bandeirantes do Tocantins
+1703073;Barra do Ouro;Barra do Ouro
+1703107;Barrolândia;Barrolandia
+1703206;Bernardo Sayão;Bernardo Sayao
+1703305;Bom Jesus do Tocantins;Bom Jesus do Tocantins
+1703602;Brasilândia do Tocantins;Brasilandia do Tocantins
+1703701;Brejinho de Nazaré;Brejinho de Nazare
+1703800;Buriti do Tocantins;Buriti do Tocantins
+1703826;Cachoeirinha;Cachoeirinha
+1703842;Campos Lindos;Campos Lindos
+1703867;Cariri do Tocantins;Cariri do Tocantins
+1703883;Carmolândia;Carmolandia
+1703891;Carrasco Bonito;Carrasco Bonito
+1703909;Caseara;Caseara
+1704105;Centenário;Centenario
+1705102;Chapada da Natividade;Chapada da Natividade
+1704600;Chapada de Areia;Chapada de Areia
+1705508;Colinas do Tocantins;Colinas do Tocantins
+1716703;Colméia;Colmeia
+1705557;Combinado;Combinado
+1705607;Conceição do Tocantins;Conceicao do Tocantins
+1706001;Couto Magalhães;Couto Magalhaes
+1706100;Cristalândia;Cristalandia
+1706258;Crixás do Tocantins;Crixas do Tocantins
+1706506;Darcinópolis;Darcinopolis
+1707009;Dianópolis;Dianopolis
+1707108;Divinópolis do Tocantins;Divinopolis do Tocantins
+1707207;Dois Irmãos do Tocantins;Dois Irmaos do Tocantins
+1707306;Dueré;Duere
+1707405;Esperantina;Esperantina
+1707553;Fátima;Fatima
+1707652;Figueirópolis;Figueiropolis
+1707702;Filadélfia;Filadelfia
+1708205;Formoso do Araguaia;Formoso do Araguaia
+1708254;Fortaleza do Tabocão;Fortaleza do Tabocao
+1708304;Goianorte;Goianorte
+1709005;Goiatins;Goiatins
+1709302;Guaraí;Guarai
+1709500;Gurupi;Gurupi
+1709807;Ipueiras;Ipueiras
+1710508;Itacajá;Itacaja
+1710706;Itaguatins;Itaguatins
+1710904;Itapiratins;Itapiratins
+1711100;Itaporã do Tocantins;Itapora do Tocantins
+1711506;Jaú do Tocantins;Jau do Tocantins
+1711803;Juarina;Juarina
+1711902;Lagoa da Confusão;Lagoa da Confusao
+1711951;Lagoa do Tocantins;Lagoa do Tocantins
+1712009;Lajeado;Lajeado
+1712157;Lavandeira;Lavandeira
+1712405;Lizarda;Lizarda
+1712454;Luzinópolis;Luzinopolis
+1712504;Marianópolis do Tocantins;Marianopolis do Tocantins
+1712702;Mateiros;Mateiros
+1712801;Maurilândia do Tocantins;Maurilandia do Tocantins
+1713205;Miracema do Tocantins;Miracema do Tocantins
+1713304;Miranorte;Miranorte
+1713601;Monte do Carmo;Monte do Carmo
+1713700;Monte Santo do Tocantins;Monte Santo do Tocantins
+1713957;Muricilândia;Muricilandia
+1714203;Natividade;Natividade
+1714302;Nazaré;Nazare
+1714880;Nova Olinda;Nova Olinda
+1715002;Nova Rosalândia;Nova Rosalandia
+1715101;Novo Acordo;Novo Acordo
+1715150;Novo Alegre;Novo Alegre
+1715259;Novo Jardim;Novo Jardim
+1715507;Oliveira de Fátima;Oliveira de Fatima
+1721000;Palmas;Palmas
+1715705;Palmeirante;Palmeirante
+1713809;Palmeiras do Tocantins;Palmeiras do Tocantins
+1715754;Palmeirópolis;Palmeiropolis
+1716109;Paraíso do Tocantins;Paraiso do Tocantins
+1716208;Paranã;Parana
+1716307;Pau D'Arco;Pau D'Arco
+1716505;Pedro Afonso;Pedro Afonso
+1716604;Peixe;Peixe
+1716653;Pequizeiro;Pequizeiro
+1717008;Pindorama do Tocantins;Pindorama do Tocantins
+1717206;Piraquê;Piraque
+1717503;Pium;Pium
+1717800;Ponte Alta do Bom Jesus;Ponte Alta do Bom Jesus
+1717909;Ponte Alta do Tocantins;Ponte Alta do Tocantins
+1718006;Porto Alegre do Tocantins;Porto Alegre do Tocantins
+1718204;Porto Nacional;Porto Nacional
+1718303;Praia Norte;Praia Norte
+1718402;Presidente Kennedy;Presidente Kennedy
+1718451;Pugmil;Pugmil
+1718501;Recursolândia;Recursolandia
+1718550;Riachinho;Riachinho
+1718659;Rio da Conceição;Rio da Conceicao
+1718709;Rio dos Bois;Rio dos Bois
+1718758;Rio Sono;Rio Sono
+1718808;Sampaio;Sampaio
+1718840;Sandolândia;Sandolandia
+1718865;Santa Fé do Araguaia;Santa Fe do Araguaia
+1718881;Santa Maria do Tocantins;Santa Maria do Tocantins
+1718899;Santa Rita do Tocantins;Santa Rita do Tocantins
+1718907;Santa Rosa do Tocantins;Santa Rosa do Tocantins
+1719004;Santa Tereza do Tocantins;Santa Tereza do Tocantins
+1720002;Santa Terezinha do Tocantins;Santa Terezinha do Tocantins
+1720101;São Bento do Tocantins;Sao Bento do Tocantins
+1720150;São Félix do Tocantins;Sao Felix do Tocantins
+1720200;São Miguel do Tocantins;Sao Miguel do Tocantins
+1720259;São Salvador do Tocantins;Sao Salvador do Tocantins
+1720309;São Sebastião do Tocantins;Sao Sebastiao do Tocantins
+1720499;São Valério;Sao Valerio
+1720655;Silvanópolis;Silvanopolis
+1720804;Sítio Novo do Tocantins;Sitio Novo do Tocantins
+1720853;Sucupira;Sucupira
+1720903;Taguatinga;Taguatinga
+1720937;Taipas do Tocantins;Taipas do Tocantins
+1720978;Talismã;Talisma
+1721109;Tocantínia;Tocantinia
+1721208;Tocantinópolis;Tocantinopolis
+1721257;Tupirama;Tupirama
+1721307;Tupiratins;Tupiratins
+1722081;Wanderlândia;Wanderlandia
+1722107;Xambioá;Xambioa
+2100055;Açailândia;Acailandia
+2100105;Afonso Cunha;Afonso Cunha
+2100154;Água Doce do Maranhão;Agua Doce do Maranhao
+2100204;Alcântara;Alcantara
+2100303;Aldeias Altas;Aldeias Altas
+2100402;Altamira do Maranhão;Altamira do Maranhao
+2100436;Alto Alegre do Maranhão;Alto Alegre do Maranhao
+2100477;Alto Alegre do Pindaré;Alto Alegre do Pindare
+2100501;Alto Parnaíba;Alto Parnaiba
+2100550;Amapá do Maranhão;Amapa do Maranhao
+2100600;Amarante do Maranhão;Amarante do Maranhao
+2100709;Anajatuba;Anajatuba
+2100808;Anapurus;Anapurus
+2100832;Apicum-Açu;Apicum-Acu
+2100873;Araguanã;Araguana
+2100907;Araioses;Araioses
+2100956;Arame;Arame
+2101004;Arari;Arari
+2101103;Axixá;Axixa
+2101202;Bacabal;Bacabal
+2101251;Bacabeira;Bacabeira
+2101301;Bacuri;Bacuri
+2101350;Bacurituba;Bacurituba
+2101400;Balsas;Balsas
+2101509;Barão de Grajaú;Barao de Grajau
+2101608;Barra do Corda;Barra do Corda
+2101707;Barreirinhas;Barreirinhas
+2101772;Bela Vista do Maranhão;Bela Vista do Maranhao
+2101731;Belágua;Belagua
+2101806;Benedito Leite;Benedito Leite
+2101905;Bequimão;Bequimao
+2101939;Bernardo do Mearim;Bernardo do Mearim
+2101970;Boa Vista do Gurupi;Boa Vista do Gurupi
+2102002;Bom Jardim;Bom Jardim
+2102036;Bom Jesus das Selvas;Bom Jesus das Selvas
+2102077;Bom Lugar;Bom Lugar
+2102101;Brejo;Brejo
+2102150;Brejo de Areia;Brejo de Areia
+2102200;Buriti;Buriti
+2102309;Buriti Bravo;Buriti Bravo
+2102325;Buriticupu;Buriticupu
+2102358;Buritirana;Buritirana
+2102374;Cachoeira Grande;Cachoeira Grande
+2102408;Cajapió;Cajapio
+2102507;Cajari;Cajari
+2102556;Campestre do Maranhão;Campestre do Maranhao
+2102606;Cândido Mendes;Candido Mendes
+2102705;Cantanhede;Cantanhede
+2102754;Capinzal do Norte;Capinzal do Norte
+2102804;Carolina;Carolina
+2102903;Carutapera;Carutapera
+2103000;Caxias;Caxias
+2103109;Cedral;Cedral
+2103125;Central do Maranhão;Central do Maranhao
+2103158;Centro do Guilherme;Centro do Guilherme
+2103174;Centro Novo do Maranhão;Centro Novo do Maranhao
+2103208;Chapadinha;Chapadinha
+2103257;Cidelândia;Cidelandia
+2103307;Codó;Codo
+2103406;Coelho Neto;Coelho Neto
+2103505;Colinas;Colinas
+2103554;Conceição do Lago-Açu;Conceicao do Lago-Acu
+2103604;Coroatá;Coroata
+2103703;Cururupu;Cururupu
+2103752;Davinópolis;Davinopolis
+2103802;Dom Pedro;Dom Pedro
+2103901;Duque Bacelar;Duque Bacelar
+2104008;Esperantinópolis;Esperantinopolis
+2104057;Estreito;Estreito
+2104073;Feira Nova do Maranhão;Feira Nova do Maranhao
+2104081;Fernando Falcão;Fernando Falcao
+2104099;Formosa da Serra Negra;Formosa da Serra Negra
+2104107;Fortaleza dos Nogueiras;Fortaleza dos Nogueiras
+2104206;Fortuna;Fortuna
+2104305;Godofredo Viana;Godofredo Viana
+2104404;Gonçalves Dias;Goncalves Dias
+2104503;Governador Archer;Governador Archer
+2104552;Governador Edison Lobão;Governador Edison Lobao
+2104602;Governador Eugênio Barros;Governador Eugenio Barros
+2104628;Governador Luiz Rocha;Governador Luiz Rocha
+2104651;Governador Newton Bello;Governador Newton Bello
+2104677;Governador Nunes Freire;Governador Nunes Freire
+2104701;Graça Aranha;Graca Aranha
+2104800;Grajaú;Grajau
+2104909;Guimarães;Guimaraes
+2105005;Humberto de Campos;Humberto de Campos
+2105104;Icatu;Icatu
+2105153;Igarapé do Meio;Igarape do Meio
+2105203;Igarapé Grande;Igarape Grande
+2105302;Imperatriz;Imperatriz
+2105351;Itaipava do Grajaú;Itaipava do Grajau
+2105401;Itapecuru Mirim;Itapecuru Mirim
+2105427;Itinga do Maranhão;Itinga do Maranhao
+2105450;Jatobá;Jatoba
+2105476;Jenipapo dos Vieiras;Jenipapo dos Vieiras
+2105500;João Lisboa;Joao Lisboa
+2105609;Joselândia;Joselandia
+2105658;Junco do Maranhão;Junco do Maranhao
+2105708;Lago da Pedra;Lago da Pedra
+2105807;Lago do Junco;Lago do Junco
+2105948;Lago dos Rodrigues;Lago dos Rodrigues
+2105906;Lago Verde;Lago Verde
+2105922;Lagoa do Mato;Lagoa do Mato
+2105963;Lagoa Grande do Maranhão;Lagoa Grande do Maranhao
+2105989;Lajeado Novo;Lajeado Novo
+2106003;Lima Campos;Lima Campos
+2106102;Loreto;Loreto
+2106201;Luís Domingues;Luis Domingues
+2106300;Magalhães de Almeida;Magalhaes de Almeida
+2106326;Maracaçumé;Maracacume
+2106359;Marajá do Sena;Maraja do Sena
+2106375;Maranhãozinho;Maranhaozinho
+2106409;Mata Roma;Mata Roma
+2106508;Matinha;Matinha
+2106607;Matões;Matoes
+2106631;Matões do Norte;Matoes do Norte
+2106672;Milagres do Maranhão;Milagres do Maranhao
+2106706;Mirador;Mirador
+2106755;Miranda do Norte;Miranda do Norte
+2106805;Mirinzal;Mirinzal
+2106904;Monção;Moncao
+2107001;Montes Altos;Montes Altos
+2107100;Morros;Morros
+2107209;Nina Rodrigues;Nina Rodrigues
+2107258;Nova Colinas;Nova Colinas
+2107308;Nova Iorque;Nova Iorque
+2107357;Nova Olinda do Maranhão;Nova Olinda do Maranhao
+2107407;Olho d'Água das Cunhãs;Olho d'Agua das Cunhas
+2107456;Olinda Nova do Maranhão;Olinda Nova do Maranhao
+2107506;Paço do Lumiar;Paco do Lumiar
+2107605;Palmeirândia;Palmeirandia
+2107704;Paraibano;Paraibano
+2107803;Parnarama;Parnarama
+2107902;Passagem Franca;Passagem Franca
+2108009;Pastos Bons;Pastos Bons
+2108058;Paulino Neves;Paulino Neves
+2108108;Paulo Ramos;Paulo Ramos
+2108207;Pedreiras;Pedreiras
+2108256;Pedro do Rosário;Pedro do Rosario
+2108306;Penalva;Penalva
+2108405;Peri Mirim;Peri Mirim
+2108454;Peritoró;Peritoro
+2108504;Pindaré-Mirim;Pindare-Mirim
+2108603;Pinheiro;Pinheiro
+2108702;Pio XII;Pio XII
+2108801;Pirapemas;Pirapemas
+2108900;Poção de Pedras;Pocao de Pedras
+2109007;Porto Franco;Porto Franco
+2109056;Porto Rico do Maranhão;Porto Rico do Maranhao
+2109106;Presidente Dutra;Presidente Dutra
+2109205;Presidente Juscelino;Presidente Juscelino
+2109239;Presidente Médici;Presidente Medici
+2109270;Presidente Sarney;Presidente Sarney
+2109304;Presidente Vargas;Presidente Vargas
+2109403;Primeira Cruz;Primeira Cruz
+2109452;Raposa;Raposa
+2109502;Riachão;Riachao
+2109551;Ribamar Fiquene;Ribamar Fiquene
+2109601;Rosário;Rosario
+2109700;Sambaíba;Sambaiba
+2109759;Santa Filomena do Maranhão;Santa Filomena do Maranhao
+2109809;Santa Helena;Santa Helena
+2109908;Santa Inês;Santa Ines
+2110005;Santa Luzia;Santa Luzia
+2110039;Santa Luzia do Paruá;Santa Luzia do Parua
+2110104;Santa Quitéria do Maranhão;Santa Quiteria do Maranhao
+2110203;Santa Rita;Santa Rita
+2110237;Santana do Maranhão;Santana do Maranhao
+2110278;Santo Amaro do Maranhão;Santo Amaro do Maranhao
+2110302;Santo Antônio dos Lopes;Santo Antonio dos Lopes
+2110401;São Benedito do Rio Preto;Sao Benedito do Rio Preto
+2110500;São Bento;Sao Bento
+2110609;São Bernardo;Sao Bernardo
+2110658;São Domingos do Azeitão;Sao Domingos do Azeitao
+2110708;São Domingos do Maranhão;Sao Domingos do Maranhao
+2110807;São Félix de Balsas;Sao Felix de Balsas
+2110856;São Francisco do Brejão;Sao Francisco do Brejao
+2110906;São Francisco do Maranhão;Sao Francisco do Maranhao
+2111003;São João Batista;Sao Joao Batista
+2111029;São João do Carú;Sao Joao do Caru
+2111052;São João do Paraíso;Sao Joao do Paraiso
+2111078;São João do Soter;Sao Joao do Soter
+2111102;São João dos Patos;Sao Joao dos Patos
+2111201;São José de Ribamar;Sao Jose de Ribamar
+2111250;São José dos Basílios;Sao Jose dos Basilios
+2111300;São Luís;Sao Luis
+2111409;São Luís Gonzaga do Maranhão;Sao Luis Gonzaga do Maranhao
+2111508;São Mateus do Maranhão;Sao Mateus do Maranhao
+2111532;São Pedro da Água Branca;Sao Pedro da Agua Branca
+2111573;São Pedro dos Crentes;Sao Pedro dos Crentes
+2111607;São Raimundo das Mangabeiras;Sao Raimundo das Mangabeiras
+2111631;São Raimundo do Doca Bezerra;Sao Raimundo do Doca Bezerra
+2111672;São Roberto;Sao Roberto
+2111706;São Vicente Ferrer;Sao Vicente Ferrer
+2111722;Satubinha;Satubinha
+2111748;Senador Alexandre Costa;Senador Alexandre Costa
+2111763;Senador La Rocque;Senador La Rocque
+2111789;Serrano do Maranhão;Serrano do Maranhao
+2111805;Sítio Novo;Sitio Novo
+2111904;Sucupira do Norte;Sucupira do Norte
+2111953;Sucupira do Riachão;Sucupira do Riachao
+2112001;Tasso Fragoso;Tasso Fragoso
+2112100;Timbiras;Timbiras
+2112209;Timon;Timon
+2112233;Trizidela do Vale;Trizidela do Vale
+2112274;Tufilândia;Tufilandia
+2112308;Tuntum;Tuntum
+2112407;Turiaçu;Turiacu
+2112456;Turilândia;Turilandia
+2112506;Tutóia;Tutoia
+2112605;Urbano Santos;Urbano Santos
+2112704;Vargem Grande;Vargem Grande
+2112803;Viana;Viana
+2112852;Vila Nova dos Martírios;Vila Nova dos Martirios
+2112902;Vitória do Mearim;Vitoria do Mearim
+2113009;Vitorino Freire;Vitorino Freire
+2114007;Zé Doca;Ze Doca
+2200053;Acauã;Acaua
+2200103;Agricolândia;Agricolandia
+2200202;Água Branca;Agua Branca
+2200251;Alagoinha do Piauí;Alagoinha do Piaui
+2200277;Alegrete do Piauí;Alegrete do Piaui
+2200301;Alto Longá;Alto Longa
+2200400;Altos;Altos
+2200459;Alvorada do Gurguéia;Alvorada do Gurgueia
+2200509;Amarante;Amarante
+2200608;Angical do Piauí;Angical do Piaui
+2200707;Anísio de Abreu;Anisio de Abreu
+2200806;Antônio Almeida;Antonio Almeida
+2200905;Aroazes;Aroazes
+2200954;Aroeiras do Itaim;Aroeiras do Itaim
+2201002;Arraial;Arraial
+2201051;Assunção do Piauí;Assuncao do Piaui
+2201101;Avelino Lopes;Avelino Lopes
+2201150;Baixa Grande do Ribeiro;Baixa Grande do Ribeiro
+2201176;Barra D'Alcântara;Barra D'Alcantara
+2201200;Barras;Barras
+2201309;Barreiras do Piauí;Barreiras do Piaui
+2201408;Barro Duro;Barro Duro
+2201507;Batalha;Batalha
+2201556;Bela Vista do Piauí;Bela Vista do Piaui
+2201572;Belém do Piauí;Belem do Piaui
+2201606;Beneditinos;Beneditinos
+2201705;Bertolínia;Bertolinia
+2201739;Betânia do Piauí;Betania do Piaui
+2201770;Boa Hora;Boa Hora
+2201804;Bocaina;Bocaina
+2201903;Bom Jesus;Bom Jesus
+2201919;Bom Princípio do Piauí;Bom Principio do Piaui
+2201929;Bonfim do Piauí;Bonfim do Piaui
+2201945;Boqueirão do Piauí;Boqueirao do Piaui
+2201960;Brasileira;Brasileira
+2201988;Brejo do Piauí;Brejo do Piaui
+2202000;Buriti dos Lopes;Buriti dos Lopes
+2202026;Buriti dos Montes;Buriti dos Montes
+2202059;Cabeceiras do Piauí;Cabeceiras do Piaui
+2202075;Cajazeiras do Piauí;Cajazeiras do Piaui
+2202083;Cajueiro da Praia;Cajueiro da Praia
+2202091;Caldeirão Grande do Piauí;Caldeirao Grande do Piaui
+2202109;Campinas do Piauí;Campinas do Piaui
+2202117;Campo Alegre do Fidalgo;Campo Alegre do Fidalgo
+2202133;Campo Grande do Piauí;Campo Grande do Piaui
+2202174;Campo Largo do Piauí;Campo Largo do Piaui
+2202208;Campo Maior;Campo Maior
+2202251;Canavieira;Canavieira
+2202307;Canto do Buriti;Canto do Buriti
+2202406;Capitão de Campos;Capitao de Campos
+2202455;Capitão Gervásio Oliveira;Capitao Gervasio Oliveira
+2202505;Caracol;Caracol
+2202539;Caraúbas do Piauí;Caraubas do Piaui
+2202554;Caridade do Piauí;Caridade do Piaui
+2202604;Castelo do Piauí;Castelo do Piaui
+2202653;Caxingó;Caxingo
+2202703;Cocal;Cocal
+2202711;Cocal de Telha;Cocal de Telha
+2202729;Cocal dos Alves;Cocal dos Alves
+2202737;Coivaras;Coivaras
+2202752;Colônia do Gurguéia;Colonia do Gurgueia
+2202778;Colônia do Piauí;Colonia do Piaui
+2202802;Conceição do Canindé;Conceicao do Caninde
+2202851;Coronel José Dias;Coronel Jose Dias
+2202901;Corrente;Corrente
+2203008;Cristalândia do Piauí;Cristalandia do Piaui
+2203107;Cristino Castro;Cristino Castro
+2203206;Curimatá;Curimata
+2203230;Currais;Currais
+2203271;Curral Novo do Piauí;Curral Novo do Piaui
+2203255;Curralinhos;Curralinhos
+2203305;Demerval Lobão;Demerval Lobao
+2203354;Dirceu Arcoverde;Dirceu Arcoverde
+2203404;Dom Expedito Lopes;Dom Expedito Lopes
+2203453;Dom Inocêncio;Dom Inocencio
+2203420;Domingos Mourão;Domingos Mourao
+2203503;Elesbão Veloso;Elesbao Veloso
+2203602;Eliseu Martins;Eliseu Martins
+2203701;Esperantina;Esperantina
+2203750;Fartura do Piauí;Fartura do Piaui
+2203800;Flores do Piauí;Flores do Piaui
+2203859;Floresta do Piauí;Floresta do Piaui
+2203909;Floriano;Floriano
+2204006;Francinópolis;Francinopolis
+2204105;Francisco Ayres;Francisco Ayres
+2204154;Francisco Macedo;Francisco Macedo
+2204204;Francisco Santos;Francisco Santos
+2204303;Fronteiras;Fronteiras
+2204352;Geminiano;Geminiano
+2204402;Gilbués;Gilbues
+2204501;Guadalupe;Guadalupe
+2204550;Guaribas;Guaribas
+2204600;Hugo Napoleão;Hugo Napoleao
+2204659;Ilha Grande;Ilha Grande
+2204709;Inhuma;Inhuma
+2204808;Ipiranga do Piauí;Ipiranga do Piaui
+2204907;Isaías Coelho;Isaias Coelho
+2205003;Itainópolis;Itainopolis
+2205102;Itaueira;Itaueira
+2205151;Jacobina do Piauí;Jacobina do Piaui
+2205201;Jaicós;Jaicos
+2205250;Jardim do Mulato;Jardim do Mulato
+2205276;Jatobá do Piauí;Jatoba do Piaui
+2205300;Jerumenha;Jerumenha
+2205359;João Costa;Joao Costa
+2205409;Joaquim Pires;Joaquim Pires
+2205458;Joca Marques;Joca Marques
+2205508;José de Freitas;Jose de Freitas
+2205516;Juazeiro do Piauí;Juazeiro do Piaui
+2205524;Júlio Borges;Julio Borges
+2205532;Jurema;Jurema
+2205557;Lagoa Alegre;Lagoa Alegre
+2205573;Lagoa de São Francisco;Lagoa de Sao Francisco
+2205565;Lagoa do Barro do Piauí;Lagoa do Barro do Piaui
+2205581;Lagoa do Piauí;Lagoa do Piaui
+2205599;Lagoa do Sítio;Lagoa do Sitio
+2205540;Lagoinha do Piauí;Lagoinha do Piaui
+2205607;Landri Sales;Landri Sales
+2205706;Luís Correia;Luis Correia
+2205805;Luzilândia;Luzilandia
+2205854;Madeiro;Madeiro
+2205904;Manoel Emídio;Manoel Emidio
+2205953;Marcolândia;Marcolandia
+2206001;Marcos Parente;Marcos Parente
+2206050;Massapê do Piauí;Massape do Piaui
+2206100;Matias Olímpio;Matias Olimpio
+2206209;Miguel Alves;Miguel Alves
+2206308;Miguel Leão;Miguel Leao
+2206357;Milton Brandão;Milton Brandao
+2206407;Monsenhor Gil;Monsenhor Gil
+2206506;Monsenhor Hipólito;Monsenhor Hipolito
+2206605;Monte Alegre do Piauí;Monte Alegre do Piaui
+2206654;Morro Cabeça no Tempo;Morro Cabeca no Tempo
+2206670;Morro do Chapéu do Piauí;Morro do Chapeu do Piaui
+2206696;Murici dos Portelas;Murici dos Portelas
+2206704;Nazaré do Piauí;Nazare do Piaui
+2206720;Nazária;Nazaria
+2206753;Nossa Senhora de Nazaré;Nossa Senhora de Nazare
+2206803;Nossa Senhora dos Remédios;Nossa Senhora dos Remedios
+2207959;Nova Santa Rita;Nova Santa Rita
+2206902;Novo Oriente do Piauí;Novo Oriente do Piaui
+2206951;Novo Santo Antônio;Novo Santo Antonio
+2207009;Oeiras;Oeiras
+2207108;Olho D'Água do Piauí;Olho D'Agua do Piaui
+2207207;Padre Marcos;Padre Marcos
+2207306;Paes Landim;Paes Landim
+2207355;Pajeú do Piauí;Pajeu do Piaui
+2207405;Palmeira do Piauí;Palmeira do Piaui
+2207504;Palmeirais;Palmeirais
+2207553;Paquetá;Paqueta
+2207603;Parnaguá;Parnagua
+2207702;Parnaíba;Parnaiba
+2207751;Passagem Franca do Piauí;Passagem Franca do Piaui
+2207777;Patos do Piauí;Patos do Piaui
+2207793;Pau D'Arco do Piauí;Pau D'Arco do Piaui
+2207801;Paulistana;Paulistana
+2207850;Pavussu;Pavussu
+2207900;Pedro II;Pedro II
+2207934;Pedro Laurentino;Pedro Laurentino
+2208007;Picos;Picos
+2208106;Pimenteiras;Pimenteiras
+2208205;Pio IX;Pio IX
+2208304;Piracuruca;Piracuruca
+2208403;Piripiri;Piripiri
+2208502;Porto;Porto
+2208551;Porto Alegre do Piauí;Porto Alegre do Piaui
+2208601;Prata do Piauí;Prata do Piaui
+2208650;Queimada Nova;Queimada Nova
+2208700;Redenção do Gurguéia;Redencao do Gurgueia
+2208809;Regeneração;Regeneracao
+2208858;Riacho Frio;Riacho Frio
+2208874;Ribeira do Piauí;Ribeira do Piaui
+2208908;Ribeiro Gonçalves;Ribeiro Goncalves
+2209005;Rio Grande do Piauí;Rio Grande do Piaui
+2209104;Santa Cruz do Piauí;Santa Cruz do Piaui
+2209153;Santa Cruz dos Milagres;Santa Cruz dos Milagres
+2209203;Santa Filomena;Santa Filomena
+2209302;Santa Luz;Santa Luz
+2209377;Santa Rosa do Piauí;Santa Rosa do Piaui
+2209351;Santana do Piauí;Santana do Piaui
+2209401;Santo Antônio de Lisboa;Santo Antonio de Lisboa
+2209450;Santo Antônio dos Milagres;Santo Antonio dos Milagres
+2209500;Santo Inácio do Piauí;Santo Inacio do Piaui
+2209559;São Braz do Piauí;Sao Braz do Piaui
+2209609;São Félix do Piauí;Sao Felix do Piaui
+2209658;São Francisco de Assis do Piauí;Sao Francisco de Assis do Piaui
+2209708;São Francisco do Piauí;Sao Francisco do Piaui
+2209757;São Gonçalo do Gurguéia;Sao Goncalo do Gurgueia
+2209807;São Gonçalo do Piauí;Sao Goncalo do Piaui
+2209856;São João da Canabrava;Sao Joao da Canabrava
+2209872;São João da Fronteira;Sao Joao da Fronteira
+2209906;São João da Serra;Sao Joao da Serra
+2209955;São João da Varjota;Sao Joao da Varjota
+2209971;São João do Arraial;Sao Joao do Arraial
+2210003;São João do Piauí;Sao Joao do Piaui
+2210052;São José do Divino;Sao Jose do Divino
+2210102;São José do Peixe;Sao Jose do Peixe
+2210201;São José do Piauí;Sao Jose do Piaui
+2210300;São Julião;Sao Juliao
+2210359;São Lourenço do Piauí;Sao Lourenco do Piaui
+2210375;São Luis do Piauí;Sao Luis do Piaui
+2210383;São Miguel da Baixa Grande;Sao Miguel da Baixa Grande
+2210391;São Miguel do Fidalgo;Sao Miguel do Fidalgo
+2210409;São Miguel do Tapuio;Sao Miguel do Tapuio
+2210508;São Pedro do Piauí;Sao Pedro do Piaui
+2210607;São Raimundo Nonato;Sao Raimundo Nonato
+2210623;Sebastião Barros;Sebastiao Barros
+2210631;Sebastião Leal;Sebastiao Leal
+2210656;Sigefredo Pacheco;Sigefredo Pacheco
+2210706;Simões;Simoes
+2210805;Simplício Mendes;Simplicio Mendes
+2210904;Socorro do Piauí;Socorro do Piaui
+2210938;Sussuapara;Sussuapara
+2210953;Tamboril do Piauí;Tamboril do Piaui
+2210979;Tanque do Piauí;Tanque do Piaui
+2211001;Teresina;Teresina
+2211100;União;Uniao
+2211209;Uruçuí;Urucui
+2211308;Valença do Piauí;Valenca do Piaui
+2211357;Várzea Branca;Varzea Branca
+2211407;Várzea Grande;Varzea Grande
+2211506;Vera Mendes;Vera Mendes
+2211605;Vila Nova do Piauí;Vila Nova do Piaui
+2211704;Wall Ferraz;Wall Ferraz
+2300101;Abaiara;Abaiara
+2300150;Acarape;Acarape
+2300200;Acaraú;Acarau
+2300309;Acopiara;Acopiara
+2300408;Aiuaba;Aiuaba
+2300507;Alcântaras;Alcantaras
+2300606;Altaneira;Altaneira
+2300705;Alto Santo;Alto Santo
+2300754;Amontada;Amontada
+2300804;Antonina do Norte;Antonina do Norte
+2300903;Apuiarés;Apuiares
+2301000;Aquiraz;Aquiraz
+2301109;Aracati;Aracati
+2301208;Aracoiaba;Aracoiaba
+2301257;Ararendá;Ararenda
+2301307;Araripe;Araripe
+2301406;Aratuba;Aratuba
+2301505;Arneiroz;Arneiroz
+2301604;Assaré;Assare
+2301703;Aurora;Aurora
+2301802;Baixio;Baixio
+2301851;Banabuiú;Banabuiu
+2301901;Barbalha;Barbalha
+2301950;Barreira;Barreira
+2302008;Barro;Barro
+2302057;Barroquinha;Barroquinha
+2302107;Baturité;Baturite
+2302206;Beberibe;Beberibe
+2302305;Bela Cruz;Bela Cruz
+2302404;Boa Viagem;Boa Viagem
+2302503;Brejo Santo;Brejo Santo
+2302602;Camocim;Camocim
+2302701;Campos Sales;Campos Sales
+2302800;Canindé;Caninde
+2302909;Capistrano;Capistrano
+2303006;Caridade;Caridade
+2303105;Cariré;Carire
+2303204;Caririaçu;Caririacu
+2303303;Cariús;Carius
+2303402;Carnaubal;Carnaubal
+2303501;Cascavel;Cascavel
+2303600;Catarina;Catarina
+2303659;Catunda;Catunda
+2303709;Caucaia;Caucaia
+2303808;Cedro;Cedro
+2303907;Chaval;Chaval
+2303931;Choró;Choro
+2303956;Chorozinho;Chorozinho
+2304004;Coreaú;Coreau
+2304103;Crateús;Crateus
+2304202;Crato;Crato
+2304236;Croatá;Croata
+2304251;Cruz;Cruz
+2304269;Deputado Irapuan Pinheiro;Deputado Irapuan Pinheiro
+2304277;Ererê;Erere
+2304285;Eusébio;Eusebio
+2304301;Farias Brito;Farias Brito
+2304350;Forquilha;Forquilha
+2304400;Fortaleza;Fortaleza
+2304459;Fortim;Fortim
+2304509;Frecheirinha;Frecheirinha
+2304608;General Sampaio;General Sampaio
+2304657;Graça;Graca
+2304707;Granja;Granja
+2304806;Granjeiro;Granjeiro
+2304905;Groaíras;Groairas
+2304954;Guaiúba;Guaiuba
+2305001;Guaraciaba do Norte;Guaraciaba do Norte
+2305100;Guaramiranga;Guaramiranga
+2305209;Hidrolândia;Hidrolandia
+2305233;Horizonte;Horizonte
+2305266;Ibaretama;Ibaretama
+2305308;Ibiapina;Ibiapina
+2305332;Ibicuitinga;Ibicuitinga
+2305357;Icapuí;Icapui
+2305407;Icó;Ico
+2305506;Iguatu;Iguatu
+2305605;Independência;Independencia
+2305654;Ipaporanga;Ipaporanga
+2305704;Ipaumirim;Ipaumirim
+2305803;Ipu;Ipu
+2305902;Ipueiras;Ipueiras
+2306009;Iracema;Iracema
+2306108;Irauçuba;Iraucuba
+2306207;Itaiçaba;Itaicaba
+2306256;Itaitinga;Itaitinga
+2306306;Itapajé;Itapaje
+2306405;Itapipoca;Itapipoca
+2306504;Itapiúna;Itapiuna
+2306553;Itarema;Itarema
+2306603;Itatira;Itatira
+2306702;Jaguaretama;Jaguaretama
+2306801;Jaguaribara;Jaguaribara
+2306900;Jaguaribe;Jaguaribe
+2307007;Jaguaruana;Jaguaruana
+2307106;Jardim;Jardim
+2307205;Jati;Jati
+2307254;Jijoca de Jericoacoara;Jijoca de Jericoacoara
+2307304;Juazeiro do Norte;Juazeiro do Norte
+2307403;Jucás;Jucas
+2307502;Lavras da Mangabeira;Lavras da Mangabeira
+2307601;Limoeiro do Norte;Limoeiro do Norte
+2307635;Madalena;Madalena
+2307650;Maracanaú;Maracanau
+2307700;Maranguape;Maranguape
+2307809;Marco;Marco
+2307908;Martinópole;Martinopole
+2308005;Massapê;Massape
+2308104;Mauriti;Mauriti
+2308203;Meruoca;Meruoca
+2308302;Milagres;Milagres
+2308351;Milhã;Milha
+2308377;Miraíma;Miraima
+2308401;Missão Velha;Missao Velha
+2308500;Mombaça;Mombaca
+2308609;Monsenhor Tabosa;Monsenhor Tabosa
+2308708;Morada Nova;Morada Nova
+2308807;Moraújo;Moraujo
+2308906;Morrinhos;Morrinhos
+2309003;Mucambo;Mucambo
+2309102;Mulungu;Mulungu
+2309201;Nova Olinda;Nova Olinda
+2309300;Nova Russas;Nova Russas
+2309409;Novo Oriente;Novo Oriente
+2309458;Ocara;Ocara
+2309508;Orós;Oros
+2309607;Pacajus;Pacajus
+2309706;Pacatuba;Pacatuba
+2309805;Pacoti;Pacoti
+2309904;Pacujá;Pacuja
+2310001;Palhano;Palhano
+2310100;Palmácia;Palmacia
+2310209;Paracuru;Paracuru
+2310258;Paraipaba;Paraipaba
+2310308;Parambu;Parambu
+2310407;Paramoti;Paramoti
+2310506;Pedra Branca;Pedra Branca
+2310605;Penaforte;Penaforte
+2310704;Pentecoste;Pentecoste
+2310803;Pereiro;Pereiro
+2310852;Pindoretama;Pindoretama
+2310902;Piquet Carneiro;Piquet Carneiro
+2310951;Pires Ferreira;Pires Ferreira
+2311009;Poranga;Poranga
+2311108;Porteiras;Porteiras
+2311207;Potengi;Potengi
+2311231;Potiretama;Potiretama
+2311264;Quiterianópolis;Quiterianopolis
+2311306;Quixadá;Quixada
+2311355;Quixelô;Quixelo
+2311405;Quixeramobim;Quixeramobim
+2311504;Quixeré;Quixere
+2311603;Redenção;Redencao
+2311702;Reriutaba;Reriutaba
+2311801;Russas;Russas
+2311900;Saboeiro;Saboeiro
+2311959;Salitre;Salitre
+2312205;Santa Quitéria;Santa Quiteria
+2312007;Santana do Acaraú;Santana do Acarau
+2312106;Santana do Cariri;Santana do Cariri
+2312304;São Benedito;Sao Benedito
+2312403;São Gonçalo do Amarante;Sao Goncalo do Amarante
+2312502;São João do Jaguaribe;Sao Joao do Jaguaribe
+2312601;São Luís do Curu;Sao Luis do Curu
+2312700;Senador Pompeu;Senador Pompeu
+2312809;Senador Sá;Senador Sa
+2312908;Sobral;Sobral
+2313005;Solonópole;Solonopole
+2313104;Tabuleiro do Norte;Tabuleiro do Norte
+2313203;Tamboril;Tamboril
+2313252;Tarrafas;Tarrafas
+2313302;Tauá;Taua
+2313351;Tejuçuoca;Tejucuoca
+2313401;Tianguá;Tiangua
+2313500;Trairi;Trairi
+2313559;Tururu;Tururu
+2313609;Ubajara;Ubajara
+2313708;Umari;Umari
+2313757;Umirim;Umirim
+2313807;Uruburetama;Uruburetama
+2313906;Uruoca;Uruoca
+2313955;Varjota;Varjota
+2314003;Várzea Alegre;Varzea Alegre
+2314102;Viçosa do Ceará;Vicosa do Ceara
+2400109;Acari;Acari
+2400208;Açu;Acu
+2400307;Afonso Bezerra;Afonso Bezerra
+2400406;Água Nova;Agua Nova
+2400505;Alexandria;Alexandria
+2400604;Almino Afonso;Almino Afonso
+2400703;Alto do Rodrigues;Alto do Rodrigues
+2400802;Angicos;Angicos
+2400901;Antônio Martins;Antonio Martins
+2401008;Apodi;Apodi
+2401107;Areia Branca;Areia Branca
+2401206;Arês;Ares
+2401305;Augusto Severo;Augusto Severo
+2401404;Baía Formosa;Baia Formosa
+2401453;Baraúna;Barauna
+2401503;Barcelona;Barcelona
+2401602;Bento Fernandes;Bento Fernandes
+2401651;Bodó;Bodo
+2401701;Bom Jesus;Bom Jesus
+2401800;Brejinho;Brejinho
+2401859;Caiçara do Norte;Caicara do Norte
+2401909;Caiçara do Rio do Vento;Caicara do Rio do Vento
+2402006;Caicó;Caico
+2402105;Campo Redondo;Campo Redondo
+2402204;Canguaretama;Canguaretama
+2402303;Caraúbas;Caraubas
+2402402;Carnaúba dos Dantas;Carnauba dos Dantas
+2402501;Carnaubais;Carnaubais
+2402600;Ceará-Mirim;Ceara-Mirim
+2402709;Cerro Corá;Cerro Cora
+2402808;Coronel Ezequiel;Coronel Ezequiel
+2402907;Coronel João Pessoa;Coronel Joao Pessoa
+2403004;Cruzeta;Cruzeta
+2403103;Currais Novos;Currais Novos
+2403202;Doutor Severiano;Doutor Severiano
+2403301;Encanto;Encanto
+2403400;Equador;Equador
+2403509;Espírito Santo;Espirito Santo
+2403608;Extremoz;Extremoz
+2403707;Felipe Guerra;Felipe Guerra
+2403756;Fernando Pedroza;Fernando Pedroza
+2403806;Florânia;Florania
+2403905;Francisco Dantas;Francisco Dantas
+2404002;Frutuoso Gomes;Frutuoso Gomes
+2404101;Galinhos;Galinhos
+2404200;Goianinha;Goianinha
+2404309;Governador Dix-Sept Rosado;Governador Dix-Sept Rosado
+2404408;Grossos;Grossos
+2404507;Guamaré;Guamare
+2404606;Ielmo Marinho;Ielmo Marinho
+2404705;Ipanguaçu;Ipanguacu
+2404804;Ipueira;Ipueira
+2404853;Itajá;Itaja
+2404903;Itaú;Itau
+2405009;Jaçanã;Jacana
+2405108;Jandaíra;Jandaira
+2405207;Janduís;Janduis
+2405306;Januário Cicco;Januario Cicco
+2405405;Japi;Japi
+2405504;Jardim de Angicos;Jardim de Angicos
+2405603;Jardim de Piranhas;Jardim de Piranhas
+2405702;Jardim do Seridó;Jardim do Serido
+2405801;João Câmara;Joao Camara
+2405900;João Dias;Joao Dias
+2406007;José da Penha;Jose da Penha
+2406106;Jucurutu;Jucurutu
+2406155;Jundiá;Jundia
+2406205;Lagoa d'Anta;Lagoa d'Anta
+2406304;Lagoa de Pedras;Lagoa de Pedras
+2406403;Lagoa de Velhos;Lagoa de Velhos
+2406502;Lagoa Nova;Lagoa Nova
+2406601;Lagoa Salgada;Lagoa Salgada
+2406700;Lajes;Lajes
+2406809;Lajes Pintadas;Lajes Pintadas
+2406908;Lucrécia;Lucrecia
+2407005;Luís Gomes;Luis Gomes
+2407104;Macaíba;Macaiba
+2407203;Macau;Macau
+2407252;Major Sales;Major Sales
+2407302;Marcelino Vieira;Marcelino Vieira
+2407401;Martins;Martins
+2407500;Maxaranguape;Maxaranguape
+2407609;Messias Targino;Messias Targino
+2407708;Montanhas;Montanhas
+2407807;Monte Alegre;Monte Alegre
+2407906;Monte das Gameleiras;Monte das Gameleiras
+2408003;Mossoró;Mossoro
+2408102;Natal;Natal
+2408201;Nísia Floresta;Nisia Floresta
+2408300;Nova Cruz;Nova Cruz
+2408409;Olho d'Água do Borges;Olho d'Agua do Borges
+2408508;Ouro Branco;Ouro Branco
+2408607;Paraná;Parana
+2408706;Paraú;Parau
+2408805;Parazinho;Parazinho
+2408904;Parelhas;Parelhas
+2403251;Parnamirim;Parnamirim
+2409100;Passa e Fica;Passa e Fica
+2409209;Passagem;Passagem
+2409308;Patu;Patu
+2409407;Pau dos Ferros;Pau dos Ferros
+2409506;Pedra Grande;Pedra Grande
+2409605;Pedra Preta;Pedra Preta
+2409704;Pedro Avelino;Pedro Avelino
+2409803;Pedro Velho;Pedro Velho
+2409902;Pendências;Pendencias
+2410009;Pilões;Piloes
+2410108;Poço Branco;Poco Branco
+2410207;Portalegre;Portalegre
+2410256;Porto do Mangue;Porto do Mangue
+2410405;Pureza;Pureza
+2410504;Rafael Fernandes;Rafael Fernandes
+2410603;Rafael Godeiro;Rafael Godeiro
+2410702;Riacho da Cruz;Riacho da Cruz
+2410801;Riacho de Santana;Riacho de Santana
+2410900;Riachuelo;Riachuelo
+2408953;Rio do Fogo;Rio do Fogo
+2411007;Rodolfo Fernandes;Rodolfo Fernandes
+2411106;Ruy Barbosa;Ruy Barbosa
+2411205;Santa Cruz;Santa Cruz
+2409332;Santa Maria;Santa Maria
+2411403;Santana do Matos;Santana do Matos
+2411429;Santana do Seridó;Santana do Serido
+2411502;Santo Antônio;Santo Antonio
+2411601;São Bento do Norte;Sao Bento do Norte
+2411700;São Bento do Trairí;Sao Bento do Trairi
+2411809;São Fernando;Sao Fernando
+2411908;São Francisco do Oeste;Sao Francisco do Oeste
+2412005;São Gonçalo do Amarante;Sao Goncalo do Amarante
+2412104;São João do Sabugi;Sao Joao do Sabugi
+2412203;São José de Mipibu;Sao Jose de Mipibu
+2412302;São José do Campestre;Sao Jose do Campestre
+2412401;São José do Seridó;Sao Jose do Serido
+2412500;São Miguel;Sao Miguel
+2412559;São Miguel do Gostoso;Sao Miguel do Gostoso
+2412609;São Paulo do Potengi;Sao Paulo do Potengi
+2412708;São Pedro;Sao Pedro
+2412807;São Rafael;Sao Rafael
+2412906;São Tomé;Sao Tome
+2413003;São Vicente;Sao Vicente
+2413102;Senador Elói de Souza;Senador Eloi de Souza
+2413201;Senador Georgino Avelino;Senador Georgino Avelino
+2410306;Serra Caiada;Serra Caiada
+2413300;Serra de São Bento;Serra de Sao Bento
+2413359;Serra do Mel;Serra do Mel
+2413409;Serra Negra do Norte;Serra Negra do Norte
+2413508;Serrinha;Serrinha
+2413557;Serrinha dos Pintos;Serrinha dos Pintos
+2413607;Severiano Melo;Severiano Melo
+2413706;Sítio Novo;Sitio Novo
+2413805;Taboleiro Grande;Taboleiro Grande
+2413904;Taipu;Taipu
+2414001;Tangará;Tangara
+2414100;Tenente Ananias;Tenente Ananias
+2414159;Tenente Laurentino Cruz;Tenente Laurentino Cruz
+2411056;Tibau;Tibau
+2414209;Tibau do Sul;Tibau do Sul
+2414308;Timbaúba dos Batistas;Timbauba dos Batistas
+2414407;Touros;Touros
+2414456;Triunfo Potiguar;Triunfo Potiguar
+2414506;Umarizal;Umarizal
+2414605;Upanema;Upanema
+2414704;Várzea;Varzea
+2414753;Venha-Ver;Venha-Ver
+2414803;Vera Cruz;Vera Cruz
+2414902;Viçosa;Vicosa
+2415008;Vila Flor;Vila Flor
+2500106;Água Branca;Agua Branca
+2500205;Aguiar;Aguiar
+2500304;Alagoa Grande;Alagoa Grande
+2500403;Alagoa Nova;Alagoa Nova
+2500502;Alagoinha;Alagoinha
+2500536;Alcantil;Alcantil
+2500577;Algodão de Jandaíra;Algodao de Jandaira
+2500601;Alhandra;Alhandra
+2500734;Amparo;Amparo
+2500775;Aparecida;Aparecida
+2500809;Araçagi;Aracagi
+2500908;Arara;Arara
+2501005;Araruna;Araruna
+2501104;Areia;Areia
+2501153;Areia de Baraúnas;Areia de Baraunas
+2501203;Areial;Areial
+2501302;Aroeiras;Aroeiras
+2501351;Assunção;Assuncao
+2501401;Baía da Traição;Baia da Traicao
+2501500;Bananeiras;Bananeiras
+2501534;Baraúna;Barauna
+2501609;Barra de Santa Rosa;Barra de Santa Rosa
+2501575;Barra de Santana;Barra de Santana
+2501708;Barra de São Miguel;Barra de Sao Miguel
+2501807;Bayeux;Bayeux
+2501906;Belém;Belem
+2502003;Belém do Brejo do Cruz;Belem do Brejo do Cruz
+2502052;Bernardino Batista;Bernardino Batista
+2502102;Boa Ventura;Boa Ventura
+2502151;Boa Vista;Boa Vista
+2502201;Bom Jesus;Bom Jesus
+2502300;Bom Sucesso;Bom Sucesso
+2502409;Bonito de Santa Fé;Bonito de Santa Fe
+2502508;Boqueirão;Boqueirao
+2502706;Borborema;Borborema
+2502805;Brejo do Cruz;Brejo do Cruz
+2502904;Brejo dos Santos;Brejo dos Santos
+2503001;Caaporã;Caapora
+2503100;Cabaceiras;Cabaceiras
+2503209;Cabedelo;Cabedelo
+2503308;Cachoeira dos Índios;Cachoeira dos Indios
+2503407;Cacimba de Areia;Cacimba de Areia
+2503506;Cacimba de Dentro;Cacimba de Dentro
+2503555;Cacimbas;Cacimbas
+2503605;Caiçara;Caicara
+2503704;Cajazeiras;Cajazeiras
+2503753;Cajazeirinhas;Cajazeirinhas
+2503803;Caldas Brandão;Caldas Brandao
+2503902;Camalaú;Camalau
+2504009;Campina Grande;Campina Grande
+2504033;Capim;Capim
+2504074;Caraúbas;Caraubas
+2504108;Carrapateira;Carrapateira
+2504157;Casserengue;Casserengue
+2504207;Catingueira;Catingueira
+2504306;Catolé do Rocha;Catole do Rocha
+2504355;Caturité;Caturite
+2504405;Conceição;Conceicao
+2504504;Condado;Condado
+2504603;Conde;Conde
+2504702;Congo;Congo
+2504801;Coremas;Coremas
+2504850;Coxixola;Coxixola
+2504900;Cruz do Espírito Santo;Cruz do Espirito Santo
+2505006;Cubati;Cubati
+2505105;Cuité;Cuite
+2505238;Cuité de Mamanguape;Cuite de Mamanguape
+2505204;Cuitegi;Cuitegi
+2505279;Curral de Cima;Curral de Cima
+2505303;Curral Velho;Curral Velho
+2505352;Damião;Damiao
+2505402;Desterro;Desterro
+2505600;Diamante;Diamante
+2505709;Dona Inês;Dona Ines
+2505808;Duas Estradas;Duas Estradas
+2505907;Emas;Emas
+2506004;Esperança;Esperanca
+2506103;Fagundes;Fagundes
+2506202;Frei Martinho;Frei Martinho
+2506251;Gado Bravo;Gado Bravo
+2506301;Guarabira;Guarabira
+2506400;Gurinhém;Gurinhem
+2506509;Gurjão;Gurjao
+2506608;Ibiara;Ibiara
+2502607;Igaracy;Igaracy
+2506707;Imaculada;Imaculada
+2506806;Ingá;Inga
+2506905;Itabaiana;Itabaiana
+2507002;Itaporanga;Itaporanga
+2507101;Itapororoca;Itapororoca
+2507200;Itatuba;Itatuba
+2507309;Jacaraú;Jacarau
+2507408;Jericó;Jerico
+2507507;João Pessoa;Joao Pessoa
+2513653;Joca Claudino;Joca Claudino
+2507606;Juarez Távora;Juarez Tavora
+2507705;Juazeirinho;Juazeirinho
+2507804;Junco do Seridó;Junco do Serido
+2507903;Juripiranga;Juripiranga
+2508000;Juru;Juru
+2508109;Lagoa;Lagoa
+2508208;Lagoa de Dentro;Lagoa de Dentro
+2508307;Lagoa Seca;Lagoa Seca
+2508406;Lastro;Lastro
+2508505;Livramento;Livramento
+2508554;Logradouro;Logradouro
+2508604;Lucena;Lucena
+2508703;Mãe d'Água;Mae d'Agua
+2508802;Malta;Malta
+2508901;Mamanguape;Mamanguape
+2509008;Manaíra;Manaira
+2509057;Marcação;Marcacao
+2509107;Mari;Mari
+2509156;Marizópolis;Marizopolis
+2509206;Massaranduba;Massaranduba
+2509305;Mataraca;Mataraca
+2509339;Matinhas;Matinhas
+2509370;Mato Grosso;Mato Grosso
+2509396;Maturéia;Matureia
+2509404;Mogeiro;Mogeiro
+2509503;Montadas;Montadas
+2509602;Monte Horebe;Monte Horebe
+2509701;Monteiro;Monteiro
+2509800;Mulungu;Mulungu
+2509909;Natuba;Natuba
+2510006;Nazarezinho;Nazarezinho
+2510105;Nova Floresta;Nova Floresta
+2510204;Nova Olinda;Nova Olinda
+2510303;Nova Palmeira;Nova Palmeira
+2510402;Olho d'Água;Olho d'Agua
+2510501;Olivedos;Olivedos
+2510600;Ouro Velho;Ouro Velho
+2510659;Parari;Parari
+2510709;Passagem;Passagem
+2510808;Patos;Patos
+2510907;Paulista;Paulista
+2511004;Pedra Branca;Pedra Branca
+2511103;Pedra Lavrada;Pedra Lavrada
+2511202;Pedras de Fogo;Pedras de Fogo
+2512721;Pedro Régis;Pedro Regis
+2511301;Piancó;Pianco
+2511400;Picuí;Picui
+2511509;Pilar;Pilar
+2511608;Pilões;Piloes
+2511707;Pilõezinhos;Piloezinhos
+2511806;Pirpirituba;Pirpirituba
+2511905;Pitimbu;Pitimbu
+2512002;Pocinhos;Pocinhos
+2512036;Poço Dantas;Poco Dantas
+2512077;Poço de José de Moura;Poco de Jose de Moura
+2512101;Pombal;Pombal
+2512200;Prata;Prata
+2512309;Princesa Isabel;Princesa Isabel
+2512408;Puxinanã;Puxinana
+2512507;Queimadas;Queimadas
+2512606;Quixaba;Quixaba
+2512705;Remígio;Remigio
+2512747;Riachão;Riachao
+2512754;Riachão do Bacamarte;Riachao do Bacamarte
+2512762;Riachão do Poço;Riachao do Poco
+2512788;Riacho de Santo Antônio;Riacho de Santo Antonio
+2512804;Riacho dos Cavalos;Riacho dos Cavalos
+2512903;Rio Tinto;Rio Tinto
+2513000;Salgadinho;Salgadinho
+2513109;Salgado de São Félix;Salgado de Sao Felix
+2513158;Santa Cecília;Santa Cecilia
+2513208;Santa Cruz;Santa Cruz
+2513307;Santa Helena;Santa Helena
+2513356;Santa Inês;Santa Ines
+2513406;Santa Luzia;Santa Luzia
+2513703;Santa Rita;Santa Rita
+2513802;Santa Teresinha;Santa Teresinha
+2513505;Santana de Mangueira;Santana de Mangueira
+2513604;Santana dos Garrotes;Santana dos Garrotes
+2513851;Santo André;Santo Andre
+2513927;São Bentinho;Sao Bentinho
+2513901;São Bento;Sao Bento
+2513968;São Domingos;Sao Domingos
+2513943;São Domingos do Cariri;Sao Domingos do Cariri
+2513984;São Francisco;Sao Francisco
+2514008;São João do Cariri;Sao Joao do Cariri
+2500700;São João do Rio do Peixe;Sao Joao do Rio do Peixe
+2514107;São João do Tigre;Sao Joao do Tigre
+2514206;São José da Lagoa Tapada;Sao Jose da Lagoa Tapada
+2514305;São José de Caiana;Sao Jose de Caiana
+2514404;São José de Espinharas;Sao Jose de Espinharas
+2514503;São José de Piranhas;Sao Jose de Piranhas
+2514552;São José de Princesa;Sao Jose de Princesa
+2514602;São José do Bonfim;Sao Jose do Bonfim
+2514651;São José do Brejo do Cruz;Sao Jose do Brejo do Cruz
+2514701;São José do Sabugi;Sao Jose do Sabugi
+2514800;São José dos Cordeiros;Sao Jose dos Cordeiros
+2514453;São José dos Ramos;Sao Jose dos Ramos
+2514909;São Mamede;Sao Mamede
+2515005;São Miguel de Taipu;Sao Miguel de Taipu
+2515104;São Sebastião de Lagoa de Roça;Sao Sebastiao de Lagoa de Roca
+2515203;São Sebastião do Umbuzeiro;Sao Sebastiao do Umbuzeiro
+2515401;São Vicente do Seridó;Sao Vicente do Serido
+2515302;Sapé;Sape
+2515500;Serra Branca;Serra Branca
+2515609;Serra da Raiz;Serra da Raiz
+2515708;Serra Grande;Serra Grande
+2515807;Serra Redonda;Serra Redonda
+2515906;Serraria;Serraria
+2515930;Sertãozinho;Sertaozinho
+2515971;Sobrado;Sobrado
+2516003;Solânea;Solanea
+2516102;Soledade;Soledade
+2516151;Sossêgo;Sossego
+2516201;Sousa;Sousa
+2516300;Sumé;Sume
+2516409;Tacima;Tacima
+2516508;Taperoá;Taperoa
+2516607;Tavares;Tavares
+2516706;Teixeira;Teixeira
+2516755;Tenório;Tenorio
+2516805;Triunfo;Triunfo
+2516904;Uiraúna;Uirauna
+2517001;Umbuzeiro;Umbuzeiro
+2517100;Várzea;Varzea
+2517209;Vieirópolis;Vieiropolis
+2505501;Vista Serrana;Vista Serrana
+2517407;Zabelê;Zabele
+2600054;Abreu e Lima;Abreu e Lima
+2600104;Afogados da Ingazeira;Afogados da Ingazeira
+2600203;Afrânio;Afranio
+2600302;Agrestina;Agrestina
+2600401;Água Preta;Agua Preta
+2600500;Águas Belas;Aguas Belas
+2600609;Alagoinha;Alagoinha
+2600708;Aliança;Alianca
+2600807;Altinho;Altinho
+2600906;Amaraji;Amaraji
+2601003;Angelim;Angelim
+2601052;Araçoiaba;Aracoiaba
+2601102;Araripina;Araripina
+2601201;Arcoverde;Arcoverde
+2601300;Barra de Guabiraba;Barra de Guabiraba
+2601409;Barreiros;Barreiros
+2601508;Belém de Maria;Belem de Maria
+2601607;Belém do São Francisco;Belem do Sao Francisco
+2601706;Belo Jardim;Belo Jardim
+2601805;Betânia;Betania
+2601904;Bezerros;Bezerros
+2602001;Bodocó;Bodoco
+2602100;Bom Conselho;Bom Conselho
+2602209;Bom Jardim;Bom Jardim
+2602308;Bonito;Bonito
+2602407;Brejão;Brejao
+2602506;Brejinho;Brejinho
+2602605;Brejo da Madre de Deus;Brejo da Madre de Deus
+2602704;Buenos Aires;Buenos Aires
+2602803;Buíque;Buique
+2602902;Cabo de Santo Agostinho;Cabo de Santo Agostinho
+2603009;Cabrobó;Cabrobo
+2603108;Cachoeirinha;Cachoeirinha
+2603207;Caetés;Caetes
+2603306;Calçado;Calcado
+2603405;Calumbi;Calumbi
+2603454;Camaragibe;Camaragibe
+2603504;Camocim de São Félix;Camocim de Sao Felix
+2603603;Camutanga;Camutanga
+2603702;Canhotinho;Canhotinho
+2603801;Capoeiras;Capoeiras
+2603900;Carnaíba;Carnaiba
+2603926;Carnaubeira da Penha;Carnaubeira da Penha
+2604007;Carpina;Carpina
+2604106;Caruaru;Caruaru
+2604155;Casinhas;Casinhas
+2604205;Catende;Catende
+2604304;Cedro;Cedro
+2604403;Chã de Alegria;Cha de Alegria
+2604502;Chã Grande;Cha Grande
+2604601;Condado;Condado
+2604700;Correntes;Correntes
+2604809;Cortês;Cortes
+2604908;Cumaru;Cumaru
+2605004;Cupira;Cupira
+2605103;Custódia;Custodia
+2605152;Dormentes;Dormentes
+2605202;Escada;Escada
+2605301;Exu;Exu
+2605400;Feira Nova;Feira Nova
+2605459;Fernando de Noronha;Fernando de Noronha
+2605509;Ferreiros;Ferreiros
+2605608;Flores;Flores
+2605707;Floresta;Floresta
+2605806;Frei Miguelinho;Frei Miguelinho
+2605905;Gameleira;Gameleira
+2606002;Garanhuns;Garanhuns
+2606101;Glória do Goitá;Gloria do Goita
+2606200;Goiana;Goiana
+2606309;Granito;Granito
+2606408;Gravatá;Gravata
+2606507;Iati;Iati
+2606606;Ibimirim;Ibimirim
+2606705;Ibirajuba;Ibirajuba
+2606804;Igarassu;Igarassu
+2606903;Iguaracy;Iguaracy
+2607604;Ilha de Itamaracá;Ilha de Itamaraca
+2607000;Inajá;Inaja
+2607109;Ingazeira;Ingazeira
+2607208;Ipojuca;Ipojuca
+2607307;Ipubi;Ipubi
+2607406;Itacuruba;Itacuruba
+2607505;Itaíba;Itaiba
+2607653;Itambé;Itambe
+2607703;Itapetim;Itapetim
+2607752;Itapissuma;Itapissuma
+2607802;Itaquitinga;Itaquitinga
+2607901;Jaboatão dos Guararapes;Jaboatao dos Guararapes
+2607950;Jaqueira;Jaqueira
+2608008;Jataúba;Jatauba
+2608057;Jatobá;Jatoba
+2608107;João Alfredo;Joao Alfredo
+2608206;Joaquim Nabuco;Joaquim Nabuco
+2608255;Jucati;Jucati
+2608305;Jupi;Jupi
+2608404;Jurema;Jurema
+2608503;Lagoa de Itaenga;Lagoa de Itaenga
+2608453;Lagoa do Carro;Lagoa do Carro
+2608602;Lagoa do Ouro;Lagoa do Ouro
+2608701;Lagoa dos Gatos;Lagoa dos Gatos
+2608750;Lagoa Grande;Lagoa Grande
+2608800;Lajedo;Lajedo
+2608909;Limoeiro;Limoeiro
+2609006;Macaparana;Macaparana
+2609105;Machados;Machados
+2609154;Manari;Manari
+2609204;Maraial;Maraial
+2609303;Mirandiba;Mirandiba
+2614303;Moreilândia;Moreilandia
+2609402;Moreno;Moreno
+2609501;Nazaré da Mata;Nazare da Mata
+2609600;Olinda;Olinda
+2609709;Orobó;Orobo
+2609808;Orocó;Oroco
+2609907;Ouricuri;Ouricuri
+2610004;Palmares;Palmares
+2610103;Palmeirina;Palmeirina
+2610202;Panelas;Panelas
+2610301;Paranatama;Paranatama
+2610400;Parnamirim;Parnamirim
+2610509;Passira;Passira
+2610608;Paudalho;Paudalho
+2610707;Paulista;Paulista
+2610806;Pedra;Pedra
+2610905;Pesqueira;Pesqueira
+2611002;Petrolândia;Petrolandia
+2611101;Petrolina;Petrolina
+2611200;Poção;Pocao
+2611309;Pombos;Pombos
+2611408;Primavera;Primavera
+2611507;Quipapá;Quipapa
+2611533;Quixaba;Quixaba
+2611606;Recife;Recife
+2611705;Riacho das Almas;Riacho das Almas
+2611804;Ribeirão;Ribeirao
+2611903;Rio Formoso;Rio Formoso
+2612000;Sairé;Saire
+2612109;Salgadinho;Salgadinho
+2612208;Salgueiro;Salgueiro
+2612307;Saloá;Saloa
+2612406;Sanharó;Sanharo
+2612455;Santa Cruz;Santa Cruz
+2612471;Santa Cruz da Baixa Verde;Santa Cruz da Baixa Verde
+2612505;Santa Cruz do Capibaribe;Santa Cruz do Capibaribe
+2612554;Santa Filomena;Santa Filomena
+2612604;Santa Maria da Boa Vista;Santa Maria da Boa Vista
+2612703;Santa Maria do Cambucá;Santa Maria do Cambuca
+2612802;Santa Terezinha;Santa Terezinha
+2612901;São Benedito do Sul;Sao Benedito do Sul
+2613008;São Bento do Una;Sao Bento do Una
+2613107;São Caitano;Sao Caitano
+2613206;São João;Sao Joao
+2613305;São Joaquim do Monte;Sao Joaquim do Monte
+2613404;São José da Coroa Grande;Sao Jose da Coroa Grande
+2613503;São José do Belmonte;Sao Jose do Belmonte
+2613602;São José do Egito;Sao Jose do Egito
+2613701;São Lourenço da Mata;Sao Lourenco da Mata
+2613800;São Vicente Férrer;Sao Vicente Ferrer
+2613909;Serra Talhada;Serra Talhada
+2614006;Serrita;Serrita
+2614105;Sertânia;Sertania
+2614204;Sirinhaém;Sirinhaem
+2614402;Solidão;Solidao
+2614501;Surubim;Surubim
+2614600;Tabira;Tabira
+2614709;Tacaimbó;Tacaimbo
+2614808;Tacaratu;Tacaratu
+2614857;Tamandaré;Tamandare
+2615003;Taquaritinga do Norte;Taquaritinga do Norte
+2615102;Terezinha;Terezinha
+2615201;Terra Nova;Terra Nova
+2615300;Timbaúba;Timbauba
+2615409;Toritama;Toritama
+2615508;Tracunhaém;Tracunhaem
+2615607;Trindade;Trindade
+2615706;Triunfo;Triunfo
+2615805;Tupanatinga;Tupanatinga
+2615904;Tuparetama;Tuparetama
+2616001;Venturosa;Venturosa
+2616100;Verdejante;Verdejante
+2616183;Vertente do Lério;Vertente do Lerio
+2616209;Vertentes;Vertentes
+2616308;Vicência;Vicencia
+2616407;Vitória de Santo Antão;Vitoria de Santo Antao
+2616506;Xexéu;Xexeu
+2700102;Água Branca;Agua Branca
+2700201;Anadia;Anadia
+2700300;Arapiraca;Arapiraca
+2700409;Atalaia;Atalaia
+2700508;Barra de Santo Antônio;Barra de Santo Antonio
+2700607;Barra de São Miguel;Barra de Sao Miguel
+2700706;Batalha;Batalha
+2700805;Belém;Belem
+2700904;Belo Monte;Belo Monte
+2701001;Boca da Mata;Boca da Mata
+2701100;Branquinha;Branquinha
+2701209;Cacimbinhas;Cacimbinhas
+2701308;Cajueiro;Cajueiro
+2701357;Campestre;Campestre
+2701407;Campo Alegre;Campo Alegre
+2701506;Campo Grande;Campo Grande
+2701605;Canapi;Canapi
+2701704;Capela;Capela
+2701803;Carneiros;Carneiros
+2701902;Chã Preta;Cha Preta
+2702009;Coité do Nóia;Coite do Noia
+2702108;Colônia Leopoldina;Colonia Leopoldina
+2702207;Coqueiro Seco;Coqueiro Seco
+2702306;Coruripe;Coruripe
+2702355;Craíbas;Craibas
+2702405;Delmiro Gouveia;Delmiro Gouveia
+2702504;Dois Riachos;Dois Riachos
+2702553;Estrela de Alagoas;Estrela de Alagoas
+2702603;Feira Grande;Feira Grande
+2702702;Feliz Deserto;Feliz Deserto
+2702801;Flexeiras;Flexeiras
+2702900;Girau do Ponciano;Girau do Ponciano
+2703007;Ibateguara;Ibateguara
+2703106;Igaci;Igaci
+2703205;Igreja Nova;Igreja Nova
+2703304;Inhapi;Inhapi
+2703403;Jacaré dos Homens;Jacare dos Homens
+2703502;Jacuípe;Jacuipe
+2703601;Japaratinga;Japaratinga
+2703700;Jaramataia;Jaramataia
+2703759;Jequiá da Praia;Jequia da Praia
+2703809;Joaquim Gomes;Joaquim Gomes
+2703908;Jundiá;Jundia
+2704005;Junqueiro;Junqueiro
+2704104;Lagoa da Canoa;Lagoa da Canoa
+2704203;Limoeiro de Anadia;Limoeiro de Anadia
+2704302;Maceió;Maceio
+2704401;Major Isidoro;Major Isidoro
+2704906;Mar Vermelho;Mar Vermelho
+2704500;Maragogi;Maragogi
+2704609;Maravilha;Maravilha
+2704708;Marechal Deodoro;Marechal Deodoro
+2704807;Maribondo;Maribondo
+2705002;Mata Grande;Mata Grande
+2705101;Matriz de Camaragibe;Matriz de Camaragibe
+2705200;Messias;Messias
+2705309;Minador do Negrão;Minador do Negrao
+2705408;Monteirópolis;Monteiropolis
+2705507;Murici;Murici
+2705606;Novo Lino;Novo Lino
+2705705;Olho d'Água das Flores;Olho d'Agua das Flores
+2705804;Olho d'Água do Casado;Olho d'Agua do Casado
+2705903;Olho d'Água Grande;Olho d'Agua Grande
+2706000;Olivença;Olivenca
+2706109;Ouro Branco;Ouro Branco
+2706208;Palestina;Palestina
+2706307;Palmeira dos Índios;Palmeira dos Indios
+2706406;Pão de Açúcar;Pao de Acucar
+2706422;Pariconha;Pariconha
+2706448;Paripueira;Paripueira
+2706505;Passo de Camaragibe;Passo de Camaragibe
+2706604;Paulo Jacinto;Paulo Jacinto
+2706703;Penedo;Penedo
+2706802;Piaçabuçu;Piacabucu
+2706901;Pilar;Pilar
+2707008;Pindoba;Pindoba
+2707107;Piranhas;Piranhas
+2707206;Poço das Trincheiras;Poco das Trincheiras
+2707305;Porto Calvo;Porto Calvo
+2707404;Porto de Pedras;Porto de Pedras
+2707503;Porto Real do Colégio;Porto Real do Colegio
+2707602;Quebrangulo;Quebrangulo
+2707701;Rio Largo;Rio Largo
+2707800;Roteiro;Roteiro
+2707909;Santa Luzia do Norte;Santa Luzia do Norte
+2708006;Santana do Ipanema;Santana do Ipanema
+2708105;Santana do Mundaú;Santana do Mundau
+2708204;São Brás;Sao Bras
+2708303;São José da Laje;Sao Jose da Laje
+2708402;São José da Tapera;Sao Jose da Tapera
+2708501;São Luís do Quitunde;Sao Luis do Quitunde
+2708600;São Miguel dos Campos;Sao Miguel dos Campos
+2708709;São Miguel dos Milagres;Sao Miguel dos Milagres
+2708808;São Sebastião;Sao Sebastiao
+2708907;Satuba;Satuba
+2708956;Senador Rui Palmeira;Senador Rui Palmeira
+2709004;Tanque d'Arca;Tanque d'Arca
+2709103;Taquarana;Taquarana
+2709152;Teotônio Vilela;Teotonio Vilela
+2709202;Traipu;Traipu
+2709301;União dos Palmares;Uniao dos Palmares
+2709400;Viçosa;Vicosa
+2800100;Amparo de São Francisco;Amparo de Sao Francisco
+2800209;Aquidabã;Aquidaba
+2800308;Aracaju;Aracaju
+2800407;Arauá;Araua
+2800506;Areia Branca;Areia Branca
+2800605;Barra dos Coqueiros;Barra dos Coqueiros
+2800670;Boquim;Boquim
+2800704;Brejo Grande;Brejo Grande
+2801009;Campo do Brito;Campo do Brito
+2801108;Canhoba;Canhoba
+2801207;Canindé de São Francisco;Caninde de Sao Francisco
+2801306;Capela;Capela
+2801405;Carira;Carira
+2801504;Carmópolis;Carmopolis
+2801603;Cedro de São João;Cedro de Sao Joao
+2801702;Cristinápolis;Cristinapolis
+2801900;Cumbe;Cumbe
+2802007;Divina Pastora;Divina Pastora
+2802106;Estância;Estancia
+2802205;Feira Nova;Feira Nova
+2802304;Frei Paulo;Frei Paulo
+2802403;Gararu;Gararu
+2802502;General Maynard;General Maynard
+2802601;Gracho Cardoso;Gracho Cardoso
+2802700;Ilha das Flores;Ilha das Flores
+2802809;Indiaroba;Indiaroba
+2802908;Itabaiana;Itabaiana
+2803005;Itabaianinha;Itabaianinha
+2803104;Itabi;Itabi
+2803203;Itaporanga d'Ajuda;Itaporanga d'Ajuda
+2803302;Japaratuba;Japaratuba
+2803401;Japoatã;Japoata
+2803500;Lagarto;Lagarto
+2803609;Laranjeiras;Laranjeiras
+2803708;Macambira;Macambira
+2803807;Malhada dos Bois;Malhada dos Bois
+2803906;Malhador;Malhador
+2804003;Maruim;Maruim
+2804102;Moita Bonita;Moita Bonita
+2804201;Monte Alegre de Sergipe;Monte Alegre de Sergipe
+2804300;Muribeca;Muribeca
+2804409;Neópolis;Neopolis
+2804458;Nossa Senhora Aparecida;Nossa Senhora Aparecida
+2804508;Nossa Senhora da Glória;Nossa Senhora da Gloria
+2804607;Nossa Senhora das Dores;Nossa Senhora das Dores
+2804706;Nossa Senhora de Lourdes;Nossa Senhora de Lourdes
+2804805;Nossa Senhora do Socorro;Nossa Senhora do Socorro
+2804904;Pacatuba;Pacatuba
+2805000;Pedra Mole;Pedra Mole
+2805109;Pedrinhas;Pedrinhas
+2805208;Pinhão;Pinhao
+2805307;Pirambu;Pirambu
+2805406;Poço Redondo;Poco Redondo
+2805505;Poço Verde;Poco Verde
+2805604;Porto da Folha;Porto da Folha
+2805703;Propriá;Propria
+2805802;Riachão do Dantas;Riachao do Dantas
+2805901;Riachuelo;Riachuelo
+2806008;Ribeirópolis;Ribeiropolis
+2806107;Rosário do Catete;Rosario do Catete
+2806206;Salgado;Salgado
+2806305;Santa Luzia do Itanhy;Santa Luzia do Itanhy
+2806503;Santa Rosa de Lima;Santa Rosa de Lima
+2806404;Santana do São Francisco;Santana do Sao Francisco
+2806602;Santo Amaro das Brotas;Santo Amaro das Brotas
+2806701;São Cristóvão;Sao Cristovao
+2806800;São Domingos;Sao Domingos
+2806909;São Francisco;Sao Francisco
+2807006;São Miguel do Aleixo;Sao Miguel do Aleixo
+2807105;Simão Dias;Simao Dias
+2807204;Siriri;Siriri
+2807303;Telha;Telha
+2807402;Tobias Barreto;Tobias Barreto
+2807501;Tomar do Geru;Tomar do Geru
+2807600;Umbaúba;Umbauba
+2900108;Abaíra;Abaira
+2900207;Abaré;Abare
+2900306;Acajutiba;Acajutiba
+2900355;Adustina;Adustina
+2900405;Água Fria;Agua Fria
+2900603;Aiquara;Aiquara
+2900702;Alagoinhas;Alagoinhas
+2900801;Alcobaça;Alcobaca
+2900900;Almadina;Almadina
+2901007;Amargosa;Amargosa
+2901106;Amélia Rodrigues;Amelia Rodrigues
+2901155;América Dourada;America Dourada
+2901205;Anagé;Anage
+2901304;Andaraí;Andarai
+2901353;Andorinha;Andorinha
+2901403;Angical;Angical
+2901502;Anguera;Anguera
+2901601;Antas;Antas
+2901700;Antônio Cardoso;Antonio Cardoso
+2901809;Antônio Gonçalves;Antonio Goncalves
+2901908;Aporá;Apora
+2901957;Apuarema;Apuarema
+2902054;Araçás;Aracas
+2902005;Aracatu;Aracatu
+2902104;Araci;Araci
+2902203;Aramari;Aramari
+2902252;Arataca;Arataca
+2902302;Aratuípe;Aratuipe
+2902401;Aurelino Leal;Aurelino Leal
+2902500;Baianópolis;Baianopolis
+2902609;Baixa Grande;Baixa Grande
+2902658;Banzaê;Banzae
+2902708;Barra;Barra
+2902807;Barra da Estiva;Barra da Estiva
+2902906;Barra do Choça;Barra do Choca
+2903003;Barra do Mendes;Barra do Mendes
+2903102;Barra do Rocha;Barra do Rocha
+2903201;Barreiras;Barreiras
+2903235;Barro Alto;Barro Alto
+2903300;Barro Preto;Barro Preto
+2903276;Barrocas;Barrocas
+2903409;Belmonte;Belmonte
+2903508;Belo Campo;Belo Campo
+2903607;Biritinga;Biritinga
+2903706;Boa Nova;Boa Nova
+2903805;Boa Vista do Tupim;Boa Vista do Tupim
+2903904;Bom Jesus da Lapa;Bom Jesus da Lapa
+2903953;Bom Jesus da Serra;Bom Jesus da Serra
+2904001;Boninal;Boninal
+2904050;Bonito;Bonito
+2904100;Boquira;Boquira
+2904209;Botuporã;Botupora
+2904308;Brejões;Brejoes
+2904407;Brejolândia;Brejolandia
+2904506;Brotas de Macaúbas;Brotas de Macaubas
+2904605;Brumado;Brumado
+2904704;Buerarema;Buerarema
+2904753;Buritirama;Buritirama
+2904803;Caatiba;Caatiba
+2904852;Cabaceiras do Paraguaçu;Cabaceiras do Paraguacu
+2904902;Cachoeira;Cachoeira
+2905008;Caculé;Cacule
+2905107;Caém;Caem
+2905156;Caetanos;Caetanos
+2905206;Caetité;Caetite
+2905305;Cafarnaum;Cafarnaum
+2905404;Cairu;Cairu
+2905503;Caldeirão Grande;Caldeirao Grande
+2905602;Camacan;Camacan
+2905701;Camaçari;Camacari
+2905800;Camamu;Camamu
+2905909;Campo Alegre de Lourdes;Campo Alegre de Lourdes
+2906006;Campo Formoso;Campo Formoso
+2906105;Canápolis;Canapolis
+2906204;Canarana;Canarana
+2906303;Canavieiras;Canavieiras
+2906402;Candeal;Candeal
+2906501;Candeias;Candeias
+2906600;Candiba;Candiba
+2906709;Cândido Sales;Candido Sales
+2906808;Cansanção;Cansancao
+2906824;Canudos;Canudos
+2906857;Capela do Alto Alegre;Capela do Alto Alegre
+2906873;Capim Grosso;Capim Grosso
+2906899;Caraíbas;Caraibas
+2906907;Caravelas;Caravelas
+2907004;Cardeal da Silva;Cardeal da Silva
+2907103;Carinhanha;Carinhanha
+2907202;Casa Nova;Casa Nova
+2907301;Castro Alves;Castro Alves
+2907400;Catolândia;Catolandia
+2907509;Catu;Catu
+2907558;Caturama;Caturama
+2907608;Central;Central
+2907707;Chorrochó;Chorrocho
+2907806;Cícero Dantas;Cicero Dantas
+2907905;Cipó;Cipo
+2908002;Coaraci;Coaraci
+2908101;Cocos;Cocos
+2908200;Conceição da Feira;Conceicao da Feira
+2908309;Conceição do Almeida;Conceicao do Almeida
+2908408;Conceição do Coité;Conceicao do Coite
+2908507;Conceição do Jacuípe;Conceicao do Jacuipe
+2908606;Conde;Conde
+2908705;Condeúba;Condeuba
+2908804;Contendas do Sincorá;Contendas do Sincora
+2908903;Coração de Maria;Coracao de Maria
+2909000;Cordeiros;Cordeiros
+2909109;Coribe;Coribe
+2909208;Coronel João Sá;Coronel Joao Sa
+2909307;Correntina;Correntina
+2909406;Cotegipe;Cotegipe
+2909505;Cravolândia;Cravolandia
+2909604;Crisópolis;Crisopolis
+2909703;Cristópolis;Cristopolis
+2909802;Cruz das Almas;Cruz das Almas
+2909901;Curaçá;Curaca
+2910008;Dário Meira;Dario Meira
+2910057;Dias d'Ávila;Dias d'Avila
+2910107;Dom Basílio;Dom Basilio
+2910206;Dom Macedo Costa;Dom Macedo Costa
+2910305;Elísio Medrado;Elisio Medrado
+2910404;Encruzilhada;Encruzilhada
+2910503;Entre Rios;Entre Rios
+2900504;Érico Cardoso;Erico Cardoso
+2910602;Esplanada;Esplanada
+2910701;Euclides da Cunha;Euclides da Cunha
+2910727;Eunápolis;Eunapolis
+2910750;Fátima;Fatima
+2910776;Feira da Mata;Feira da Mata
+2910800;Feira de Santana;Feira de Santana
+2910859;Filadélfia;Filadelfia
+2910909;Firmino Alves;Firmino Alves
+2911006;Floresta Azul;Floresta Azul
+2911105;Formosa do Rio Preto;Formosa do Rio Preto
+2911204;Gandu;Gandu
+2911253;Gavião;Gaviao
+2911303;Gentio do Ouro;Gentio do Ouro
+2911402;Glória;Gloria
+2911501;Gongogi;Gongogi
+2911600;Governador Mangabeira;Governador Mangabeira
+2911659;Guajeru;Guajeru
+2911709;Guanambi;Guanambi
+2911808;Guaratinga;Guaratinga
+2911857;Heliópolis;Heliopolis
+2911907;Iaçu;Iacu
+2912004;Ibiassucê;Ibiassuce
+2912103;Ibicaraí;Ibicarai
+2912202;Ibicoara;Ibicoara
+2912301;Ibicuí;Ibicui
+2912400;Ibipeba;Ibipeba
+2912509;Ibipitanga;Ibipitanga
+2912608;Ibiquera;Ibiquera
+2912707;Ibirapitanga;Ibirapitanga
+2912806;Ibirapuã;Ibirapua
+2912905;Ibirataia;Ibirataia
+2913002;Ibitiara;Ibitiara
+2913101;Ibititá;Ibitita
+2913200;Ibotirama;Ibotirama
+2913309;Ichu;Ichu
+2913408;Igaporã;Igapora
+2913457;Igrapiúna;Igrapiuna
+2913507;Iguaí;Iguai
+2913606;Ilhéus;Ilheus
+2913705;Inhambupe;Inhambupe
+2913804;Ipecaetá;Ipecaeta
+2913903;Ipiaú;Ipiau
+2914000;Ipirá;Ipira
+2914109;Ipupiara;Ipupiara
+2914208;Irajuba;Irajuba
+2914307;Iramaia;Iramaia
+2914406;Iraquara;Iraquara
+2914505;Irará;Irara
+2914604;Irecê;Irece
+2914653;Itabela;Itabela
+2914703;Itaberaba;Itaberaba
+2914802;Itabuna;Itabuna
+2914901;Itacaré;Itacare
+2915007;Itaeté;Itaete
+2915106;Itagi;Itagi
+2915205;Itagibá;Itagiba
+2915304;Itagimirim;Itagimirim
+2915353;Itaguaçu da Bahia;Itaguacu da Bahia
+2915403;Itaju do Colônia;Itaju do Colonia
+2915502;Itajuípe;Itajuipe
+2915601;Itamaraju;Itamaraju
+2915700;Itamari;Itamari
+2915809;Itambé;Itambe
+2915908;Itanagra;Itanagra
+2916005;Itanhém;Itanhem
+2916104;Itaparica;Itaparica
+2916203;Itapé;Itape
+2916302;Itapebi;Itapebi
+2916401;Itapetinga;Itapetinga
+2916500;Itapicuru;Itapicuru
+2916609;Itapitanga;Itapitanga
+2916708;Itaquara;Itaquara
+2916807;Itarantim;Itarantim
+2916856;Itatim;Itatim
+2916906;Itiruçu;Itirucu
+2917003;Itiúba;Itiuba
+2917102;Itororó;Itororo
+2917201;Ituaçu;Ituacu
+2917300;Ituberá;Itubera
+2917334;Iuiu;Iuiu
+2917359;Jaborandi;Jaborandi
+2917409;Jacaraci;Jacaraci
+2917508;Jacobina;Jacobina
+2917607;Jaguaquara;Jaguaquara
+2917706;Jaguarari;Jaguarari
+2917805;Jaguaripe;Jaguaripe
+2917904;Jandaíra;Jandaira
+2918001;Jequié;Jequie
+2918100;Jeremoabo;Jeremoabo
+2918209;Jiquiriçá;Jiquirica
+2918308;Jitaúna;Jitauna
+2918357;João Dourado;Joao Dourado
+2918407;Juazeiro;Juazeiro
+2918456;Jucuruçu;Jucurucu
+2918506;Jussara;Jussara
+2918555;Jussari;Jussari
+2918605;Jussiape;Jussiape
+2918704;Lafaiete Coutinho;Lafaiete Coutinho
+2918753;Lagoa Real;Lagoa Real
+2918803;Laje;Laje
+2918902;Lajedão;Lajedao
+2919009;Lajedinho;Lajedinho
+2919058;Lajedo do Tabocal;Lajedo do Tabocal
+2919108;Lamarão;Lamarao
+2919157;Lapão;Lapao
+2919207;Lauro de Freitas;Lauro de Freitas
+2919306;Lençóis;Lencois
+2919405;Licínio de Almeida;Licinio de Almeida
+2919504;Livramento de Nossa Senhora;Livramento de Nossa Senhora
+2919553;Luís Eduardo Magalhães;Luis Eduardo Magalhaes
+2919603;Macajuba;Macajuba
+2919702;Macarani;Macarani
+2919801;Macaúbas;Macaubas
+2919900;Macururé;Macurure
+2919926;Madre de Deus;Madre de Deus
+2919959;Maetinga;Maetinga
+2920007;Maiquinique;Maiquinique
+2920106;Mairi;Mairi
+2920205;Malhada;Malhada
+2920304;Malhada de Pedras;Malhada de Pedras
+2920403;Manoel Vitorino;Manoel Vitorino
+2920452;Mansidão;Mansidao
+2920502;Maracás;Maracas
+2920601;Maragogipe;Maragogipe
+2920700;Maraú;Marau
+2920809;Marcionílio Souza;Marcionilio Souza
+2920908;Mascote;Mascote
+2921005;Mata de São João;Mata de Sao Joao
+2921054;Matina;Matina
+2921104;Medeiros Neto;Medeiros Neto
+2921203;Miguel Calmon;Miguel Calmon
+2921302;Milagres;Milagres
+2921401;Mirangaba;Mirangaba
+2921450;Mirante;Mirante
+2921500;Monte Santo;Monte Santo
+2921609;Morpará;Morpara
+2921708;Morro do Chapéu;Morro do Chapeu
+2921807;Mortugaba;Mortugaba
+2921906;Mucugê;Mucuge
+2922003;Mucuri;Mucuri
+2922052;Mulungu do Morro;Mulungu do Morro
+2922102;Mundo Novo;Mundo Novo
+2922201;Muniz Ferreira;Muniz Ferreira
+2922250;Muquém do São Francisco;Muquem do Sao Francisco
+2922300;Muritiba;Muritiba
+2922409;Mutuípe;Mutuipe
+2922508;Nazaré;Nazare
+2922607;Nilo Peçanha;Nilo Pecanha
+2922656;Nordestina;Nordestina
+2922706;Nova Canaã;Nova Canaa
+2922730;Nova Fátima;Nova Fatima
+2922755;Nova Ibiá;Nova Ibia
+2922805;Nova Itarana;Nova Itarana
+2922854;Nova Redenção;Nova Redencao
+2922904;Nova Soure;Nova Soure
+2923001;Nova Viçosa;Nova Vicosa
+2923035;Novo Horizonte;Novo Horizonte
+2923050;Novo Triunfo;Novo Triunfo
+2923100;Olindina;Olindina
+2923209;Oliveira dos Brejinhos;Oliveira dos Brejinhos
+2923308;Ouriçangas;Ouricangas
+2923357;Ourolândia;Ourolandia
+2923407;Palmas de Monte Alto;Palmas de Monte Alto
+2923506;Palmeiras;Palmeiras
+2923605;Paramirim;Paramirim
+2923704;Paratinga;Paratinga
+2923803;Paripiranga;Paripiranga
+2923902;Pau Brasil;Pau Brasil
+2924009;Paulo Afonso;Paulo Afonso
+2924058;Pé de Serra;Pe de Serra
+2924108;Pedrão;Pedrao
+2924207;Pedro Alexandre;Pedro Alexandre
+2924306;Piatã;Piata
+2924405;Pilão Arcado;Pilao Arcado
+2924504;Pindaí;Pindai
+2924603;Pindobaçu;Pindobacu
+2924652;Pintadas;Pintadas
+2924678;Piraí do Norte;Pirai do Norte
+2924702;Piripá;Piripa
+2924801;Piritiba;Piritiba
+2924900;Planaltino;Planaltino
+2925006;Planalto;Planalto
+2925105;Poções;Pocoes
+2925204;Pojuca;Pojuca
+2925253;Ponto Novo;Ponto Novo
+2925303;Porto Seguro;Porto Seguro
+2925402;Potiraguá;Potiragua
+2925501;Prado;Prado
+2925600;Presidente Dutra;Presidente Dutra
+2925709;Presidente Jânio Quadros;Presidente Janio Quadros
+2925758;Presidente Tancredo Neves;Presidente Tancredo Neves
+2925808;Queimadas;Queimadas
+2925907;Quijingue;Quijingue
+2925931;Quixabeira;Quixabeira
+2925956;Rafael Jambeiro;Rafael Jambeiro
+2926004;Remanso;Remanso
+2926103;Retirolândia;Retirolandia
+2926202;Riachão das Neves;Riachao das Neves
+2926301;Riachão do Jacuípe;Riachao do Jacuipe
+2926400;Riacho de Santana;Riacho de Santana
+2926509;Ribeira do Amparo;Ribeira do Amparo
+2926608;Ribeira do Pombal;Ribeira do Pombal
+2926657;Ribeirão do Largo;Ribeirao do Largo
+2926707;Rio de Contas;Rio de Contas
+2926806;Rio do Antônio;Rio do Antonio
+2926905;Rio do Pires;Rio do Pires
+2927002;Rio Real;Rio Real
+2927101;Rodelas;Rodelas
+2927200;Ruy Barbosa;Ruy Barbosa
+2927309;Salinas da Margarida;Salinas da Margarida
+2927408;Salvador;Salvador
+2927507;Santa Bárbara;Santa Barbara
+2927606;Santa Brígida;Santa Brigida
+2927705;Santa Cruz Cabrália;Santa Cruz Cabralia
+2927804;Santa Cruz da Vitória;Santa Cruz da Vitoria
+2927903;Santa Inês;Santa Ines
+2928059;Santa Luzia;Santa Luzia
+2928109;Santa Maria da Vitória;Santa Maria da Vitoria
+2928406;Santa Rita de Cássia;Santa Rita de Cassia
+2928505;Santa Terezinha;Santa Terezinha
+2928000;Santaluz;Santaluz
+2928208;Santana;Santana
+2928307;Santanópolis;Santanopolis
+2928604;Santo Amaro;Santo Amaro
+2928703;Santo Antônio de Jesus;Santo Antonio de Jesus
+2928802;Santo Estêvão;Santo Estevao
+2928901;São Desidério;Sao Desiderio
+2928950;São Domingos;Sao Domingos
+2929107;São Felipe;Sao Felipe
+2929008;São Félix;Sao Felix
+2929057;São Félix do Coribe;Sao Felix do Coribe
+2929206;São Francisco do Conde;Sao Francisco do Conde
+2929255;São Gabriel;Sao Gabriel
+2929305;São Gonçalo dos Campos;Sao Goncalo dos Campos
+2929354;São José da Vitória;Sao Jose da Vitoria
+2929370;São José do Jacuípe;Sao Jose do Jacuipe
+2929404;São Miguel das Matas;Sao Miguel das Matas
+2929503;São Sebastião do Passé;Sao Sebastiao do Passe
+2929602;Sapeaçu;Sapeacu
+2929701;Sátiro Dias;Satiro Dias
+2929750;Saubara;Saubara
+2929800;Saúde;Saude
+2929909;Seabra;Seabra
+2930006;Sebastião Laranjeiras;Sebastiao Laranjeiras
+2930105;Senhor do Bonfim;Senhor do Bonfim
+2930204;Sento Sé;Sento Se
+2930154;Serra do Ramalho;Serra do Ramalho
+2930303;Serra Dourada;Serra Dourada
+2930402;Serra Preta;Serra Preta
+2930501;Serrinha;Serrinha
+2930600;Serrolândia;Serrolandia
+2930709;Simões Filho;Simoes Filho
+2930758;Sítio do Mato;Sitio do Mato
+2930766;Sítio do Quinto;Sitio do Quinto
+2930774;Sobradinho;Sobradinho
+2930808;Souto Soares;Souto Soares
+2930907;Tabocas do Brejo Velho;Tabocas do Brejo Velho
+2931004;Tanhaçu;Tanhacu
+2931053;Tanque Novo;Tanque Novo
+2931103;Tanquinho;Tanquinho
+2931202;Taperoá;Taperoa
+2931301;Tapiramutá;Tapiramuta
+2931350;Teixeira de Freitas;Teixeira de Freitas
+2931400;Teodoro Sampaio;Teodoro Sampaio
+2931509;Teofilândia;Teofilandia
+2931608;Teolândia;Teolandia
+2931707;Terra Nova;Terra Nova
+2931806;Tremedal;Tremedal
+2931905;Tucano;Tucano
+2932002;Uauá;Uaua
+2932101;Ubaíra;Ubaira
+2932200;Ubaitaba;Ubaitaba
+2932309;Ubatã;Ubata
+2932408;Uibaí;Uibai
+2932457;Umburanas;Umburanas
+2932507;Una;Una
+2932606;Urandi;Urandi
+2932705;Uruçuca;Urucuca
+2932804;Utinga;Utinga
+2932903;Valença;Valenca
+2933000;Valente;Valente
+2933059;Várzea da Roça;Varzea da Roca
+2933109;Várzea do Poço;Varzea do Poco
+2933158;Várzea Nova;Varzea Nova
+2933174;Varzedo;Varzedo
+2933208;Vera Cruz;Vera Cruz
+2933257;Vereda;Vereda
+2933307;Vitória da Conquista;Vitoria da Conquista
+2933406;Wagner;Wagner
+2933455;Wanderley;Wanderley
+2933505;Wenceslau Guimarães;Wenceslau Guimaraes
+2933604;Xique-Xique;Xique-Xique
+3100104;Abadia dos Dourados;Abadia dos Dourados
+3100203;Abaeté;Abaete
+3100302;Abre Campo;Abre Campo
+3100401;Acaiaca;Acaiaca
+3100500;Açucena;Acucena
+3100609;Água Boa;Agua Boa
+3100708;Água Comprida;Agua Comprida
+3100807;Aguanil;Aguanil
+3100906;Águas Formosas;Aguas Formosas
+3101003;Águas Vermelhas;Aguas Vermelhas
+3101102;Aimorés;Aimores
+3101201;Aiuruoca;Aiuruoca
+3101300;Alagoa;Alagoa
+3101409;Albertina;Albertina
+3101508;Além Paraíba;Alem Paraiba
+3101607;Alfenas;Alfenas
+3101631;Alfredo Vasconcelos;Alfredo Vasconcelos
+3101706;Almenara;Almenara
+3101805;Alpercata;Alpercata
+3101904;Alpinópolis;Alpinopolis
+3102001;Alterosa;Alterosa
+3102050;Alto Caparaó;Alto Caparao
+3153509;Alto Jequitibá;Alto Jequitiba
+3102100;Alto Rio Doce;Alto Rio Doce
+3102209;Alvarenga;Alvarenga
+3102308;Alvinópolis;Alvinopolis
+3102407;Alvorada de Minas;Alvorada de Minas
+3102506;Amparo do Serra;Amparo do Serra
+3102605;Andradas;Andradas
+3102803;Andrelândia;Andrelandia
+3102852;Angelândia;Angelandia
+3102902;Antônio Carlos;Antonio Carlos
+3103009;Antônio Dias;Antonio Dias
+3103108;Antônio Prado de Minas;Antonio Prado de Minas
+3103207;Araçaí;Aracai
+3103306;Aracitaba;Aracitaba
+3103405;Araçuaí;Aracuai
+3103504;Araguari;Araguari
+3103603;Arantina;Arantina
+3103702;Araponga;Araponga
+3103751;Araporã;Arapora
+3103801;Arapuá;Arapua
+3103900;Araújos;Araujos
+3104007;Araxá;Araxa
+3104106;Arceburgo;Arceburgo
+3104205;Arcos;Arcos
+3104304;Areado;Areado
+3104403;Argirita;Argirita
+3104452;Aricanduva;Aricanduva
+3104502;Arinos;Arinos
+3104601;Astolfo Dutra;Astolfo Dutra
+3104700;Ataléia;Ataleia
+3104809;Augusto de Lima;Augusto de Lima
+3104908;Baependi;Baependi
+3105004;Baldim;Baldim
+3105103;Bambuí;Bambui
+3105202;Bandeira;Bandeira
+3105301;Bandeira do Sul;Bandeira do Sul
+3105400;Barão de Cocais;Barao de Cocais
+3105509;Barão de Monte Alto;Barao de Monte Alto
+3105608;Barbacena;Barbacena
+3105707;Barra Longa;Barra Longa
+3105905;Barroso;Barroso
+3106002;Bela Vista de Minas;Bela Vista de Minas
+3106101;Belmiro Braga;Belmiro Braga
+3106200;Belo Horizonte;Belo Horizonte
+3106309;Belo Oriente;Belo Oriente
+3106408;Belo Vale;Belo Vale
+3106507;Berilo;Berilo
+3106655;Berizal;Berizal
+3106606;Bertópolis;Bertopolis
+3106705;Betim;Betim
+3106804;Bias Fortes;Bias Fortes
+3106903;Bicas;Bicas
+3107000;Biquinhas;Biquinhas
+3107109;Boa Esperança;Boa Esperanca
+3107208;Bocaina de Minas;Bocaina de Minas
+3107307;Bocaiúva;Bocaiuva
+3107406;Bom Despacho;Bom Despacho
+3107505;Bom Jardim de Minas;Bom Jardim de Minas
+3107604;Bom Jesus da Penha;Bom Jesus da Penha
+3107703;Bom Jesus do Amparo;Bom Jesus do Amparo
+3107802;Bom Jesus do Galho;Bom Jesus do Galho
+3107901;Bom Repouso;Bom Repouso
+3108008;Bom Sucesso;Bom Sucesso
+3108107;Bonfim;Bonfim
+3108206;Bonfinópolis de Minas;Bonfinopolis de Minas
+3108255;Bonito de Minas;Bonito de Minas
+3108305;Borda da Mata;Borda da Mata
+3108404;Botelhos;Botelhos
+3108503;Botumirim;Botumirim
+3108701;Brás Pires;Bras Pires
+3108552;Brasilândia de Minas;Brasilandia de Minas
+3108602;Brasília de Minas;Brasilia de Minas
+3108800;Braúnas;Braunas
+3108909;Brazópolis;Brazopolis
+3109006;Brumadinho;Brumadinho
+3109105;Bueno Brandão;Bueno Brandao
+3109204;Buenópolis;Buenopolis
+3109253;Bugre;Bugre
+3109303;Buritis;Buritis
+3109402;Buritizeiro;Buritizeiro
+3109451;Cabeceira Grande;Cabeceira Grande
+3109501;Cabo Verde;Cabo Verde
+3109600;Cachoeira da Prata;Cachoeira da Prata
+3109709;Cachoeira de Minas;Cachoeira de Minas
+3102704;Cachoeira de Pajeú;Cachoeira de Pajeu
+3109808;Cachoeira Dourada;Cachoeira Dourada
+3109907;Caetanópolis;Caetanopolis
+3110004;Caeté;Caete
+3110103;Caiana;Caiana
+3110202;Cajuri;Cajuri
+3110301;Caldas;Caldas
+3110400;Camacho;Camacho
+3110509;Camanducaia;Camanducaia
+3110608;Cambuí;Cambui
+3110707;Cambuquira;Cambuquira
+3110806;Campanário;Campanario
+3110905;Campanha;Campanha
+3111002;Campestre;Campestre
+3111101;Campina Verde;Campina Verde
+3111150;Campo Azul;Campo Azul
+3111200;Campo Belo;Campo Belo
+3111309;Campo do Meio;Campo do Meio
+3111408;Campo Florido;Campo Florido
+3111507;Campos Altos;Campos Altos
+3111606;Campos Gerais;Campos Gerais
+3111903;Cana Verde;Cana Verde
+3111705;Canaã;Canaa
+3111804;Canápolis;Canapolis
+3112000;Candeias;Candeias
+3112059;Cantagalo;Cantagalo
+3112109;Caparaó;Caparao
+3112208;Capela Nova;Capela Nova
+3112307;Capelinha;Capelinha
+3112406;Capetinga;Capetinga
+3112505;Capim Branco;Capim Branco
+3112604;Capinópolis;Capinopolis
+3112653;Capitão Andrade;Capitao Andrade
+3112703;Capitão Enéas;Capitao Eneas
+3112802;Capitólio;Capitolio
+3112901;Caputira;Caputira
+3113008;Caraí;Carai
+3113107;Caranaíba;Caranaiba
+3113206;Carandaí;Carandai
+3113305;Carangola;Carangola
+3113404;Caratinga;Caratinga
+3113503;Carbonita;Carbonita
+3113602;Careaçu;Careacu
+3113701;Carlos Chagas;Carlos Chagas
+3113800;Carmésia;Carmesia
+3113909;Carmo da Cachoeira;Carmo da Cachoeira
+3114006;Carmo da Mata;Carmo da Mata
+3114105;Carmo de Minas;Carmo de Minas
+3114204;Carmo do Cajuru;Carmo do Cajuru
+3114303;Carmo do Paranaíba;Carmo do Paranaiba
+3114402;Carmo do Rio Claro;Carmo do Rio Claro
+3114501;Carmópolis de Minas;Carmopolis de Minas
+3114550;Carneirinho;Carneirinho
+3114600;Carrancas;Carrancas
+3114709;Carvalhópolis;Carvalhopolis
+3114808;Carvalhos;Carvalhos
+3114907;Casa Grande;Casa Grande
+3115003;Cascalho Rico;Cascalho Rico
+3115102;Cássia;Cassia
+3115300;Cataguases;Cataguases
+3115359;Catas Altas;Catas Altas
+3115409;Catas Altas da Noruega;Catas Altas da Noruega
+3115458;Catuji;Catuji
+3115474;Catuti;Catuti
+3115508;Caxambu;Caxambu
+3115607;Cedro do Abaeté;Cedro do Abaete
+3115706;Central de Minas;Central de Minas
+3115805;Centralina;Centralina
+3115904;Chácara;Chacara
+3116001;Chalé;Chale
+3116100;Chapada do Norte;Chapada do Norte
+3116159;Chapada Gaúcha;Chapada Gaucha
+3116209;Chiador;Chiador
+3116308;Cipotânea;Cipotanea
+3116407;Claraval;Claraval
+3116506;Claro dos Poções;Claro dos Pocoes
+3116605;Cláudio;Claudio
+3116704;Coimbra;Coimbra
+3116803;Coluna;Coluna
+3116902;Comendador Gomes;Comendador Gomes
+3117009;Comercinho;Comercinho
+3117108;Conceição da Aparecida;Conceicao da Aparecida
+3115201;Conceição da Barra de Minas;Conceicao da Barra de Minas
+3117306;Conceição das Alagoas;Conceicao das Alagoas
+3117207;Conceição das Pedras;Conceicao das Pedras
+3117405;Conceição de Ipanema;Conceicao de Ipanema
+3117504;Conceição do Mato Dentro;Conceicao do Mato Dentro
+3117603;Conceição do Pará;Conceicao do Para
+3117702;Conceição do Rio Verde;Conceicao do Rio Verde
+3117801;Conceição dos Ouros;Conceicao dos Ouros
+3117836;Cônego Marinho;Conego Marinho
+3117876;Confins;Confins
+3117900;Congonhal;Congonhal
+3118007;Congonhas;Congonhas
+3118106;Congonhas do Norte;Congonhas do Norte
+3118205;Conquista;Conquista
+3118304;Conselheiro Lafaiete;Conselheiro Lafaiete
+3118403;Conselheiro Pena;Conselheiro Pena
+3118502;Consolação;Consolacao
+3118601;Contagem;Contagem
+3118700;Coqueiral;Coqueiral
+3118809;Coração de Jesus;Coracao de Jesus
+3118908;Cordisburgo;Cordisburgo
+3119005;Cordislândia;Cordislandia
+3119104;Corinto;Corinto
+3119203;Coroaci;Coroaci
+3119302;Coromandel;Coromandel
+3119401;Coronel Fabriciano;Coronel Fabriciano
+3119500;Coronel Murta;Coronel Murta
+3119609;Coronel Pacheco;Coronel Pacheco
+3119708;Coronel Xavier Chaves;Coronel Xavier Chaves
+3119807;Córrego Danta;Corrego Danta
+3119906;Córrego do Bom Jesus;Corrego do Bom Jesus
+3119955;Córrego Fundo;Corrego Fundo
+3120003;Córrego Novo;Corrego Novo
+3120102;Couto de Magalhães de Minas;Couto de Magalhaes de Minas
+3120151;Crisólita;Crisolita
+3120201;Cristais;Cristais
+3120300;Cristália;Cristalia
+3120409;Cristiano Otoni;Cristiano Otoni
+3120508;Cristina;Cristina
+3120607;Crucilândia;Crucilandia
+3120706;Cruzeiro da Fortaleza;Cruzeiro da Fortaleza
+3120805;Cruzília;Cruzilia
+3120839;Cuparaque;Cuparaque
+3120870;Curral de Dentro;Curral de Dentro
+3120904;Curvelo;Curvelo
+3121001;Datas;Datas
+3121100;Delfim Moreira;Delfim Moreira
+3121209;Delfinópolis;Delfinopolis
+3121258;Delta;Delta
+3121308;Descoberto;Descoberto
+3121407;Desterro de Entre Rios;Desterro de Entre Rios
+3121506;Desterro do Melo;Desterro do Melo
+3121605;Diamantina;Diamantina
+3121704;Diogo de Vasconcelos;Diogo de Vasconcelos
+3121803;Dionísio;Dionisio
+3121902;Divinésia;Divinesia
+3122009;Divino;Divino
+3122108;Divino das Laranjeiras;Divino das Laranjeiras
+3122207;Divinolândia de Minas;Divinolandia de Minas
+3122306;Divinópolis;Divinopolis
+3122355;Divisa Alegre;Divisa Alegre
+3122405;Divisa Nova;Divisa Nova
+3122454;Divisópolis;Divisopolis
+3122470;Dom Bosco;Dom Bosco
+3122504;Dom Cavati;Dom Cavati
+3122603;Dom Joaquim;Dom Joaquim
+3122702;Dom Silvério;Dom Silverio
+3122801;Dom Viçoso;Dom Vicoso
+3122900;Dona Eusébia;Dona Eusebia
+3123007;Dores de Campos;Dores de Campos
+3123106;Dores de Guanhães;Dores de Guanhaes
+3123205;Dores do Indaiá;Dores do Indaia
+3123304;Dores do Turvo;Dores do Turvo
+3123403;Doresópolis;Doresopolis
+3123502;Douradoquara;Douradoquara
+3123528;Durandé;Durande
+3123601;Elói Mendes;Eloi Mendes
+3123700;Engenheiro Caldas;Engenheiro Caldas
+3123809;Engenheiro Navarro;Engenheiro Navarro
+3123858;Entre Folhas;Entre Folhas
+3123908;Entre Rios de Minas;Entre Rios de Minas
+3124005;Ervália;Ervalia
+3124104;Esmeraldas;Esmeraldas
+3124203;Espera Feliz;Espera Feliz
+3124302;Espinosa;Espinosa
+3124401;Espírito Santo do Dourado;Espirito Santo do Dourado
+3124500;Estiva;Estiva
+3124609;Estrela Dalva;Estrela Dalva
+3124708;Estrela do Indaiá;Estrela do Indaia
+3124807;Estrela do Sul;Estrela do Sul
+3124906;Eugenópolis;Eugenopolis
+3125002;Ewbank da Câmara;Ewbank da Camara
+3125101;Extrema;Extrema
+3125200;Fama;Fama
+3125309;Faria Lemos;Faria Lemos
+3125408;Felício dos Santos;Felicio dos Santos
+3125606;Felisburgo;Felisburgo
+3125705;Felixlândia;Felixlandia
+3125804;Fernandes Tourinho;Fernandes Tourinho
+3125903;Ferros;Ferros
+3125952;Fervedouro;Fervedouro
+3126000;Florestal;Florestal
+3126109;Formiga;Formiga
+3126208;Formoso;Formoso
+3126307;Fortaleza de Minas;Fortaleza de Minas
+3126406;Fortuna de Minas;Fortuna de Minas
+3126505;Francisco Badaró;Francisco Badaro
+3126604;Francisco Dumont;Francisco Dumont
+3126703;Francisco Sá;Francisco Sa
+3126752;Franciscópolis;Franciscopolis
+3126802;Frei Gaspar;Frei Gaspar
+3126901;Frei Inocêncio;Frei Inocencio
+3126950;Frei Lagonegro;Frei Lagonegro
+3127008;Fronteira;Fronteira
+3127057;Fronteira dos Vales;Fronteira dos Vales
+3127073;Fruta de Leite;Fruta de Leite
+3127107;Frutal;Frutal
+3127206;Funilândia;Funilandia
+3127305;Galiléia;Galileia
+3127339;Gameleiras;Gameleiras
+3127354;Glaucilândia;Glaucilandia
+3127370;Goiabeira;Goiabeira
+3127388;Goianá;Goiana
+3127404;Gonçalves;Goncalves
+3127503;Gonzaga;Gonzaga
+3127602;Gouveia;Gouveia
+3127701;Governador Valadares;Governador Valadares
+3127800;Grão Mogol;Grao Mogol
+3127909;Grupiara;Grupiara
+3128006;Guanhães;Guanhaes
+3128105;Guapé;Guape
+3128204;Guaraciaba;Guaraciaba
+3128253;Guaraciama;Guaraciama
+3128303;Guaranésia;Guaranesia
+3128402;Guarani;Guarani
+3128501;Guarará;Guarara
+3128600;Guarda-Mor;Guarda-Mor
+3128709;Guaxupé;Guaxupe
+3128808;Guidoval;Guidoval
+3128907;Guimarânia;Guimarania
+3129004;Guiricema;Guiricema
+3129103;Gurinhatã;Gurinhata
+3129202;Heliodora;Heliodora
+3129301;Iapu;Iapu
+3129400;Ibertioga;Ibertioga
+3129509;Ibiá;Ibia
+3129608;Ibiaí;Ibiai
+3129657;Ibiracatu;Ibiracatu
+3129707;Ibiraci;Ibiraci
+3129806;Ibirité;Ibirite
+3129905;Ibitiúra de Minas;Ibitiura de Minas
+3130002;Ibituruna;Ibituruna
+3130051;Icaraí de Minas;Icarai de Minas
+3130101;Igarapé;Igarape
+3130200;Igaratinga;Igaratinga
+3130309;Iguatama;Iguatama
+3130408;Ijaci;Ijaci
+3130507;Ilicínea;Ilicinea
+3130556;Imbé de Minas;Imbe de Minas
+3130606;Inconfidentes;Inconfidentes
+3130655;Indaiabira;Indaiabira
+3130705;Indianópolis;Indianopolis
+3130804;Ingaí;Ingai
+3130903;Inhapim;Inhapim
+3131000;Inhaúma;Inhauma
+3131109;Inimutaba;Inimutaba
+3131158;Ipaba;Ipaba
+3131208;Ipanema;Ipanema
+3131307;Ipatinga;Ipatinga
+3131406;Ipiaçu;Ipiacu
+3131505;Ipuiúna;Ipuiuna
+3131604;Iraí de Minas;Irai de Minas
+3131703;Itabira;Itabira
+3131802;Itabirinha;Itabirinha
+3131901;Itabirito;Itabirito
+3132008;Itacambira;Itacambira
+3132107;Itacarambi;Itacarambi
+3132206;Itaguara;Itaguara
+3132305;Itaipé;Itaipe
+3132404;Itajubá;Itajuba
+3132503;Itamarandiba;Itamarandiba
+3132602;Itamarati de Minas;Itamarati de Minas
+3132701;Itambacuri;Itambacuri
+3132800;Itambé do Mato Dentro;Itambe do Mato Dentro
+3132909;Itamogi;Itamogi
+3133006;Itamonte;Itamonte
+3133105;Itanhandu;Itanhandu
+3133204;Itanhomi;Itanhomi
+3133303;Itaobim;Itaobim
+3133402;Itapagipe;Itapagipe
+3133501;Itapecerica;Itapecerica
+3133600;Itapeva;Itapeva
+3133709;Itatiaiuçu;Itatiaiucu
+3133758;Itaú de Minas;Itau de Minas
+3133808;Itaúna;Itauna
+3133907;Itaverava;Itaverava
+3134004;Itinga;Itinga
+3134103;Itueta;Itueta
+3134202;Ituiutaba;Ituiutaba
+3134301;Itumirim;Itumirim
+3134400;Iturama;Iturama
+3134509;Itutinga;Itutinga
+3134608;Jaboticatubas;Jaboticatubas
+3134707;Jacinto;Jacinto
+3134806;Jacuí;Jacui
+3134905;Jacutinga;Jacutinga
+3135001;Jaguaraçu;Jaguaracu
+3135050;Jaíba;Jaiba
+3135076;Jampruca;Jampruca
+3135100;Janaúba;Janauba
+3135209;Januária;Januaria
+3135308;Japaraíba;Japaraiba
+3135357;Japonvar;Japonvar
+3135407;Jeceaba;Jeceaba
+3135456;Jenipapo de Minas;Jenipapo de Minas
+3135506;Jequeri;Jequeri
+3135605;Jequitaí;Jequitai
+3135704;Jequitibá;Jequitiba
+3135803;Jequitinhonha;Jequitinhonha
+3135902;Jesuânia;Jesuania
+3136009;Joaíma;Joaima
+3136108;Joanésia;Joanesia
+3136207;João Monlevade;Joao Monlevade
+3136306;João Pinheiro;Joao Pinheiro
+3136405;Joaquim Felício;Joaquim Felicio
+3136504;Jordânia;Jordania
+3136520;José Gonçalves de Minas;Jose Goncalves de Minas
+3136553;José Raydan;Jose Raydan
+3136579;Josenópolis;Josenopolis
+3136652;Juatuba;Juatuba
+3136702;Juiz de Fora;Juiz de Fora
+3136801;Juramento;Juramento
+3136900;Juruaia;Juruaia
+3136959;Juvenília;Juvenilia
+3137007;Ladainha;Ladainha
+3137106;Lagamar;Lagamar
+3137205;Lagoa da Prata;Lagoa da Prata
+3137304;Lagoa dos Patos;Lagoa dos Patos
+3137403;Lagoa Dourada;Lagoa Dourada
+3137502;Lagoa Formosa;Lagoa Formosa
+3137536;Lagoa Grande;Lagoa Grande
+3137601;Lagoa Santa;Lagoa Santa
+3137700;Lajinha;Lajinha
+3137809;Lambari;Lambari
+3137908;Lamim;Lamim
+3138005;Laranjal;Laranjal
+3138104;Lassance;Lassance
+3138203;Lavras;Lavras
+3138302;Leandro Ferreira;Leandro Ferreira
+3138351;Leme do Prado;Leme do Prado
+3138401;Leopoldina;Leopoldina
+3138500;Liberdade;Liberdade
+3138609;Lima Duarte;Lima Duarte
+3138625;Limeira do Oeste;Limeira do Oeste
+3138658;Lontra;Lontra
+3138674;Luisburgo;Luisburgo
+3138682;Luislândia;Luislandia
+3138708;Luminárias;Luminarias
+3138807;Luz;Luz
+3138906;Machacalis;Machacalis
+3139003;Machado;Machado
+3139102;Madre de Deus de Minas;Madre de Deus de Minas
+3139201;Malacacheta;Malacacheta
+3139250;Mamonas;Mamonas
+3139300;Manga;Manga
+3139409;Manhuaçu;Manhuacu
+3139508;Manhumirim;Manhumirim
+3139607;Mantena;Mantena
+3139805;Mar de Espanha;Mar de Espanha
+3139706;Maravilhas;Maravilhas
+3139904;Maria da Fé;Maria da Fe
+3140001;Mariana;Mariana
+3140100;Marilac;Marilac
+3140159;Mário Campos;Mario Campos
+3140209;Maripá de Minas;Maripa de Minas
+3140308;Marliéria;Marlieria
+3140407;Marmelópolis;Marmelopolis
+3140506;Martinho Campos;Martinho Campos
+3140530;Martins Soares;Martins Soares
+3140555;Mata Verde;Mata Verde
+3140605;Materlândia;Materlandia
+3140704;Mateus Leme;Mateus Leme
+3171501;Mathias Lobato;Mathias Lobato
+3140803;Matias Barbosa;Matias Barbosa
+3140852;Matias Cardoso;Matias Cardoso
+3140902;Matipó;Matipo
+3141009;Mato Verde;Mato Verde
+3141108;Matozinhos;Matozinhos
+3141207;Matutina;Matutina
+3141306;Medeiros;Medeiros
+3141405;Medina;Medina
+3141504;Mendes Pimentel;Mendes Pimentel
+3141603;Mercês;Merces
+3141702;Mesquita;Mesquita
+3141801;Minas Novas;Minas Novas
+3141900;Minduri;Minduri
+3142007;Mirabela;Mirabela
+3142106;Miradouro;Miradouro
+3142205;Miraí;Mirai
+3142254;Miravânia;Miravania
+3142304;Moeda;Moeda
+3142403;Moema;Moema
+3142502;Monjolos;Monjolos
+3142601;Monsenhor Paulo;Monsenhor Paulo
+3142700;Montalvânia;Montalvania
+3142809;Monte Alegre de Minas;Monte Alegre de Minas
+3142908;Monte Azul;Monte Azul
+3143005;Monte Belo;Monte Belo
+3143104;Monte Carmelo;Monte Carmelo
+3143153;Monte Formoso;Monte Formoso
+3143203;Monte Santo de Minas;Monte Santo de Minas
+3143401;Monte Sião;Monte Siao
+3143302;Montes Claros;Montes Claros
+3143450;Montezuma;Montezuma
+3143500;Morada Nova de Minas;Morada Nova de Minas
+3143609;Morro da Garça;Morro da Garca
+3143708;Morro do Pilar;Morro do Pilar
+3143807;Munhoz;Munhoz
+3143906;Muriaé;Muriae
+3144003;Mutum;Mutum
+3144102;Muzambinho;Muzambinho
+3144201;Nacip Raydan;Nacip Raydan
+3144300;Nanuque;Nanuque
+3144359;Naque;Naque
+3144375;Natalândia;Natalandia
+3144409;Natércia;Natercia
+3144508;Nazareno;Nazareno
+3144607;Nepomuceno;Nepomuceno
+3144656;Ninheira;Ninheira
+3144672;Nova Belém;Nova Belem
+3144706;Nova Era;Nova Era
+3144805;Nova Lima;Nova Lima
+3144904;Nova Módica;Nova Modica
+3145000;Nova Ponte;Nova Ponte
+3145059;Nova Porteirinha;Nova Porteirinha
+3145109;Nova Resende;Nova Resende
+3145208;Nova Serrana;Nova Serrana
+3136603;Nova União;Nova Uniao
+3145307;Novo Cruzeiro;Novo Cruzeiro
+3145356;Novo Oriente de Minas;Novo Oriente de Minas
+3145372;Novorizonte;Novorizonte
+3145406;Olaria;Olaria
+3145455;Olhos-d'Água;Olhos-d'Agua
+3145505;Olímpio Noronha;Olimpio Noronha
+3145604;Oliveira;Oliveira
+3145703;Oliveira Fortes;Oliveira Fortes
+3145802;Onça de Pitangui;Onca de Pitangui
+3145851;Oratórios;Oratorios
+3145877;Orizânia;Orizania
+3145901;Ouro Branco;Ouro Branco
+3146008;Ouro Fino;Ouro Fino
+3146107;Ouro Preto;Ouro Preto
+3146206;Ouro Verde de Minas;Ouro Verde de Minas
+3146255;Padre Carvalho;Padre Carvalho
+3146305;Padre Paraíso;Padre Paraiso
+3146552;Pai Pedro;Pai Pedro
+3146404;Paineiras;Paineiras
+3146503;Pains;Pains
+3146602;Paiva;Paiva
+3146701;Palma;Palma
+3146750;Palmópolis;Palmopolis
+3146909;Papagaios;Papagaios
+3147105;Pará de Minas;Para de Minas
+3147006;Paracatu;Paracatu
+3147204;Paraguaçu;Paraguacu
+3147303;Paraisópolis;Paraisopolis
+3147402;Paraopeba;Paraopeba
+3147600;Passa Quatro;Passa Quatro
+3147709;Passa Tempo;Passa Tempo
+3147808;Passa Vinte;Passa Vinte
+3147501;Passabém;Passabem
+3147907;Passos;Passos
+3147956;Patis;Patis
+3148004;Patos de Minas;Patos de Minas
+3148103;Patrocínio;Patrocinio
+3148202;Patrocínio do Muriaé;Patrocinio do Muriae
+3148301;Paula Cândido;Paula Candido
+3148400;Paulistas;Paulistas
+3148509;Pavão;Pavao
+3148608;Peçanha;Pecanha
+3148707;Pedra Azul;Pedra Azul
+3148756;Pedra Bonita;Pedra Bonita
+3148806;Pedra do Anta;Pedra do Anta
+3148905;Pedra do Indaiá;Pedra do Indaia
+3149002;Pedra Dourada;Pedra Dourada
+3149101;Pedralva;Pedralva
+3149150;Pedras de Maria da Cruz;Pedras de Maria da Cruz
+3149200;Pedrinópolis;Pedrinopolis
+3149309;Pedro Leopoldo;Pedro Leopoldo
+3149408;Pedro Teixeira;Pedro Teixeira
+3149507;Pequeri;Pequeri
+3149606;Pequi;Pequi
+3149705;Perdigão;Perdigao
+3149804;Perdizes;Perdizes
+3149903;Perdões;Perdoes
+3149952;Periquito;Periquito
+3150000;Pescador;Pescador
+3150109;Piau;Piau
+3150158;Piedade de Caratinga;Piedade de Caratinga
+3150208;Piedade de Ponte Nova;Piedade de Ponte Nova
+3150307;Piedade do Rio Grande;Piedade do Rio Grande
+3150406;Piedade dos Gerais;Piedade dos Gerais
+3150505;Pimenta;Pimenta
+3150539;Pingo d'Água;Pingo d'Agua
+3150570;Pintópolis;Pintopolis
+3150604;Piracema;Piracema
+3150703;Pirajuba;Pirajuba
+3150802;Piranga;Piranga
+3150901;Piranguçu;Pirangucu
+3151008;Piranguinho;Piranguinho
+3151107;Pirapetinga;Pirapetinga
+3151206;Pirapora;Pirapora
+3151305;Piraúba;Pirauba
+3151404;Pitangui;Pitangui
+3151503;Piumhi;Piumhi
+3151602;Planura;Planura
+3151701;Poço Fundo;Poco Fundo
+3151800;Poços de Caldas;Pocos de Caldas
+3151909;Pocrane;Pocrane
+3152006;Pompéu;Pompeu
+3152105;Ponte Nova;Ponte Nova
+3152131;Ponto Chique;Ponto Chique
+3152170;Ponto dos Volantes;Ponto dos Volantes
+3152204;Porteirinha;Porteirinha
+3152303;Porto Firme;Porto Firme
+3152402;Poté;Pote
+3152501;Pouso Alegre;Pouso Alegre
+3152600;Pouso Alto;Pouso Alto
+3152709;Prados;Prados
+3152808;Prata;Prata
+3152907;Pratápolis;Pratapolis
+3153004;Pratinha;Pratinha
+3153103;Presidente Bernardes;Presidente Bernardes
+3153202;Presidente Juscelino;Presidente Juscelino
+3153301;Presidente Kubitschek;Presidente Kubitschek
+3153400;Presidente Olegário;Presidente Olegario
+3153608;Prudente de Morais;Prudente de Morais
+3153707;Quartel Geral;Quartel Geral
+3153806;Queluzito;Queluzito
+3153905;Raposos;Raposos
+3154002;Raul Soares;Raul Soares
+3154101;Recreio;Recreio
+3154150;Reduto;Reduto
+3154200;Resende Costa;Resende Costa
+3154309;Resplendor;Resplendor
+3154408;Ressaquinha;Ressaquinha
+3154457;Riachinho;Riachinho
+3154507;Riacho dos Machados;Riacho dos Machados
+3154606;Ribeirão das Neves;Ribeirao das Neves
+3154705;Ribeirão Vermelho;Ribeirao Vermelho
+3154804;Rio Acima;Rio Acima
+3154903;Rio Casca;Rio Casca
+3155108;Rio do Prado;Rio do Prado
+3155009;Rio Doce;Rio Doce
+3155207;Rio Espera;Rio Espera
+3155306;Rio Manso;Rio Manso
+3155405;Rio Novo;Rio Novo
+3155504;Rio Paranaíba;Rio Paranaiba
+3155603;Rio Pardo de Minas;Rio Pardo de Minas
+3155702;Rio Piracicaba;Rio Piracicaba
+3155801;Rio Pomba;Rio Pomba
+3155900;Rio Preto;Rio Preto
+3156007;Rio Vermelho;Rio Vermelho
+3156106;Ritápolis;Ritapolis
+3156205;Rochedo de Minas;Rochedo de Minas
+3156304;Rodeiro;Rodeiro
+3156403;Romaria;Romaria
+3156452;Rosário da Limeira;Rosario da Limeira
+3156502;Rubelita;Rubelita
+3156601;Rubim;Rubim
+3156700;Sabará;Sabara
+3156809;Sabinópolis;Sabinopolis
+3156908;Sacramento;Sacramento
+3157005;Salinas;Salinas
+3157104;Salto da Divisa;Salto da Divisa
+3157203;Santa Bárbara;Santa Barbara
+3157252;Santa Bárbara do Leste;Santa Barbara do Leste
+3157278;Santa Bárbara do Monte Verde;Santa Barbara do Monte Verde
+3157302;Santa Bárbara do Tugúrio;Santa Barbara do Tugurio
+3157336;Santa Cruz de Minas;Santa Cruz de Minas
+3157377;Santa Cruz de Salinas;Santa Cruz de Salinas
+3157401;Santa Cruz do Escalvado;Santa Cruz do Escalvado
+3157500;Santa Efigênia de Minas;Santa Efigenia de Minas
+3157609;Santa Fé de Minas;Santa Fe de Minas
+3157658;Santa Helena de Minas;Santa Helena de Minas
+3157708;Santa Juliana;Santa Juliana
+3157807;Santa Luzia;Santa Luzia
+3157906;Santa Margarida;Santa Margarida
+3158003;Santa Maria de Itabira;Santa Maria de Itabira
+3158102;Santa Maria do Salto;Santa Maria do Salto
+3158201;Santa Maria do Suaçuí;Santa Maria do Suacui
+3159209;Santa Rita de Caldas;Santa Rita de Caldas
+3159407;Santa Rita de Ibitipoca;Santa Rita de Ibitipoca
+3159308;Santa Rita de Jacutinga;Santa Rita de Jacutinga
+3159357;Santa Rita de Minas;Santa Rita de Minas
+3159506;Santa Rita do Itueto;Santa Rita do Itueto
+3159605;Santa Rita do Sapucaí;Santa Rita do Sapucai
+3159704;Santa Rosa da Serra;Santa Rosa da Serra
+3159803;Santa Vitória;Santa Vitoria
+3158300;Santana da Vargem;Santana da Vargem
+3158409;Santana de Cataguases;Santana de Cataguases
+3158508;Santana de Pirapama;Santana de Pirapama
+3158607;Santana do Deserto;Santana do Deserto
+3158706;Santana do Garambéu;Santana do Garambeu
+3158805;Santana do Jacaré;Santana do Jacare
+3158904;Santana do Manhuaçu;Santana do Manhuacu
+3158953;Santana do Paraíso;Santana do Paraiso
+3159001;Santana do Riacho;Santana do Riacho
+3159100;Santana dos Montes;Santana dos Montes
+3159902;Santo Antônio do Amparo;Santo Antonio do Amparo
+3160009;Santo Antônio do Aventureiro;Santo Antonio do Aventureiro
+3160108;Santo Antônio do Grama;Santo Antonio do Grama
+3160207;Santo Antônio do Itambé;Santo Antonio do Itambe
+3160306;Santo Antônio do Jacinto;Santo Antonio do Jacinto
+3160405;Santo Antônio do Monte;Santo Antonio do Monte
+3160454;Santo Antônio do Retiro;Santo Antonio do Retiro
+3160504;Santo Antônio do Rio Abaixo;Santo Antonio do Rio Abaixo
+3160603;Santo Hipólito;Santo Hipolito
+3160702;Santos Dumont;Santos Dumont
+3160801;São Bento Abade;Sao Bento Abade
+3160900;São Brás do Suaçuí;Sao Bras do Suacui
+3160959;São Domingos das Dores;Sao Domingos das Dores
+3161007;São Domingos do Prata;Sao Domingos do Prata
+3161056;São Félix de Minas;Sao Felix de Minas
+3161106;São Francisco;Sao Francisco
+3161205;São Francisco de Paula;Sao Francisco de Paula
+3161304;São Francisco de Sales;Sao Francisco de Sales
+3161403;São Francisco do Glória;Sao Francisco do Gloria
+3161502;São Geraldo;Sao Geraldo
+3161601;São Geraldo da Piedade;Sao Geraldo da Piedade
+3161650;São Geraldo do Baixio;Sao Geraldo do Baixio
+3161700;São Gonçalo do Abaeté;Sao Goncalo do Abaete
+3161809;São Gonçalo do Pará;Sao Goncalo do Para
+3161908;São Gonçalo do Rio Abaixo;Sao Goncalo do Rio Abaixo
+3125507;São Gonçalo do Rio Preto;Sao Goncalo do Rio Preto
+3162005;São Gonçalo do Sapucaí;Sao Goncalo do Sapucai
+3162104;São Gotardo;Sao Gotardo
+3162203;São João Batista do Glória;Sao Joao Batista do Gloria
+3162252;São João da Lagoa;Sao Joao da Lagoa
+3162302;São João da Mata;Sao Joao da Mata
+3162401;São João da Ponte;Sao Joao da Ponte
+3162450;São João das Missões;Sao Joao das Missoes
+3162500;São João del Rei;Sao Joao del Rei
+3162559;São João do Manhuaçu;Sao Joao do Manhuacu
+3162575;São João do Manteninha;Sao Joao do Manteninha
+3162609;São João do Oriente;Sao Joao do Oriente
+3162658;São João do Pacuí;Sao Joao do Pacui
+3162708;São João do Paraíso;Sao Joao do Paraiso
+3162807;São João Evangelista;Sao Joao Evangelista
+3162906;São João Nepomuceno;Sao Joao Nepomuceno
+3162922;São Joaquim de Bicas;Sao Joaquim de Bicas
+3162948;São José da Barra;Sao Jose da Barra
+3162955;São José da Lapa;Sao Jose da Lapa
+3163003;São José da Safira;Sao Jose da Safira
+3163102;São José da Varginha;Sao Jose da Varginha
+3163201;São José do Alegre;Sao Jose do Alegre
+3163300;São José do Divino;Sao Jose do Divino
+3163409;São José do Goiabal;Sao Jose do Goiabal
+3163508;São José do Jacuri;Sao Jose do Jacuri
+3163607;São José do Mantimento;Sao Jose do Mantimento
+3163706;São Lourenço;Sao Lourenco
+3163805;São Miguel do Anta;Sao Miguel do Anta
+3163904;São Pedro da União;Sao Pedro da Uniao
+3164100;São Pedro do Suaçuí;Sao Pedro do Suacui
+3164001;São Pedro dos Ferros;Sao Pedro dos Ferros
+3164209;São Romão;Sao Romao
+3164308;São Roque de Minas;Sao Roque de Minas
+3164407;São Sebastião da Bela Vista;Sao Sebastiao da Bela Vista
+3164431;São Sebastião da Vargem Alegre;Sao Sebastiao da Vargem Alegre
+3164472;São Sebastião do Anta;Sao Sebastiao do Anta
+3164506;São Sebastião do Maranhão;Sao Sebastiao do Maranhao
+3164605;São Sebastião do Oeste;Sao Sebastiao do Oeste
+3164704;São Sebastião do Paraíso;Sao Sebastiao do Paraiso
+3164803;São Sebastião do Rio Preto;Sao Sebastiao do Rio Preto
+3164902;São Sebastião do Rio Verde;Sao Sebastiao do Rio Verde
+3165206;São Thomé das Letras;Sao Thome das Letras
+3165008;São Tiago;Sao Tiago
+3165107;São Tomás de Aquino;Sao Tomas de Aquino
+3165305;São Vicente de Minas;Sao Vicente de Minas
+3165404;Sapucaí-Mirim;Sapucai-Mirim
+3165503;Sardoá;Sardoa
+3165537;Sarzedo;Sarzedo
+3165560;Sem-Peixe;Sem-Peixe
+3165578;Senador Amaral;Senador Amaral
+3165602;Senador Cortes;Senador Cortes
+3165701;Senador Firmino;Senador Firmino
+3165800;Senador José Bento;Senador Jose Bento
+3165909;Senador Modestino Gonçalves;Senador Modestino Goncalves
+3166006;Senhora de Oliveira;Senhora de Oliveira
+3166105;Senhora do Porto;Senhora do Porto
+3166204;Senhora dos Remédios;Senhora dos Remedios
+3166303;Sericita;Sericita
+3166402;Seritinga;Seritinga
+3166501;Serra Azul de Minas;Serra Azul de Minas
+3166600;Serra da Saudade;Serra da Saudade
+3166808;Serra do Salitre;Serra do Salitre
+3166709;Serra dos Aimorés;Serra dos Aimores
+3166907;Serrania;Serrania
+3166956;Serranópolis de Minas;Serranopolis de Minas
+3167004;Serranos;Serranos
+3167103;Serro;Serro
+3167202;Sete Lagoas;Sete Lagoas
+3165552;Setubinha;Setubinha
+3167301;Silveirânia;Silveirania
+3167400;Silvianópolis;Silvianopolis
+3167509;Simão Pereira;Simao Pereira
+3167608;Simonésia;Simonesia
+3167707;Sobrália;Sobralia
+3167806;Soledade de Minas;Soledade de Minas
+3167905;Tabuleiro;Tabuleiro
+3168002;Taiobeiras;Taiobeiras
+3168051;Taparuba;Taparuba
+3168101;Tapira;Tapira
+3168200;Tapiraí;Tapirai
+3168309;Taquaraçu de Minas;Taquaracu de Minas
+3168408;Tarumirim;Tarumirim
+3168507;Teixeiras;Teixeiras
+3168606;Teófilo Otoni;Teofilo Otoni
+3168705;Timóteo;Timoteo
+3168804;Tiradentes;Tiradentes
+3168903;Tiros;Tiros
+3169000;Tocantins;Tocantins
+3169059;Tocos do Moji;Tocos do Moji
+3169109;Toledo;Toledo
+3169208;Tombos;Tombos
+3169307;Três Corações;Tres Coracoes
+3169356;Três Marias;Tres Marias
+3169406;Três Pontas;Tres Pontas
+3169505;Tumiritinga;Tumiritinga
+3169604;Tupaciguara;Tupaciguara
+3169703;Turmalina;Turmalina
+3169802;Turvolândia;Turvolandia
+3169901;Ubá;Uba
+3170008;Ubaí;Ubai
+3170057;Ubaporanga;Ubaporanga
+3170107;Uberaba;Uberaba
+3170206;Uberlândia;Uberlandia
+3170305;Umburatiba;Umburatiba
+3170404;Unaí;Unai
+3170438;União de Minas;Uniao de Minas
+3170479;Uruana de Minas;Uruana de Minas
+3170503;Urucânia;Urucania
+3170529;Urucuia;Urucuia
+3170578;Vargem Alegre;Vargem Alegre
+3170602;Vargem Bonita;Vargem Bonita
+3170651;Vargem Grande do Rio Pardo;Vargem Grande do Rio Pardo
+3170701;Varginha;Varginha
+3170750;Varjão de Minas;Varjao de Minas
+3170800;Várzea da Palma;Varzea da Palma
+3170909;Varzelândia;Varzelandia
+3171006;Vazante;Vazante
+3171030;Verdelândia;Verdelandia
+3171071;Veredinha;Veredinha
+3171105;Veríssimo;Verissimo
+3171154;Vermelho Novo;Vermelho Novo
+3171204;Vespasiano;Vespasiano
+3171303;Viçosa;Vicosa
+3171402;Vieiras;Vieiras
+3171600;Virgem da Lapa;Virgem da Lapa
+3171709;Virgínia;Virginia
+3171808;Virginópolis;Virginopolis
+3171907;Virgolândia;Virgolandia
+3172004;Visconde do Rio Branco;Visconde do Rio Branco
+3172103;Volta Grande;Volta Grande
+3172202;Wenceslau Braz;Wenceslau Braz
+3200102;Afonso Cláudio;Afonso Claudio
+3200169;Água Doce do Norte;Agua Doce do Norte
+3200136;Águia Branca;Aguia Branca
+3200201;Alegre;Alegre
+3200300;Alfredo Chaves;Alfredo Chaves
+3200359;Alto Rio Novo;Alto Rio Novo
+3200409;Anchieta;Anchieta
+3200508;Apiacá;Apiaca
+3200607;Aracruz;Aracruz
+3200706;Atílio Vivacqua;Atilio Vivacqua
+3200805;Baixo Guandu;Baixo Guandu
+3200904;Barra de São Francisco;Barra de Sao Francisco
+3201001;Boa Esperança;Boa Esperanca
+3201100;Bom Jesus do Norte;Bom Jesus do Norte
+3201159;Brejetuba;Brejetuba
+3201209;Cachoeiro de Itapemirim;Cachoeiro de Itapemirim
+3201308;Cariacica;Cariacica
+3201407;Castelo;Castelo
+3201506;Colatina;Colatina
+3201605;Conceição da Barra;Conceicao da Barra
+3201704;Conceição do Castelo;Conceicao do Castelo
+3201803;Divino de São Lourenço;Divino de Sao Lourenco
+3201902;Domingos Martins;Domingos Martins
+3202009;Dores do Rio Preto;Dores do Rio Preto
+3202108;Ecoporanga;Ecoporanga
+3202207;Fundão;Fundao
+3202256;Governador Lindenberg;Governador Lindenberg
+3202306;Guaçuí;Guacui
+3202405;Guarapari;Guarapari
+3202454;Ibatiba;Ibatiba
+3202504;Ibiraçu;Ibiracu
+3202553;Ibitirama;Ibitirama
+3202603;Iconha;Iconha
+3202652;Irupi;Irupi
+3202702;Itaguaçu;Itaguacu
+3202801;Itapemirim;Itapemirim
+3202900;Itarana;Itarana
+3203007;Iúna;Iuna
+3203056;Jaguaré;Jaguare
+3203106;Jerônimo Monteiro;Jeronimo Monteiro
+3203130;João Neiva;Joao Neiva
+3203163;Laranja da Terra;Laranja da Terra
+3203205;Linhares;Linhares
+3203304;Mantenópolis;Mantenopolis
+3203320;Marataízes;Marataizes
+3203346;Marechal Floriano;Marechal Floriano
+3203353;Marilândia;Marilandia
+3203403;Mimoso do Sul;Mimoso do Sul
+3203502;Montanha;Montanha
+3203601;Mucurici;Mucurici
+3203700;Muniz Freire;Muniz Freire
+3203809;Muqui;Muqui
+3203908;Nova Venécia;Nova Venecia
+3204005;Pancas;Pancas
+3204054;Pedro Canário;Pedro Canario
+3204104;Pinheiros;Pinheiros
+3204203;Piúma;Piuma
+3204252;Ponto Belo;Ponto Belo
+3204302;Presidente Kennedy;Presidente Kennedy
+3204351;Rio Bananal;Rio Bananal
+3204401;Rio Novo do Sul;Rio Novo do Sul
+3204500;Santa Leopoldina;Santa Leopoldina
+3204559;Santa Maria de Jetibá;Santa Maria de Jetiba
+3204609;Santa Teresa;Santa Teresa
+3204658;São Domingos do Norte;Sao Domingos do Norte
+3204708;São Gabriel da Palha;Sao Gabriel da Palha
+3204807;São José do Calçado;Sao Jose do Calcado
+3204906;São Mateus;Sao Mateus
+3204955;São Roque do Canaã;Sao Roque do Canaa
+3205002;Serra;Serra
+3205010;Sooretama;Sooretama
+3205036;Vargem Alta;Vargem Alta
+3205069;Venda Nova do Imigrante;Venda Nova do Imigrante
+3205101;Viana;Viana
+3205150;Vila Pavão;Vila Pavao
+3205176;Vila Valério;Vila Valerio
+3205200;Vila Velha;Vila Velha
+3205309;Vitória;Vitoria
+3300100;Angra dos Reis;Angra dos Reis
+3300159;Aperibé;Aperibe
+3300209;Araruama;Araruama
+3300225;Areal;Areal
+3300233;Armação dos Búzios;Armacao dos Buzios
+3300258;Arraial do Cabo;Arraial do Cabo
+3300308;Barra do Piraí;Barra do Pirai
+3300407;Barra Mansa;Barra Mansa
+3300456;Belford Roxo;Belford Roxo
+3300506;Bom Jardim;Bom Jardim
+3300605;Bom Jesus do Itabapoana;Bom Jesus do Itabapoana
+3300704;Cabo Frio;Cabo Frio
+3300803;Cachoeiras de Macacu;Cachoeiras de Macacu
+3300902;Cambuci;Cambuci
+3301009;Campos dos Goytacazes;Campos dos Goytacazes
+3301108;Cantagalo;Cantagalo
+3300936;Carapebus;Carapebus
+3301157;Cardoso Moreira;Cardoso Moreira
+3301207;Carmo;Carmo
+3301306;Casimiro de Abreu;Casimiro de Abreu
+3300951;Comendador Levy Gasparian;Comendador Levy Gasparian
+3301405;Conceição de Macabu;Conceicao de Macabu
+3301504;Cordeiro;Cordeiro
+3301603;Duas Barras;Duas Barras
+3301702;Duque de Caxias;Duque de Caxias
+3301801;Engenheiro Paulo de Frontin;Engenheiro Paulo de Frontin
+3301850;Guapimirim;Guapimirim
+3301876;Iguaba Grande;Iguaba Grande
+3301900;Itaboraí;Itaborai
+3302007;Itaguaí;Itaguai
+3302056;Italva;Italva
+3302106;Itaocara;Itaocara
+3302205;Itaperuna;Itaperuna
+3302254;Itatiaia;Itatiaia
+3302270;Japeri;Japeri
+3302304;Laje do Muriaé;Laje do Muriae
+3302403;Macaé;Macae
+3302452;Macuco;Macuco
+3302502;Magé;Mage
+3302601;Mangaratiba;Mangaratiba
+3302700;Maricá;Marica
+3302809;Mendes;Mendes
+3302858;Mesquita;Mesquita
+3302908;Miguel Pereira;Miguel Pereira
+3303005;Miracema;Miracema
+3303104;Natividade;Natividade
+3303203;Nilópolis;Nilopolis
+3303302;Niterói;Niteroi
+3303401;Nova Friburgo;Nova Friburgo
+3303500;Nova Iguaçu;Nova Iguacu
+3303609;Paracambi;Paracambi
+3303708;Paraíba do Sul;Paraiba do Sul
+3303807;Paraty;Paraty
+3303856;Paty do Alferes;Paty do Alferes
+3303906;Petrópolis;Petropolis
+3303955;Pinheiral;Pinheiral
+3304003;Piraí;Pirai
+3304102;Porciúncula;Porciuncula
+3304110;Porto Real;Porto Real
+3304128;Quatis;Quatis
+3304144;Queimados;Queimados
+3304151;Quissamã;Quissama
+3304201;Resende;Resende
+3304300;Rio Bonito;Rio Bonito
+3304409;Rio Claro;Rio Claro
+3304508;Rio das Flores;Rio das Flores
+3304524;Rio das Ostras;Rio das Ostras
+3304557;Rio de Janeiro;Rio de Janeiro
+3304607;Santa Maria Madalena;Santa Maria Madalena
+3304706;Santo Antônio de Pádua;Santo Antonio de Padua
+3304805;São Fidélis;Sao Fidelis
+3304755;São Francisco de Itabapoana;Sao Francisco de Itabapoana
+3304904;São Gonçalo;Sao Goncalo
+3305000;São João da Barra;Sao Joao da Barra
+3305109;São João de Meriti;Sao Joao de Meriti
+3305133;São José de Ubá;Sao Jose de Uba
+3305158;São José do Vale do Rio Preto;Sao Jose do Vale do Rio Preto
+3305208;São Pedro da Aldeia;Sao Pedro da Aldeia
+3305307;São Sebastião do Alto;Sao Sebastiao do Alto
+3305406;Sapucaia;Sapucaia
+3305505;Saquarema;Saquarema
+3305554;Seropédica;Seropedica
+3305604;Silva Jardim;Silva Jardim
+3305703;Sumidouro;Sumidouro
+3305752;Tanguá;Tangua
+3305802;Teresópolis;Teresopolis
+3305901;Trajano de Moraes;Trajano de Moraes
+3306008;Três Rios;Tres Rios
+3306107;Valença;Valenca
+3306156;Varre-Sai;Varre-Sai
+3306206;Vassouras;Vassouras
+3306305;Volta Redonda;Volta Redonda
+3500105;Adamantina;Adamantina
+3500204;Adolfo;Adolfo
+3500303;Aguaí;Aguai
+3500402;Águas da Prata;Aguas da Prata
+3500501;Águas de Lindóia;Aguas de Lindoia
+3500550;Águas de Santa Bárbara;Aguas de Santa Barbara
+3500600;Águas de São Pedro;Aguas de Sao Pedro
+3500709;Agudos;Agudos
+3500758;Alambari;Alambari
+3500808;Alfredo Marcondes;Alfredo Marcondes
+3500907;Altair;Altair
+3501004;Altinópolis;Altinopolis
+3501103;Alto Alegre;Alto Alegre
+3501152;Alumínio;Aluminio
+3501202;Álvares Florence;Alvares Florence
+3501301;Álvares Machado;Alvares Machado
+3501400;Álvaro de Carvalho;Alvaro de Carvalho
+3501509;Alvinlândia;Alvinlandia
+3501608;Americana;Americana
+3501707;Américo Brasiliense;Americo Brasiliense
+3501806;Américo de Campos;Americo de Campos
+3501905;Amparo;Amparo
+3502002;Analândia;Analandia
+3502101;Andradina;Andradina
+3502200;Angatuba;Angatuba
+3502309;Anhembi;Anhembi
+3502408;Anhumas;Anhumas
+3502507;Aparecida;Aparecida
+3502606;Aparecida d'Oeste;Aparecida d'Oeste
+3502705;Apiaí;Apiai
+3502754;Araçariguama;Aracariguama
+3502804;Araçatuba;Aracatuba
+3502903;Araçoiaba da Serra;Aracoiaba da Serra
+3503000;Aramina;Aramina
+3503109;Arandu;Arandu
+3503158;Arapeí;Arapei
+3503208;Araraquara;Araraquara
+3503307;Araras;Araras
+3503356;Arco-Íris;Arco-Iris
+3503406;Arealva;Arealva
+3503505;Areias;Areias
+3503604;Areiópolis;Areiopolis
+3503703;Ariranha;Ariranha
+3503802;Artur Nogueira;Artur Nogueira
+3503901;Arujá;Aruja
+3503950;Aspásia;Aspasia
+3504008;Assis;Assis
+3504107;Atibaia;Atibaia
+3504206;Auriflama;Auriflama
+3504305;Avaí;Avai
+3504404;Avanhandava;Avanhandava
+3504503;Avaré;Avare
+3504602;Bady Bassitt;Bady Bassitt
+3504701;Balbinos;Balbinos
+3504800;Bálsamo;Balsamo
+3504909;Bananal;Bananal
+3505005;Barão de Antonina;Barao de Antonina
+3505104;Barbosa;Barbosa
+3505203;Bariri;Bariri
+3505302;Barra Bonita;Barra Bonita
+3505351;Barra do Chapéu;Barra do Chapeu
+3505401;Barra do Turvo;Barra do Turvo
+3505500;Barretos;Barretos
+3505609;Barrinha;Barrinha
+3505708;Barueri;Barueri
+3505807;Bastos;Bastos
+3505906;Batatais;Batatais
+3506003;Bauru;Bauru
+3506102;Bebedouro;Bebedouro
+3506201;Bento de Abreu;Bento de Abreu
+3506300;Bernardino de Campos;Bernardino de Campos
+3506359;Bertioga;Bertioga
+3506409;Bilac;Bilac
+3506508;Birigui;Birigui
+3506607;Biritiba Mirim;Biritiba Mirim
+3506706;Boa Esperança do Sul;Boa Esperanca do Sul
+3506805;Bocaina;Bocaina
+3506904;Bofete;Bofete
+3507001;Boituva;Boituva
+3507100;Bom Jesus dos Perdões;Bom Jesus dos Perdoes
+3507159;Bom Sucesso de Itararé;Bom Sucesso de Itarare
+3507209;Borá;Bora
+3507308;Boracéia;Boraceia
+3507407;Borborema;Borborema
+3507456;Borebi;Borebi
+3507506;Botucatu;Botucatu
+3507605;Bragança Paulista;Braganca Paulista
+3507704;Braúna;Brauna
+3507753;Brejo Alegre;Brejo Alegre
+3507803;Brodowski;Brodowski
+3507902;Brotas;Brotas
+3508009;Buri;Buri
+3508108;Buritama;Buritama
+3508207;Buritizal;Buritizal
+3508306;Cabrália Paulista;Cabralia Paulista
+3508405;Cabreúva;Cabreuva
+3508504;Caçapava;Cacapava
+3508603;Cachoeira Paulista;Cachoeira Paulista
+3508702;Caconde;Caconde
+3508801;Cafelândia;Cafelandia
+3508900;Caiabu;Caiabu
+3509007;Caieiras;Caieiras
+3509106;Caiuá;Caiua
+3509205;Cajamar;Cajamar
+3509254;Cajati;Cajati
+3509304;Cajobi;Cajobi
+3509403;Cajuru;Cajuru
+3509452;Campina do Monte Alegre;Campina do Monte Alegre
+3509502;Campinas;Campinas
+3509601;Campo Limpo Paulista;Campo Limpo Paulista
+3509700;Campos do Jordão;Campos do Jordao
+3509809;Campos Novos Paulista;Campos Novos Paulista
+3509908;Cananéia;Cananeia
+3509957;Canas;Canas
+3510005;Cândido Mota;Candido Mota
+3510104;Cândido Rodrigues;Candido Rodrigues
+3510153;Canitar;Canitar
+3510203;Capão Bonito;Capao Bonito
+3510302;Capela do Alto;Capela do Alto
+3510401;Capivari;Capivari
+3510500;Caraguatatuba;Caraguatatuba
+3510609;Carapicuíba;Carapicuiba
+3510708;Cardoso;Cardoso
+3510807;Casa Branca;Casa Branca
+3510906;Cássia dos Coqueiros;Cassia dos Coqueiros
+3511003;Castilho;Castilho
+3511102;Catanduva;Catanduva
+3511201;Catiguá;Catigua
+3511300;Cedral;Cedral
+3511409;Cerqueira César;Cerqueira Cesar
+3511508;Cerquilho;Cerquilho
+3511607;Cesário Lange;Cesario Lange
+3511706;Charqueada;Charqueada
+3557204;Chavantes;Chavantes
+3511904;Clementina;Clementina
+3512001;Colina;Colina
+3512100;Colômbia;Colombia
+3512209;Conchal;Conchal
+3512308;Conchas;Conchas
+3512407;Cordeirópolis;Cordeiropolis
+3512506;Coroados;Coroados
+3512605;Coronel Macedo;Coronel Macedo
+3512704;Corumbataí;Corumbatai
+3512803;Cosmópolis;Cosmopolis
+3512902;Cosmorama;Cosmorama
+3513009;Cotia;Cotia
+3513108;Cravinhos;Cravinhos
+3513207;Cristais Paulista;Cristais Paulista
+3513306;Cruzália;Cruzalia
+3513405;Cruzeiro;Cruzeiro
+3513504;Cubatão;Cubatao
+3513603;Cunha;Cunha
+3513702;Descalvado;Descalvado
+3513801;Diadema;Diadema
+3513850;Dirce Reis;Dirce Reis
+3513900;Divinolândia;Divinolandia
+3514007;Dobrada;Dobrada
+3514106;Dois Córregos;Dois Corregos
+3514205;Dolcinópolis;Dolcinopolis
+3514304;Dourado;Dourado
+3514403;Dracena;Dracena
+3514502;Duartina;Duartina
+3514601;Dumont;Dumont
+3514700;Echaporã;Echapora
+3514809;Eldorado;Eldorado
+3514908;Elias Fausto;Elias Fausto
+3514924;Elisiário;Elisiario
+3514957;Embaúba;Embauba
+3515004;Embu das Artes;Embu das Artes
+3515103;Embu-Guaçu;Embu-Guacu
+3515129;Emilianópolis;Emilianopolis
+3515152;Engenheiro Coelho;Engenheiro Coelho
+3515186;Espírito Santo do Pinhal;Espirito Santo do Pinhal
+3515194;Espírito Santo do Turvo;Espirito Santo do Turvo
+3557303;Estiva Gerbi;Estiva Gerbi
+3515301;Estrela do Norte;Estrela do Norte
+3515202;Estrela d'Oeste;Estrela d'Oeste
+3515350;Euclides da Cunha Paulista;Euclides da Cunha Paulista
+3515400;Fartura;Fartura
+3515608;Fernando Prestes;Fernando Prestes
+3515509;Fernandópolis;Fernandopolis
+3515657;Fernão;Fernao
+3515707;Ferraz de Vasconcelos;Ferraz de Vasconcelos
+3515806;Flora Rica;Flora Rica
+3515905;Floreal;Floreal
+3516002;Flórida Paulista;Florida Paulista
+3516101;Florínea;Florinea
+3516200;Franca;Franca
+3516309;Francisco Morato;Francisco Morato
+3516408;Franco da Rocha;Franco da Rocha
+3516507;Gabriel Monteiro;Gabriel Monteiro
+3516606;Gália;Galia
+3516705;Garça;Garca
+3516804;Gastão Vidigal;Gastao Vidigal
+3516853;Gavião Peixoto;Gaviao Peixoto
+3516903;General Salgado;General Salgado
+3517000;Getulina;Getulina
+3517109;Glicério;Glicerio
+3517208;Guaiçara;Guaicara
+3517307;Guaimbê;Guaimbe
+3517406;Guaíra;Guaira
+3517505;Guapiaçu;Guapiacu
+3517604;Guapiara;Guapiara
+3517703;Guará;Guara
+3517802;Guaraçaí;Guaracai
+3517901;Guaraci;Guaraci
+3518008;Guarani d'Oeste;Guarani d'Oeste
+3518107;Guarantã;Guaranta
+3518206;Guararapes;Guararapes
+3518305;Guararema;Guararema
+3518404;Guaratinguetá;Guaratingueta
+3518503;Guareí;Guarei
+3518602;Guariba;Guariba
+3518701;Guarujá;Guaruja
+3518800;Guarulhos;Guarulhos
+3518859;Guatapará;Guatapara
+3518909;Guzolândia;Guzolandia
+3519006;Herculândia;Herculandia
+3519055;Holambra;Holambra
+3519071;Hortolândia;Hortolandia
+3519105;Iacanga;Iacanga
+3519204;Iacri;Iacri
+3519253;Iaras;Iaras
+3519303;Ibaté;Ibate
+3519402;Ibirá;Ibira
+3519501;Ibirarema;Ibirarema
+3519600;Ibitinga;Ibitinga
+3519709;Ibiúna;Ibiuna
+3519808;Icém;Icem
+3519907;Iepê;Iepe
+3520004;Igaraçu do Tietê;Igaracu do Tiete
+3520103;Igarapava;Igarapava
+3520202;Igaratá;Igarata
+3520301;Iguape;Iguape
+3520426;Ilha Comprida;Ilha Comprida
+3520442;Ilha Solteira;Ilha Solteira
+3520400;Ilhabela;Ilhabela
+3520509;Indaiatuba;Indaiatuba
+3520608;Indiana;Indiana
+3520707;Indiaporã;Indiapora
+3520806;Inúbia Paulista;Inubia Paulista
+3520905;Ipaussu;Ipaussu
+3521002;Iperó;Ipero
+3521101;Ipeúna;Ipeuna
+3521150;Ipiguá;Ipigua
+3521200;Iporanga;Iporanga
+3521309;Ipuã;Ipua
+3521408;Iracemápolis;Iracemapolis
+3521507;Irapuã;Irapua
+3521606;Irapuru;Irapuru
+3521705;Itaberá;Itabera
+3521804;Itaí;Itai
+3521903;Itajobi;Itajobi
+3522000;Itaju;Itaju
+3522109;Itanhaém;Itanhaem
+3522158;Itaoca;Itaoca
+3522208;Itapecerica da Serra;Itapecerica da Serra
+3522307;Itapetininga;Itapetininga
+3522406;Itapeva;Itapeva
+3522505;Itapevi;Itapevi
+3522604;Itapira;Itapira
+3522653;Itapirapuã Paulista;Itapirapua Paulista
+3522703;Itápolis;Itapolis
+3522802;Itaporanga;Itaporanga
+3522901;Itapuí;Itapui
+3523008;Itapura;Itapura
+3523107;Itaquaquecetuba;Itaquaquecetuba
+3523206;Itararé;Itarare
+3523305;Itariri;Itariri
+3523404;Itatiba;Itatiba
+3523503;Itatinga;Itatinga
+3523602;Itirapina;Itirapina
+3523701;Itirapuã;Itirapua
+3523800;Itobi;Itobi
+3523909;Itu;Itu
+3524006;Itupeva;Itupeva
+3524105;Ituverava;Ituverava
+3524204;Jaborandi;Jaborandi
+3524303;Jaboticabal;Jaboticabal
+3524402;Jacareí;Jacarei
+3524501;Jaci;Jaci
+3524600;Jacupiranga;Jacupiranga
+3524709;Jaguariúna;Jaguariuna
+3524808;Jales;Jales
+3524907;Jambeiro;Jambeiro
+3525003;Jandira;Jandira
+3525102;Jardinópolis;Jardinopolis
+3525201;Jarinu;Jarinu
+3525300;Jaú;Jau
+3525409;Jeriquara;Jeriquara
+3525508;Joanópolis;Joanopolis
+3525607;João Ramalho;Joao Ramalho
+3525706;José Bonifácio;Jose Bonifacio
+3525805;Júlio Mesquita;Julio Mesquita
+3525854;Jumirim;Jumirim
+3525904;Jundiaí;Jundiai
+3526001;Junqueirópolis;Junqueiropolis
+3526100;Juquiá;Juquia
+3526209;Juquitiba;Juquitiba
+3526308;Lagoinha;Lagoinha
+3526407;Laranjal Paulista;Laranjal Paulista
+3526506;Lavínia;Lavinia
+3526605;Lavrinhas;Lavrinhas
+3526704;Leme;Leme
+3526803;Lençóis Paulista;Lencois Paulista
+3526902;Limeira;Limeira
+3527009;Lindóia;Lindoia
+3527108;Lins;Lins
+3527207;Lorena;Lorena
+3527256;Lourdes;Lourdes
+3527306;Louveira;Louveira
+3527405;Lucélia;Lucelia
+3527504;Lucianópolis;Lucianopolis
+3527603;Luís Antônio;Luis Antonio
+3527702;Luiziânia;Luiziania
+3527801;Lupércio;Lupercio
+3527900;Lutécia;Lutecia
+3528007;Macatuba;Macatuba
+3528106;Macaubal;Macaubal
+3528205;Macedônia;Macedonia
+3528304;Magda;Magda
+3528403;Mairinque;Mairinque
+3528502;Mairiporã;Mairipora
+3528601;Manduri;Manduri
+3528700;Marabá Paulista;Maraba Paulista
+3528809;Maracaí;Maracai
+3528858;Marapoama;Marapoama
+3528908;Mariápolis;Mariapolis
+3529005;Marília;Marilia
+3529104;Marinópolis;Marinopolis
+3529203;Martinópolis;Martinopolis
+3529302;Matão;Matao
+3529401;Mauá;Maua
+3529500;Mendonça;Mendonca
+3529609;Meridiano;Meridiano
+3529658;Mesópolis;Mesopolis
+3529708;Miguelópolis;Miguelopolis
+3529807;Mineiros do Tietê;Mineiros do Tiete
+3530003;Mira Estrela;Mira Estrela
+3529906;Miracatu;Miracatu
+3530102;Mirandópolis;Mirandopolis
+3530201;Mirante do Paranapanema;Mirante do Paranapanema
+3530300;Mirassol;Mirassol
+3530409;Mirassolândia;Mirassolandia
+3530508;Mococa;Mococa
+3530607;Mogi das Cruzes;Mogi das Cruzes
+3530706;Mogi Guaçu;Mogi Guacu
+3530805;Mogi Mirim;Mogi Mirim
+3530904;Mombuca;Mombuca
+3531001;Monções;Moncoes
+3531100;Mongaguá;Mongagua
+3531209;Monte Alegre do Sul;Monte Alegre do Sul
+3531308;Monte Alto;Monte Alto
+3531407;Monte Aprazível;Monte Aprazivel
+3531506;Monte Azul Paulista;Monte Azul Paulista
+3531605;Monte Castelo;Monte Castelo
+3531803;Monte Mor;Monte Mor
+3531704;Monteiro Lobato;Monteiro Lobato
+3531902;Morro Agudo;Morro Agudo
+3532009;Morungaba;Morungaba
+3532058;Motuca;Motuca
+3532108;Murutinga do Sul;Murutinga do Sul
+3532157;Nantes;Nantes
+3532207;Narandiba;Narandiba
+3532306;Natividade da Serra;Natividade da Serra
+3532405;Nazaré Paulista;Nazare Paulista
+3532504;Neves Paulista;Neves Paulista
+3532603;Nhandeara;Nhandeara
+3532702;Nipoã;Nipoa
+3532801;Nova Aliança;Nova Alianca
+3532827;Nova Campina;Nova Campina
+3532843;Nova Canaã Paulista;Nova Canaa Paulista
+3532868;Nova Castilho;Nova Castilho
+3532900;Nova Europa;Nova Europa
+3533007;Nova Granada;Nova Granada
+3533106;Nova Guataporanga;Nova Guataporanga
+3533205;Nova Independência;Nova Independencia
+3533304;Nova Luzitânia;Nova Luzitania
+3533403;Nova Odessa;Nova Odessa
+3533254;Novais;Novais
+3533502;Novo Horizonte;Novo Horizonte
+3533601;Nuporanga;Nuporanga
+3533700;Ocauçu;Ocaucu
+3533809;Óleo;Oleo
+3533908;Olímpia;Olimpia
+3534005;Onda Verde;Onda Verde
+3534104;Oriente;Oriente
+3534203;Orindiúva;Orindiuva
+3534302;Orlândia;Orlandia
+3534401;Osasco;Osasco
+3534500;Oscar Bressane;Oscar Bressane
+3534609;Osvaldo Cruz;Osvaldo Cruz
+3534708;Ourinhos;Ourinhos
+3534807;Ouro Verde;Ouro Verde
+3534757;Ouroeste;Ouroeste
+3534906;Pacaembu;Pacaembu
+3535002;Palestina;Palestina
+3535101;Palmares Paulista;Palmares Paulista
+3535200;Palmeira d'Oeste;Palmeira d'Oeste
+3535309;Palmital;Palmital
+3535408;Panorama;Panorama
+3535507;Paraguaçu Paulista;Paraguacu Paulista
+3535606;Paraibuna;Paraibuna
+3535705;Paraíso;Paraiso
+3535804;Paranapanema;Paranapanema
+3535903;Paranapuã;Paranapua
+3536000;Parapuã;Parapua
+3536109;Pardinho;Pardinho
+3536208;Pariquera-Açu;Pariquera-Acu
+3536257;Parisi;Parisi
+3536307;Patrocínio Paulista;Patrocinio Paulista
+3536406;Paulicéia;Pauliceia
+3536505;Paulínia;Paulinia
+3536570;Paulistânia;Paulistania
+3536604;Paulo de Faria;Paulo de Faria
+3536703;Pederneiras;Pederneiras
+3536802;Pedra Bela;Pedra Bela
+3536901;Pedranópolis;Pedranopolis
+3537008;Pedregulho;Pedregulho
+3537107;Pedreira;Pedreira
+3537156;Pedrinhas Paulista;Pedrinhas Paulista
+3537206;Pedro de Toledo;Pedro de Toledo
+3537305;Penápolis;Penapolis
+3537404;Pereira Barreto;Pereira Barreto
+3537503;Pereiras;Pereiras
+3537602;Peruíbe;Peruibe
+3537701;Piacatu;Piacatu
+3537800;Piedade;Piedade
+3537909;Pilar do Sul;Pilar do Sul
+3538006;Pindamonhangaba;Pindamonhangaba
+3538105;Pindorama;Pindorama
+3538204;Pinhalzinho;Pinhalzinho
+3538303;Piquerobi;Piquerobi
+3538501;Piquete;Piquete
+3538600;Piracaia;Piracaia
+3538709;Piracicaba;Piracicaba
+3538808;Piraju;Piraju
+3538907;Pirajuí;Pirajui
+3539004;Pirangi;Pirangi
+3539103;Pirapora do Bom Jesus;Pirapora do Bom Jesus
+3539202;Pirapozinho;Pirapozinho
+3539301;Pirassununga;Pirassununga
+3539400;Piratininga;Piratininga
+3539509;Pitangueiras;Pitangueiras
+3539608;Planalto;Planalto
+3539707;Platina;Platina
+3539806;Poá;Poa
+3539905;Poloni;Poloni
+3540002;Pompéia;Pompeia
+3540101;Pongaí;Pongai
+3540200;Pontal;Pontal
+3540259;Pontalinda;Pontalinda
+3540309;Pontes Gestal;Pontes Gestal
+3540408;Populina;Populina
+3540507;Porangaba;Porangaba
+3540606;Porto Feliz;Porto Feliz
+3540705;Porto Ferreira;Porto Ferreira
+3540754;Potim;Potim
+3540804;Potirendaba;Potirendaba
+3540853;Pracinha;Pracinha
+3540903;Pradópolis;Pradopolis
+3541000;Praia Grande;Praia Grande
+3541059;Pratânia;Pratania
+3541109;Presidente Alves;Presidente Alves
+3541208;Presidente Bernardes;Presidente Bernardes
+3541307;Presidente Epitácio;Presidente Epitacio
+3541406;Presidente Prudente;Presidente Prudente
+3541505;Presidente Venceslau;Presidente Venceslau
+3541604;Promissão;Promissao
+3541653;Quadra;Quadra
+3541703;Quatá;Quata
+3541802;Queiroz;Queiroz
+3541901;Queluz;Queluz
+3542008;Quintana;Quintana
+3542107;Rafard;Rafard
+3542206;Rancharia;Rancharia
+3542305;Redenção da Serra;Redencao da Serra
+3542404;Regente Feijó;Regente Feijo
+3542503;Reginópolis;Reginopolis
+3542602;Registro;Registro
+3542701;Restinga;Restinga
+3542800;Ribeira;Ribeira
+3542909;Ribeirão Bonito;Ribeirao Bonito
+3543006;Ribeirão Branco;Ribeirao Branco
+3543105;Ribeirão Corrente;Ribeirao Corrente
+3543204;Ribeirão do Sul;Ribeirao do Sul
+3543238;Ribeirão dos Índios;Ribeirao dos Indios
+3543253;Ribeirão Grande;Ribeirao Grande
+3543303;Ribeirão Pires;Ribeirao Pires
+3543402;Ribeirão Preto;Ribeirao Preto
+3543600;Rifaina;Rifaina
+3543709;Rincão;Rincao
+3543808;Rinópolis;Rinopolis
+3543907;Rio Claro;Rio Claro
+3544004;Rio das Pedras;Rio das Pedras
+3544103;Rio Grande da Serra;Rio Grande da Serra
+3544202;Riolândia;Riolandia
+3543501;Riversul;Riversul
+3544251;Rosana;Rosana
+3544301;Roseira;Roseira
+3544400;Rubiácea;Rubiacea
+3544509;Rubinéia;Rubineia
+3544608;Sabino;Sabino
+3544707;Sagres;Sagres
+3544806;Sales;Sales
+3544905;Sales Oliveira;Sales Oliveira
+3545001;Salesópolis;Salesopolis
+3545100;Salmourão;Salmourao
+3545159;Saltinho;Saltinho
+3545209;Salto;Salto
+3545308;Salto de Pirapora;Salto de Pirapora
+3545407;Salto Grande;Salto Grande
+3545506;Sandovalina;Sandovalina
+3545605;Santa Adélia;Santa Adelia
+3545704;Santa Albertina;Santa Albertina
+3545803;Santa Bárbara d'Oeste;Santa Barbara d'Oeste
+3546009;Santa Branca;Santa Branca
+3546108;Santa Clara d'Oeste;Santa Clara d'Oeste
+3546207;Santa Cruz da Conceição;Santa Cruz da Conceicao
+3546256;Santa Cruz da Esperança;Santa Cruz da Esperanca
+3546306;Santa Cruz das Palmeiras;Santa Cruz das Palmeiras
+3546405;Santa Cruz do Rio Pardo;Santa Cruz do Rio Pardo
+3546504;Santa Ernestina;Santa Ernestina
+3546603;Santa Fé do Sul;Santa Fe do Sul
+3546702;Santa Gertrudes;Santa Gertrudes
+3546801;Santa Isabel;Santa Isabel
+3546900;Santa Lúcia;Santa Lucia
+3547007;Santa Maria da Serra;Santa Maria da Serra
+3547106;Santa Mercedes;Santa Mercedes
+3547502;Santa Rita do Passa Quatro;Santa Rita do Passa Quatro
+3547403;Santa Rita d'Oeste;Santa Rita d'Oeste
+3547601;Santa Rosa de Viterbo;Santa Rosa de Viterbo
+3547650;Santa Salete;Santa Salete
+3547205;Santana da Ponte Pensa;Santana da Ponte Pensa
+3547304;Santana de Parnaíba;Santana de Parnaiba
+3547700;Santo Anastácio;Santo Anastacio
+3547809;Santo André;Santo Andre
+3547908;Santo Antônio da Alegria;Santo Antonio da Alegria
+3548005;Santo Antônio de Posse;Santo Antonio de Posse
+3548054;Santo Antônio do Aracanguá;Santo Antonio do Aracangua
+3548104;Santo Antônio do Jardim;Santo Antonio do Jardim
+3548203;Santo Antônio do Pinhal;Santo Antonio do Pinhal
+3548302;Santo Expedito;Santo Expedito
+3548401;Santópolis do Aguapeí;Santopolis do Aguapei
+3548500;Santos;Santos
+3548609;São Bento do Sapucaí;Sao Bento do Sapucai
+3548708;São Bernardo do Campo;Sao Bernardo do Campo
+3548807;São Caetano do Sul;Sao Caetano do Sul
+3548906;São Carlos;Sao Carlos
+3549003;São Francisco;Sao Francisco
+3549102;São João da Boa Vista;Sao Joao da Boa Vista
+3549201;São João das Duas Pontes;Sao Joao das Duas Pontes
+3549250;São João de Iracema;Sao Joao de Iracema
+3549300;São João do Pau d'Alho;Sao Joao do Pau d'Alho
+3549409;São Joaquim da Barra;Sao Joaquim da Barra
+3549508;São José da Bela Vista;Sao Jose da Bela Vista
+3549607;São José do Barreiro;Sao Jose do Barreiro
+3549706;São José do Rio Pardo;Sao Jose do Rio Pardo
+3549805;São José do Rio Preto;Sao Jose do Rio Preto
+3549904;São José dos Campos;Sao Jose dos Campos
+3549953;São Lourenço da Serra;Sao Lourenco da Serra
+3550001;São Luiz do Paraitinga;Sao Luiz do Paraitinga
+3550100;São Manuel;Sao Manuel
+3550209;São Miguel Arcanjo;Sao Miguel Arcanjo
+3550308;São Paulo;Sao Paulo
+3550407;São Pedro;Sao Pedro
+3550506;São Pedro do Turvo;Sao Pedro do Turvo
+3550605;São Roque;Sao Roque
+3550704;São Sebastião;Sao Sebastiao
+3550803;São Sebastião da Grama;Sao Sebastiao da Grama
+3550902;São Simão;Sao Simao
+3551009;São Vicente;Sao Vicente
+3551108;Sarapuí;Sarapui
+3551207;Sarutaiá;Sarutaia
+3551306;Sebastianópolis do Sul;Sebastianopolis do Sul
+3551405;Serra Azul;Serra Azul
+3551603;Serra Negra;Serra Negra
+3551504;Serrana;Serrana
+3551702;Sertãozinho;Sertaozinho
+3551801;Sete Barras;Sete Barras
+3551900;Severínia;Severinia
+3552007;Silveiras;Silveiras
+3552106;Socorro;Socorro
+3552205;Sorocaba;Sorocaba
+3552304;Sud Mennucci;Sud Mennucci
+3552403;Sumaré;Sumare
+3552551;Suzanápolis;Suzanapolis
+3552502;Suzano;Suzano
+3552601;Tabapuã;Tabapua
+3552700;Tabatinga;Tabatinga
+3552809;Taboão da Serra;Taboao da Serra
+3552908;Taciba;Taciba
+3553005;Taguaí;Taguai
+3553104;Taiaçu;Taiacu
+3553203;Taiúva;Taiuva
+3553302;Tambaú;Tambau
+3553401;Tanabi;Tanabi
+3553500;Tapiraí;Tapirai
+3553609;Tapiratiba;Tapiratiba
+3553658;Taquaral;Taquaral
+3553708;Taquaritinga;Taquaritinga
+3553807;Taquarituba;Taquarituba
+3553856;Taquarivaí;Taquarivai
+3553906;Tarabai;Tarabai
+3553955;Tarumã;Taruma
+3554003;Tatuí;Tatui
+3554102;Taubaté;Taubate
+3554201;Tejupá;Tejupa
+3554300;Teodoro Sampaio;Teodoro Sampaio
+3554409;Terra Roxa;Terra Roxa
+3554508;Tietê;Tiete
+3554607;Timburi;Timburi
+3554656;Torre de Pedra;Torre de Pedra
+3554706;Torrinha;Torrinha
+3554755;Trabiju;Trabiju
+3554805;Tremembé;Tremembe
+3554904;Três Fronteiras;Tres Fronteiras
+3554953;Tuiuti;Tuiuti
+3555000;Tupã;Tupa
+3555109;Tupi Paulista;Tupi Paulista
+3555208;Turiúba;Turiuba
+3555307;Turmalina;Turmalina
+3555356;Ubarana;Ubarana
+3555406;Ubatuba;Ubatuba
+3555505;Ubirajara;Ubirajara
+3555604;Uchoa;Uchoa
+3555703;União Paulista;Uniao Paulista
+3555802;Urânia;Urania
+3555901;Uru;Uru
+3556008;Urupês;Urupes
+3556107;Valentim Gentil;Valentim Gentil
+3556206;Valinhos;Valinhos
+3556305;Valparaíso;Valparaiso
+3556354;Vargem;Vargem
+3556404;Vargem Grande do Sul;Vargem Grande do Sul
+3556453;Vargem Grande Paulista;Vargem Grande Paulista
+3556503;Várzea Paulista;Varzea Paulista
+3556602;Vera Cruz;Vera Cruz
+3556701;Vinhedo;Vinhedo
+3556800;Viradouro;Viradouro
+3556909;Vista Alegre do Alto;Vista Alegre do Alto
+3556958;Vitória Brasil;Vitoria Brasil
+3557006;Votorantim;Votorantim
+3557105;Votuporanga;Votuporanga
+3557154;Zacarias;Zacarias
+4100103;Abatiá;Abatia
+4100202;Adrianópolis;Adrianopolis
+4100301;Agudos do Sul;Agudos do Sul
+4100400;Almirante Tamandaré;Almirante Tamandare
+4100459;Altamira do Paraná;Altamira do Parana
+4128625;Alto Paraíso;Alto Paraiso
+4100608;Alto Paraná;Alto Parana
+4100707;Alto Piquiri;Alto Piquiri
+4100509;Altônia;Altonia
+4100806;Alvorada do Sul;Alvorada do Sul
+4100905;Amaporã;Amapora
+4101002;Ampére;Ampere
+4101051;Anahy;Anahy
+4101101;Andirá;Andira
+4101150;Ângulo;Angulo
+4101200;Antonina;Antonina
+4101309;Antônio Olinto;Antonio Olinto
+4101408;Apucarana;Apucarana
+4101507;Arapongas;Arapongas
+4101606;Arapoti;Arapoti
+4101655;Arapuã;Arapua
+4101705;Araruna;Araruna
+4101804;Araucária;Araucaria
+4101853;Ariranha do Ivaí;Ariranha do Ivai
+4101903;Assaí;Assai
+4102000;Assis Chateaubriand;Assis Chateaubriand
+4102109;Astorga;Astorga
+4102208;Atalaia;Atalaia
+4102307;Balsa Nova;Balsa Nova
+4102406;Bandeirantes;Bandeirantes
+4102505;Barbosa Ferraz;Barbosa Ferraz
+4102703;Barra do Jacaré;Barra do Jacare
+4102604;Barracão;Barracao
+4102752;Bela Vista da Caroba;Bela Vista da Caroba
+4102802;Bela Vista do Paraíso;Bela Vista do Paraiso
+4102901;Bituruna;Bituruna
+4103008;Boa Esperança;Boa Esperanca
+4103024;Boa Esperança do Iguaçu;Boa Esperanca do Iguacu
+4103040;Boa Ventura de São Roque;Boa Ventura de Sao Roque
+4103057;Boa Vista da Aparecida;Boa Vista da Aparecida
+4103107;Bocaiúva do Sul;Bocaiuva do Sul
+4103156;Bom Jesus do Sul;Bom Jesus do Sul
+4103206;Bom Sucesso;Bom Sucesso
+4103222;Bom Sucesso do Sul;Bom Sucesso do Sul
+4103305;Borrazópolis;Borrazopolis
+4103354;Braganey;Braganey
+4103370;Brasilândia do Sul;Brasilandia do Sul
+4103404;Cafeara;Cafeara
+4103453;Cafelândia;Cafelandia
+4103479;Cafezal do Sul;Cafezal do Sul
+4103503;Califórnia;California
+4103602;Cambará;Cambara
+4103701;Cambé;Cambe
+4103800;Cambira;Cambira
+4103909;Campina da Lagoa;Campina da Lagoa
+4103958;Campina do Simão;Campina do Simao
+4104006;Campina Grande do Sul;Campina Grande do Sul
+4104055;Campo Bonito;Campo Bonito
+4104105;Campo do Tenente;Campo do Tenente
+4104204;Campo Largo;Campo Largo
+4104253;Campo Magro;Campo Magro
+4104303;Campo Mourão;Campo Mourao
+4104402;Cândido de Abreu;Candido de Abreu
+4104428;Candói;Candoi
+4104451;Cantagalo;Cantagalo
+4104501;Capanema;Capanema
+4104600;Capitão Leônidas Marques;Capitao Leonidas Marques
+4104659;Carambeí;Carambei
+4104709;Carlópolis;Carlopolis
+4104808;Cascavel;Cascavel
+4104907;Castro;Castro
+4105003;Catanduvas;Catanduvas
+4105102;Centenário do Sul;Centenario do Sul
+4105201;Cerro Azul;Cerro Azul
+4105300;Céu Azul;Ceu Azul
+4105409;Chopinzinho;Chopinzinho
+4105508;Cianorte;Cianorte
+4105607;Cidade Gaúcha;Cidade Gaucha
+4105706;Clevelândia;Clevelandia
+4105805;Colombo;Colombo
+4105904;Colorado;Colorado
+4106001;Congonhinhas;Congonhinhas
+4106100;Conselheiro Mairinck;Conselheiro Mairinck
+4106209;Contenda;Contenda
+4106308;Corbélia;Corbelia
+4106407;Cornélio Procópio;Cornelio Procopio
+4106456;Coronel Domingos Soares;Coronel Domingos Soares
+4106506;Coronel Vivida;Coronel Vivida
+4106555;Corumbataí do Sul;Corumbatai do Sul
+4106803;Cruz Machado;Cruz Machado
+4106571;Cruzeiro do Iguaçu;Cruzeiro do Iguacu
+4106605;Cruzeiro do Oeste;Cruzeiro do Oeste
+4106704;Cruzeiro do Sul;Cruzeiro do Sul
+4106852;Cruzmaltina;Cruzmaltina
+4106902;Curitiba;Curitiba
+4107009;Curiúva;Curiuva
+4107108;Diamante do Norte;Diamante do Norte
+4107124;Diamante do Sul;Diamante do Sul
+4107157;Diamante D'Oeste;Diamante D'Oeste
+4107207;Dois Vizinhos;Dois Vizinhos
+4107256;Douradina;Douradina
+4107306;Doutor Camargo;Doutor Camargo
+4128633;Doutor Ulysses;Doutor Ulysses
+4107405;Enéas Marques;Eneas Marques
+4107504;Engenheiro Beltrão;Engenheiro Beltrao
+4107538;Entre Rios do Oeste;Entre Rios do Oeste
+4107520;Esperança Nova;Esperanca Nova
+4107546;Espigão Alto do Iguaçu;Espigao Alto do Iguacu
+4107553;Farol;Farol
+4107603;Faxinal;Faxinal
+4107652;Fazenda Rio Grande;Fazenda Rio Grande
+4107702;Fênix;Fenix
+4107736;Fernandes Pinheiro;Fernandes Pinheiro
+4107751;Figueira;Figueira
+4107850;Flor da Serra do Sul;Flor da Serra do Sul
+4107801;Floraí;Florai
+4107900;Floresta;Floresta
+4108007;Florestópolis;Florestopolis
+4108106;Flórida;Florida
+4108205;Formosa do Oeste;Formosa do Oeste
+4108304;Foz do Iguaçu;Foz do Iguacu
+4108452;Foz do Jordão;Foz do Jordao
+4108320;Francisco Alves;Francisco Alves
+4108403;Francisco Beltrão;Francisco Beltrao
+4108502;General Carneiro;General Carneiro
+4108551;Godoy Moreira;Godoy Moreira
+4108601;Goioerê;Goioere
+4108650;Goioxim;Goioxim
+4108700;Grandes Rios;Grandes Rios
+4108809;Guaíra;Guaira
+4108908;Guairaçá;Guairaca
+4108957;Guamiranga;Guamiranga
+4109005;Guapirama;Guapirama
+4109104;Guaporema;Guaporema
+4109203;Guaraci;Guaraci
+4109302;Guaraniaçu;Guaraniacu
+4109401;Guarapuava;Guarapuava
+4109500;Guaraqueçaba;Guaraquecaba
+4109609;Guaratuba;Guaratuba
+4109658;Honório Serpa;Honorio Serpa
+4109708;Ibaiti;Ibaiti
+4109757;Ibema;Ibema
+4109807;Ibiporã;Ibipora
+4109906;Icaraíma;Icaraima
+4110003;Iguaraçu;Iguaracu
+4110052;Iguatu;Iguatu
+4110078;Imbaú;Imbau
+4110102;Imbituva;Imbituva
+4110201;Inácio Martins;Inacio Martins
+4110300;Inajá;Inaja
+4110409;Indianópolis;Indianopolis
+4110508;Ipiranga;Ipiranga
+4110607;Iporã;Ipora
+4110656;Iracema do Oeste;Iracema do Oeste
+4110706;Irati;Irati
+4110805;Iretama;Iretama
+4110904;Itaguajé;Itaguaje
+4110953;Itaipulândia;Itaipulandia
+4111001;Itambaracá;Itambaraca
+4111100;Itambé;Itambe
+4111209;Itapejara d'Oeste;Itapejara d'Oeste
+4111258;Itaperuçu;Itaperucu
+4111308;Itaúna do Sul;Itauna do Sul
+4111407;Ivaí;Ivai
+4111506;Ivaiporã;Ivaipora
+4111555;Ivaté;Ivate
+4111605;Ivatuba;Ivatuba
+4111704;Jaboti;Jaboti
+4111803;Jacarezinho;Jacarezinho
+4111902;Jaguapitã;Jaguapita
+4112009;Jaguariaíva;Jaguariaiva
+4112108;Jandaia do Sul;Jandaia do Sul
+4112207;Janiópolis;Janiopolis
+4112306;Japira;Japira
+4112405;Japurá;Japura
+4112504;Jardim Alegre;Jardim Alegre
+4112603;Jardim Olinda;Jardim Olinda
+4112702;Jataizinho;Jataizinho
+4112751;Jesuítas;Jesuitas
+4112801;Joaquim Távora;Joaquim Tavora
+4112900;Jundiaí do Sul;Jundiai do Sul
+4112959;Juranda;Juranda
+4113007;Jussara;Jussara
+4113106;Kaloré;Kalore
+4113205;Lapa;Lapa
+4113254;Laranjal;Laranjal
+4113304;Laranjeiras do Sul;Laranjeiras do Sul
+4113403;Leópolis;Leopolis
+4113429;Lidianópolis;Lidianopolis
+4113452;Lindoeste;Lindoeste
+4113502;Loanda;Loanda
+4113601;Lobato;Lobato
+4113700;Londrina;Londrina
+4113734;Luiziana;Luiziana
+4113759;Lunardelli;Lunardelli
+4113809;Lupionópolis;Lupionopolis
+4113908;Mallet;Mallet
+4114005;Mamborê;Mambore
+4114104;Mandaguaçu;Mandaguacu
+4114203;Mandaguari;Mandaguari
+4114302;Mandirituba;Mandirituba
+4114351;Manfrinópolis;Manfrinopolis
+4114401;Mangueirinha;Mangueirinha
+4114500;Manoel Ribas;Manoel Ribas
+4114609;Marechal Cândido Rondon;Marechal Candido Rondon
+4114708;Maria Helena;Maria Helena
+4114807;Marialva;Marialva
+4114906;Marilândia do Sul;Marilandia do Sul
+4115002;Marilena;Marilena
+4115101;Mariluz;Mariluz
+4115200;Maringá;Maringa
+4115309;Mariópolis;Mariopolis
+4115358;Maripá;Maripa
+4115408;Marmeleiro;Marmeleiro
+4115457;Marquinho;Marquinho
+4115507;Marumbi;Marumbi
+4115606;Matelândia;Matelandia
+4115705;Matinhos;Matinhos
+4115739;Mato Rico;Mato Rico
+4115754;Mauá da Serra;Maua da Serra
+4115804;Medianeira;Medianeira
+4115853;Mercedes;Mercedes
+4115903;Mirador;Mirador
+4116000;Miraselva;Miraselva
+4116059;Missal;Missal
+4116109;Moreira Sales;Moreira Sales
+4116208;Morretes;Morretes
+4116307;Munhoz de Melo;Munhoz de Melo
+4116406;Nossa Senhora das Graças;Nossa Senhora das Gracas
+4116505;Nova Aliança do Ivaí;Nova Alianca do Ivai
+4116604;Nova América da Colina;Nova America da Colina
+4116703;Nova Aurora;Nova Aurora
+4116802;Nova Cantu;Nova Cantu
+4116901;Nova Esperança;Nova Esperanca
+4116950;Nova Esperança do Sudoeste;Nova Esperanca do Sudoeste
+4117008;Nova Fátima;Nova Fatima
+4117057;Nova Laranjeiras;Nova Laranjeiras
+4117107;Nova Londrina;Nova Londrina
+4117206;Nova Olímpia;Nova Olimpia
+4117255;Nova Prata do Iguaçu;Nova Prata do Iguacu
+4117214;Nova Santa Bárbara;Nova Santa Barbara
+4117222;Nova Santa Rosa;Nova Santa Rosa
+4117271;Nova Tebas;Nova Tebas
+4117297;Novo Itacolomi;Novo Itacolomi
+4117305;Ortigueira;Ortigueira
+4117404;Ourizona;Ourizona
+4117453;Ouro Verde do Oeste;Ouro Verde do Oeste
+4117503;Paiçandu;Paicandu
+4117602;Palmas;Palmas
+4117701;Palmeira;Palmeira
+4117800;Palmital;Palmital
+4117909;Palotina;Palotina
+4118006;Paraíso do Norte;Paraiso do Norte
+4118105;Paranacity;Paranacity
+4118204;Paranaguá;Paranagua
+4118303;Paranapoema;Paranapoema
+4118402;Paranavaí;Paranavai
+4118451;Pato Bragado;Pato Bragado
+4118501;Pato Branco;Pato Branco
+4118600;Paula Freitas;Paula Freitas
+4118709;Paulo Frontin;Paulo Frontin
+4118808;Peabiru;Peabiru
+4118857;Perobal;Perobal
+4118907;Pérola;Perola
+4119004;Pérola d'Oeste;Perola d'Oeste
+4119103;Piên;Pien
+4119152;Pinhais;Pinhais
+4119251;Pinhal de São Bento;Pinhal de Sao Bento
+4119202;Pinhalão;Pinhalao
+4119301;Pinhão;Pinhao
+4119400;Piraí do Sul;Pirai do Sul
+4119509;Piraquara;Piraquara
+4119608;Pitanga;Pitanga
+4119657;Pitangueiras;Pitangueiras
+4119707;Planaltina do Paraná;Planaltina do Parana
+4119806;Planalto;Planalto
+4119905;Ponta Grossa;Ponta Grossa
+4119954;Pontal do Paraná;Pontal do Parana
+4120002;Porecatu;Porecatu
+4120101;Porto Amazonas;Porto Amazonas
+4120150;Porto Barreiro;Porto Barreiro
+4120200;Porto Rico;Porto Rico
+4120309;Porto Vitória;Porto Vitoria
+4120333;Prado Ferreira;Prado Ferreira
+4120358;Pranchita;Pranchita
+4120408;Presidente Castelo Branco;Presidente Castelo Branco
+4120507;Primeiro de Maio;Primeiro de Maio
+4120606;Prudentópolis;Prudentopolis
+4120655;Quarto Centenário;Quarto Centenario
+4120705;Quatiguá;Quatigua
+4120804;Quatro Barras;Quatro Barras
+4120853;Quatro Pontes;Quatro Pontes
+4120903;Quedas do Iguaçu;Quedas do Iguacu
+4121000;Querência do Norte;Querencia do Norte
+4121109;Quinta do Sol;Quinta do Sol
+4121208;Quitandinha;Quitandinha
+4121257;Ramilândia;Ramilandia
+4121307;Rancho Alegre;Rancho Alegre
+4121356;Rancho Alegre D'Oeste;Rancho Alegre D'Oeste
+4121406;Realeza;Realeza
+4121505;Rebouças;Reboucas
+4121604;Renascença;Renascenca
+4121703;Reserva;Reserva
+4121752;Reserva do Iguaçu;Reserva do Iguacu
+4121802;Ribeirão Claro;Ribeirao Claro
+4121901;Ribeirão do Pinhal;Ribeirao do Pinhal
+4122008;Rio Azul;Rio Azul
+4122107;Rio Bom;Rio Bom
+4122156;Rio Bonito do Iguaçu;Rio Bonito do Iguacu
+4122172;Rio Branco do Ivaí;Rio Branco do Ivai
+4122206;Rio Branco do Sul;Rio Branco do Sul
+4122305;Rio Negro;Rio Negro
+4122404;Rolândia;Rolandia
+4122503;Roncador;Roncador
+4122602;Rondon;Rondon
+4122651;Rosário do Ivaí;Rosario do Ivai
+4122701;Sabáudia;Sabaudia
+4122800;Salgado Filho;Salgado Filho
+4122909;Salto do Itararé;Salto do Itarare
+4123006;Salto do Lontra;Salto do Lontra
+4123105;Santa Amélia;Santa Amelia
+4123204;Santa Cecília do Pavão;Santa Cecilia do Pavao
+4123303;Santa Cruz de Monte Castelo;Santa Cruz de Monte Castelo
+4123402;Santa Fé;Santa Fe
+4123501;Santa Helena;Santa Helena
+4123600;Santa Inês;Santa Ines
+4123709;Santa Isabel do Ivaí;Santa Isabel do Ivai
+4123808;Santa Izabel do Oeste;Santa Izabel do Oeste
+4123824;Santa Lúcia;Santa Lucia
+4123857;Santa Maria do Oeste;Santa Maria do Oeste
+4123907;Santa Mariana;Santa Mariana
+4123956;Santa Mônica;Santa Monica
+4124020;Santa Tereza do Oeste;Santa Tereza do Oeste
+4124053;Santa Terezinha de Itaipu;Santa Terezinha de Itaipu
+4124004;Santana do Itararé;Santana do Itarare
+4124103;Santo Antônio da Platina;Santo Antonio da Platina
+4124202;Santo Antônio do Caiuá;Santo Antonio do Caiua
+4124301;Santo Antônio do Paraíso;Santo Antonio do Paraiso
+4124400;Santo Antônio do Sudoeste;Santo Antonio do Sudoeste
+4124509;Santo Inácio;Santo Inacio
+4124608;São Carlos do Ivaí;Sao Carlos do Ivai
+4124707;São Jerônimo da Serra;Sao Jeronimo da Serra
+4124806;São João;Sao Joao
+4124905;São João do Caiuá;Sao Joao do Caiua
+4125001;São João do Ivaí;Sao Joao do Ivai
+4125100;São João do Triunfo;Sao Joao do Triunfo
+4125308;São Jorge do Ivaí;Sao Jorge do Ivai
+4125357;São Jorge do Patrocínio;Sao Jorge do Patrocinio
+4125209;São Jorge d'Oeste;Sao Jorge d'Oeste
+4125407;São José da Boa Vista;Sao Jose da Boa Vista
+4125456;São José das Palmeiras;Sao Jose das Palmeiras
+4125506;São José dos Pinhais;Sao Jose dos Pinhais
+4125555;São Manoel do Paraná;Sao Manoel do Parana
+4125605;São Mateus do Sul;Sao Mateus do Sul
+4125704;São Miguel do Iguaçu;Sao Miguel do Iguacu
+4125753;São Pedro do Iguaçu;Sao Pedro do Iguacu
+4125803;São Pedro do Ivaí;Sao Pedro do Ivai
+4125902;São Pedro do Paraná;Sao Pedro do Parana
+4126009;São Sebastião da Amoreira;Sao Sebastiao da Amoreira
+4126108;São Tomé;Sao Tome
+4126207;Sapopema;Sapopema
+4126256;Sarandi;Sarandi
+4126272;Saudade do Iguaçu;Saudade do Iguacu
+4126306;Sengés;Senges
+4126355;Serranópolis do Iguaçu;Serranopolis do Iguacu
+4126405;Sertaneja;Sertaneja
+4126504;Sertanópolis;Sertanopolis
+4126603;Siqueira Campos;Siqueira Campos
+4126652;Sulina;Sulina
+4126678;Tamarana;Tamarana
+4126702;Tamboara;Tamboara
+4126801;Tapejara;Tapejara
+4126900;Tapira;Tapira
+4127007;Teixeira Soares;Teixeira Soares
+4127106;Telêmaco Borba;Telemaco Borba
+4127205;Terra Boa;Terra Boa
+4127304;Terra Rica;Terra Rica
+4127403;Terra Roxa;Terra Roxa
+4127502;Tibagi;Tibagi
+4127601;Tijucas do Sul;Tijucas do Sul
+4127700;Toledo;Toledo
+4127809;Tomazina;Tomazina
+4127858;Três Barras do Paraná;Tres Barras do Parana
+4127882;Tunas do Paraná;Tunas do Parana
+4127908;Tuneiras do Oeste;Tuneiras do Oeste
+4127957;Tupãssi;Tupassi
+4127965;Turvo;Turvo
+4128005;Ubiratã;Ubirata
+4128104;Umuarama;Umuarama
+4128203;União da Vitória;Uniao da Vitoria
+4128302;Uniflor;Uniflor
+4128401;Uraí;Urai
+4128534;Ventania;Ventania
+4128559;Vera Cruz do Oeste;Vera Cruz do Oeste
+4128609;Verê;Vere
+4128658;Virmond;Virmond
+4128708;Vitorino;Vitorino
+4128500;Wenceslau Braz;Wenceslau Braz
+4128807;Xambrê;Xambre
+4200051;Abdon Batista;Abdon Batista
+4200101;Abelardo Luz;Abelardo Luz
+4200200;Agrolândia;Agrolandia
+4200309;Agronômica;Agronomica
+4200408;Água Doce;Agua Doce
+4200507;Águas de Chapecó;Aguas de Chapeco
+4200556;Águas Frias;Aguas Frias
+4200606;Águas Mornas;Aguas Mornas
+4200705;Alfredo Wagner;Alfredo Wagner
+4200754;Alto Bela Vista;Alto Bela Vista
+4200804;Anchieta;Anchieta
+4200903;Angelina;Angelina
+4201000;Anita Garibaldi;Anita Garibaldi
+4201109;Anitápolis;Anitapolis
+4201208;Antônio Carlos;Antonio Carlos
+4201257;Apiúna;Apiuna
+4201273;Arabutã;Arabuta
+4201307;Araquari;Araquari
+4201406;Araranguá;Ararangua
+4201505;Armazém;Armazem
+4201604;Arroio Trinta;Arroio Trinta
+4201653;Arvoredo;Arvoredo
+4201703;Ascurra;Ascurra
+4201802;Atalanta;Atalanta
+4201901;Aurora;Aurora
+4201950;Balneário Arroio do Silva;Balneario Arroio do Silva
+4202057;Balneário Barra do Sul;Balneario Barra do Sul
+4202008;Balneário Camboriú;Balneario Camboriu
+4202073;Balneário Gaivota;Balneario Gaivota
+4212809;Balneário Piçarras;Balneario Picarras
+4220000;Balneário Rincão;Balneario Rincao
+4202081;Bandeirante;Bandeirante
+4202099;Barra Bonita;Barra Bonita
+4202107;Barra Velha;Barra Velha
+4202131;Bela Vista do Toldo;Bela Vista do Toldo
+4202156;Belmonte;Belmonte
+4202206;Benedito Novo;Benedito Novo
+4202305;Biguaçu;Biguacu
+4202404;Blumenau;Blumenau
+4202438;Bocaina do Sul;Bocaina do Sul
+4202503;Bom Jardim da Serra;Bom Jardim da Serra
+4202537;Bom Jesus;Bom Jesus
+4202578;Bom Jesus do Oeste;Bom Jesus do Oeste
+4202602;Bom Retiro;Bom Retiro
+4202453;Bombinhas;Bombinhas
+4202701;Botuverá;Botuvera
+4202800;Braço do Norte;Braco do Norte
+4202859;Braço do Trombudo;Braco do Trombudo
+4202875;Brunópolis;Brunopolis
+4202909;Brusque;Brusque
+4203006;Caçador;Cacador
+4203105;Caibi;Caibi
+4203154;Calmon;Calmon
+4203204;Camboriú;Camboriu
+4203303;Campo Alegre;Campo Alegre
+4203402;Campo Belo do Sul;Campo Belo do Sul
+4203501;Campo Erê;Campo Ere
+4203600;Campos Novos;Campos Novos
+4203709;Canelinha;Canelinha
+4203808;Canoinhas;Canoinhas
+4203253;Capão Alto;Capao Alto
+4203907;Capinzal;Capinzal
+4203956;Capivari de Baixo;Capivari de Baixo
+4204004;Catanduvas;Catanduvas
+4204103;Caxambu do Sul;Caxambu do Sul
+4204152;Celso Ramos;Celso Ramos
+4204178;Cerro Negro;Cerro Negro
+4204194;Chapadão do Lageado;Chapadao do Lageado
+4204202;Chapecó;Chapeco
+4204251;Cocal do Sul;Cocal do Sul
+4204301;Concórdia;Concordia
+4204350;Cordilheira Alta;Cordilheira Alta
+4204400;Coronel Freitas;Coronel Freitas
+4204459;Coronel Martins;Coronel Martins
+4204558;Correia Pinto;Correia Pinto
+4204509;Corupá;Corupa
+4204608;Criciúma;Criciuma
+4204707;Cunha Porã;Cunha Pora
+4204756;Cunhataí;Cunhatai
+4204806;Curitibanos;Curitibanos
+4204905;Descanso;Descanso
+4205001;Dionísio Cerqueira;Dionisio Cerqueira
+4205100;Dona Emma;Dona Emma
+4205159;Doutor Pedrinho;Doutor Pedrinho
+4205175;Entre Rios;Entre Rios
+4205191;Ermo;Ermo
+4205209;Erval Velho;Erval Velho
+4205308;Faxinal dos Guedes;Faxinal dos Guedes
+4205357;Flor do Sertão;Flor do Sertao
+4205407;Florianópolis;Florianopolis
+4205431;Formosa do Sul;Formosa do Sul
+4205456;Forquilhinha;Forquilhinha
+4205506;Fraiburgo;Fraiburgo
+4205555;Frei Rogério;Frei Rogerio
+4205605;Galvão;Galvao
+4205704;Garopaba;Garopaba
+4205803;Garuva;Garuva
+4205902;Gaspar;Gaspar
+4206009;Governador Celso Ramos;Governador Celso Ramos
+4206108;Grão Pará;Grao Para
+4206207;Gravatal;Gravatal
+4206306;Guabiruba;Guabiruba
+4206405;Guaraciaba;Guaraciaba
+4206504;Guaramirim;Guaramirim
+4206603;Guarujá do Sul;Guaruja do Sul
+4206652;Guatambú;Guatambu
+4206702;Herval d'Oeste;Herval d'Oeste
+4206751;Ibiam;Ibiam
+4206801;Ibicaré;Ibicare
+4206900;Ibirama;Ibirama
+4207007;Içara;Icara
+4207106;Ilhota;Ilhota
+4207205;Imaruí;Imarui
+4207304;Imbituba;Imbituba
+4207403;Imbuia;Imbuia
+4207502;Indaial;Indaial
+4207577;Iomerê;Iomere
+4207601;Ipira;Ipira
+4207650;Iporã do Oeste;Ipora do Oeste
+4207684;Ipuaçu;Ipuacu
+4207700;Ipumirim;Ipumirim
+4207759;Iraceminha;Iraceminha
+4207809;Irani;Irani
+4207858;Irati;Irati
+4207908;Irineópolis;Irineopolis
+4208005;Itá;Ita
+4208104;Itaiópolis;Itaiopolis
+4208203;Itajaí;Itajai
+4208302;Itapema;Itapema
+4208401;Itapiranga;Itapiranga
+4208450;Itapoá;Itapoa
+4208500;Ituporanga;Ituporanga
+4208609;Jaborá;Jabora
+4208708;Jacinto Machado;Jacinto Machado
+4208807;Jaguaruna;Jaguaruna
+4208906;Jaraguá do Sul;Jaragua do Sul
+4208955;Jardinópolis;Jardinopolis
+4209003;Joaçaba;Joacaba
+4209102;Joinville;Joinville
+4209151;José Boiteux;Jose Boiteux
+4209177;Jupiá;Jupia
+4209201;Lacerdópolis;Lacerdopolis
+4209300;Lages;Lages
+4209409;Laguna;Laguna
+4209458;Lajeado Grande;Lajeado Grande
+4209508;Laurentino;Laurentino
+4209607;Lauro Müller;Lauro Muller
+4209706;Lebon Régis;Lebon Regis
+4209805;Leoberto Leal;Leoberto Leal
+4209854;Lindóia do Sul;Lindoia do Sul
+4209904;Lontras;Lontras
+4210001;Luiz Alves;Luiz Alves
+4210035;Luzerna;Luzerna
+4210050;Macieira;Macieira
+4210100;Mafra;Mafra
+4210209;Major Gercino;Major Gercino
+4210308;Major Vieira;Major Vieira
+4210407;Maracajá;Maracaja
+4210506;Maravilha;Maravilha
+4210555;Marema;Marema
+4210605;Massaranduba;Massaranduba
+4210704;Matos Costa;Matos Costa
+4210803;Meleiro;Meleiro
+4210852;Mirim Doce;Mirim Doce
+4210902;Modelo;Modelo
+4211009;Mondaí;Mondai
+4211058;Monte Carlo;Monte Carlo
+4211108;Monte Castelo;Monte Castelo
+4211207;Morro da Fumaça;Morro da Fumaca
+4211256;Morro Grande;Morro Grande
+4211306;Navegantes;Navegantes
+4211405;Nova Erechim;Nova Erechim
+4211454;Nova Itaberaba;Nova Itaberaba
+4211504;Nova Trento;Nova Trento
+4211603;Nova Veneza;Nova Veneza
+4211652;Novo Horizonte;Novo Horizonte
+4211702;Orleans;Orleans
+4211751;Otacílio Costa;Otacilio Costa
+4211801;Ouro;Ouro
+4211850;Ouro Verde;Ouro Verde
+4211876;Paial;Paial
+4211892;Painel;Painel
+4211900;Palhoça;Palhoca
+4212007;Palma Sola;Palma Sola
+4212056;Palmeira;Palmeira
+4212106;Palmitos;Palmitos
+4212205;Papanduva;Papanduva
+4212239;Paraíso;Paraiso
+4212254;Passo de Torres;Passo de Torres
+4212270;Passos Maia;Passos Maia
+4212304;Paulo Lopes;Paulo Lopes
+4212403;Pedras Grandes;Pedras Grandes
+4212502;Penha;Penha
+4212601;Peritiba;Peritiba
+4212650;Pescaria Brava;Pescaria Brava
+4212700;Petrolândia;Petrolandia
+4212908;Pinhalzinho;Pinhalzinho
+4213005;Pinheiro Preto;Pinheiro Preto
+4213104;Piratuba;Piratuba
+4213153;Planalto Alegre;Planalto Alegre
+4213203;Pomerode;Pomerode
+4213302;Ponte Alta;Ponte Alta
+4213351;Ponte Alta do Norte;Ponte Alta do Norte
+4213401;Ponte Serrada;Ponte Serrada
+4213500;Porto Belo;Porto Belo
+4213609;Porto União;Porto Uniao
+4213708;Pouso Redondo;Pouso Redondo
+4213807;Praia Grande;Praia Grande
+4213906;Presidente Castello Branco;Presidente Castello Branco
+4214003;Presidente Getúlio;Presidente Getulio
+4214102;Presidente Nereu;Presidente Nereu
+4214151;Princesa;Princesa
+4214201;Quilombo;Quilombo
+4214300;Rancho Queimado;Rancho Queimado
+4214409;Rio das Antas;Rio das Antas
+4214508;Rio do Campo;Rio do Campo
+4214607;Rio do Oeste;Rio do Oeste
+4214805;Rio do Sul;Rio do Sul
+4214706;Rio dos Cedros;Rio dos Cedros
+4214904;Rio Fortuna;Rio Fortuna
+4215000;Rio Negrinho;Rio Negrinho
+4215059;Rio Rufino;Rio Rufino
+4215075;Riqueza;Riqueza
+4215109;Rodeio;Rodeio
+4215208;Romelândia;Romelandia
+4215307;Salete;Salete
+4215356;Saltinho;Saltinho
+4215406;Salto Veloso;Salto Veloso
+4215455;Sangão;Sangao
+4215505;Santa Cecília;Santa Cecilia
+4215554;Santa Helena;Santa Helena
+4215604;Santa Rosa de Lima;Santa Rosa de Lima
+4215653;Santa Rosa do Sul;Santa Rosa do Sul
+4215679;Santa Terezinha;Santa Terezinha
+4215687;Santa Terezinha do Progresso;Santa Terezinha do Progresso
+4215695;Santiago do Sul;Santiago do Sul
+4215703;Santo Amaro da Imperatriz;Santo Amaro da Imperatriz
+4215802;São Bento do Sul;Sao Bento do Sul
+4215752;São Bernardino;Sao Bernardino
+4215901;São Bonifácio;Sao Bonifacio
+4216008;São Carlos;Sao Carlos
+4216057;São Cristóvão do Sul;Sao Cristovao do Sul
+4216107;São Domingos;Sao Domingos
+4216206;São Francisco do Sul;Sao Francisco do Sul
+4216305;São João Batista;Sao Joao Batista
+4216354;São João do Itaperiú;Sao Joao do Itaperiu
+4216255;São João do Oeste;Sao Joao do Oeste
+4216404;São João do Sul;Sao Joao do Sul
+4216503;São Joaquim;Sao Joaquim
+4216602;São José;Sao Jose
+4216701;São José do Cedro;Sao Jose do Cedro
+4216800;São José do Cerrito;Sao Jose do Cerrito
+4216909;São Lourenço do Oeste;Sao Lourenco do Oeste
+4217006;São Ludgero;Sao Ludgero
+4217105;São Martinho;Sao Martinho
+4217154;São Miguel da Boa Vista;Sao Miguel da Boa Vista
+4217204;São Miguel do Oeste;Sao Miguel do Oeste
+4217253;São Pedro de Alcântara;Sao Pedro de Alcantara
+4217303;Saudades;Saudades
+4217402;Schroeder;Schroeder
+4217501;Seara;Seara
+4217550;Serra Alta;Serra Alta
+4217600;Siderópolis;Sideropolis
+4217709;Sombrio;Sombrio
+4217758;Sul Brasil;Sul Brasil
+4217808;Taió;Taio
+4217907;Tangará;Tangara
+4217956;Tigrinhos;Tigrinhos
+4218004;Tijucas;Tijucas
+4218103;Timbé do Sul;Timbe do Sul
+4218202;Timbó;Timbo
+4218251;Timbó Grande;Timbo Grande
+4218301;Três Barras;Tres Barras
+4218350;Treviso;Treviso
+4218400;Treze de Maio;Treze de Maio
+4218509;Treze Tílias;Treze Tilias
+4218608;Trombudo Central;Trombudo Central
+4218707;Tubarão;Tubarao
+4218756;Tunápolis;Tunapolis
+4218806;Turvo;Turvo
+4218855;União do Oeste;Uniao do Oeste
+4218905;Urubici;Urubici
+4218954;Urupema;Urupema
+4219002;Urussanga;Urussanga
+4219101;Vargeão;Vargeao
+4219150;Vargem;Vargem
+4219176;Vargem Bonita;Vargem Bonita
+4219200;Vidal Ramos;Vidal Ramos
+4219309;Videira;Videira
+4219358;Vitor Meireles;Vitor Meireles
+4219408;Witmarsum;Witmarsum
+4219507;Xanxerê;Xanxere
+4219606;Xavantina;Xavantina
+4219705;Xaxim;Xaxim
+4219853;Zortéa;Zortea
+4300034;Aceguá;Acegua
+4300059;Água Santa;Agua Santa
+4300109;Agudo;Agudo
+4300208;Ajuricaba;Ajuricaba
+4300307;Alecrim;Alecrim
+4300406;Alegrete;Alegrete
+4300455;Alegria;Alegria
+4300471;Almirante Tamandaré do Sul;Almirante Tamandare do Sul
+4300505;Alpestre;Alpestre
+4300554;Alto Alegre;Alto Alegre
+4300570;Alto Feliz;Alto Feliz
+4300604;Alvorada;Alvorada
+4300638;Amaral Ferrador;Amaral Ferrador
+4300646;Ametista do Sul;Ametista do Sul
+4300661;André da Rocha;Andre da Rocha
+4300703;Anta Gorda;Anta Gorda
+4300802;Antônio Prado;Antonio Prado
+4300851;Arambaré;Arambare
+4300877;Araricá;Ararica
+4300901;Aratiba;Aratiba
+4301008;Arroio do Meio;Arroio do Meio
+4301073;Arroio do Padre;Arroio do Padre
+4301057;Arroio do Sal;Arroio do Sal
+4301206;Arroio do Tigre;Arroio do Tigre
+4301107;Arroio dos Ratos;Arroio dos Ratos
+4301305;Arroio Grande;Arroio Grande
+4301404;Arvorezinha;Arvorezinha
+4301503;Augusto Pestana;Augusto Pestana
+4301552;Áurea;Aurea
+4301602;Bagé;Bage
+4301636;Balneário Pinhal;Balneario Pinhal
+4301651;Barão;Barao
+4301701;Barão de Cotegipe;Barao de Cotegipe
+4301750;Barão do Triunfo;Barao do Triunfo
+4301859;Barra do Guarita;Barra do Guarita
+4301875;Barra do Quaraí;Barra do Quarai
+4301909;Barra do Ribeiro;Barra do Ribeiro
+4301925;Barra do Rio Azul;Barra do Rio Azul
+4301958;Barra Funda;Barra Funda
+4301800;Barracão;Barracao
+4302006;Barros Cassal;Barros Cassal
+4302055;Benjamin Constant do Sul;Benjamin Constant do Sul
+4302105;Bento Gonçalves;Bento Goncalves
+4302154;Boa Vista das Missões;Boa Vista das Missoes
+4302204;Boa Vista do Buricá;Boa Vista do Burica
+4302220;Boa Vista do Cadeado;Boa Vista do Cadeado
+4302238;Boa Vista do Incra;Boa Vista do Incra
+4302253;Boa Vista do Sul;Boa Vista do Sul
+4302303;Bom Jesus;Bom Jesus
+4302352;Bom Princípio;Bom Principio
+4302378;Bom Progresso;Bom Progresso
+4302402;Bom Retiro do Sul;Bom Retiro do Sul
+4302451;Boqueirão do Leão;Boqueirao do Leao
+4302501;Bossoroca;Bossoroca
+4302584;Bozano;Bozano
+4302600;Braga;Braga
+4302659;Brochier;Brochier
+4302709;Butiá;Butia
+4302808;Caçapava do Sul;Cacapava do Sul
+4302907;Cacequi;Cacequi
+4303004;Cachoeira do Sul;Cachoeira do Sul
+4303103;Cachoeirinha;Cachoeirinha
+4303202;Cacique Doble;Cacique Doble
+4303301;Caibaté;Caibate
+4303400;Caiçara;Caicara
+4303509;Camaquã;Camaqua
+4303558;Camargo;Camargo
+4303608;Cambará do Sul;Cambara do Sul
+4303673;Campestre da Serra;Campestre da Serra
+4303707;Campina das Missões;Campina das Missoes
+4303806;Campinas do Sul;Campinas do Sul
+4303905;Campo Bom;Campo Bom
+4304002;Campo Novo;Campo Novo
+4304101;Campos Borges;Campos Borges
+4304200;Candelária;Candelaria
+4304309;Cândido Godói;Candido Godoi
+4304358;Candiota;Candiota
+4304408;Canela;Canela
+4304507;Canguçu;Cangucu
+4304606;Canoas;Canoas
+4304614;Canudos do Vale;Canudos do Vale
+4304622;Capão Bonito do Sul;Capao Bonito do Sul
+4304630;Capão da Canoa;Capao da Canoa
+4304655;Capão do Cipó;Capao do Cipo
+4304663;Capão do Leão;Capao do Leao
+4304689;Capela de Santana;Capela de Santana
+4304697;Capitão;Capitao
+4304671;Capivari do Sul;Capivari do Sul
+4304713;Caraá;Caraa
+4304705;Carazinho;Carazinho
+4304804;Carlos Barbosa;Carlos Barbosa
+4304853;Carlos Gomes;Carlos Gomes
+4304903;Casca;Casca
+4304952;Caseiros;Caseiros
+4305009;Catuípe;Catuipe
+4305108;Caxias do Sul;Caxias do Sul
+4305116;Centenário;Centenario
+4305124;Cerrito;Cerrito
+4305132;Cerro Branco;Cerro Branco
+4305157;Cerro Grande;Cerro Grande
+4305173;Cerro Grande do Sul;Cerro Grande do Sul
+4305207;Cerro Largo;Cerro Largo
+4305306;Chapada;Chapada
+4305355;Charqueadas;Charqueadas
+4305371;Charrua;Charrua
+4305405;Chiapetta;Chiapetta
+4305439;Chuí;Chui
+4305447;Chuvisca;Chuvisca
+4305454;Cidreira;Cidreira
+4305504;Ciríaco;Ciriaco
+4305587;Colinas;Colinas
+4305603;Colorado;Colorado
+4305702;Condor;Condor
+4305801;Constantina;Constantina
+4305835;Coqueiro Baixo;Coqueiro Baixo
+4305850;Coqueiros do Sul;Coqueiros do Sul
+4305871;Coronel Barros;Coronel Barros
+4305900;Coronel Bicaco;Coronel Bicaco
+4305934;Coronel Pilar;Coronel Pilar
+4305959;Cotiporã;Cotipora
+4305975;Coxilha;Coxilha
+4306007;Crissiumal;Crissiumal
+4306056;Cristal;Cristal
+4306072;Cristal do Sul;Cristal do Sul
+4306106;Cruz Alta;Cruz Alta
+4306130;Cruzaltense;Cruzaltense
+4306205;Cruzeiro do Sul;Cruzeiro do Sul
+4306304;David Canabarro;David Canabarro
+4306320;Derrubadas;Derrubadas
+4306353;Dezesseis de Novembro;Dezesseis de Novembro
+4306379;Dilermando de Aguiar;Dilermando de Aguiar
+4306403;Dois Irmãos;Dois Irmaos
+4306429;Dois Irmãos das Missões;Dois Irmaos das Missoes
+4306452;Dois Lajeados;Dois Lajeados
+4306502;Dom Feliciano;Dom Feliciano
+4306601;Dom Pedrito;Dom Pedrito
+4306551;Dom Pedro de Alcântara;Dom Pedro de Alcantara
+4306700;Dona Francisca;Dona Francisca
+4306734;Doutor Maurício Cardoso;Doutor Mauricio Cardoso
+4306759;Doutor Ricardo;Doutor Ricardo
+4306767;Eldorado do Sul;Eldorado do Sul
+4306809;Encantado;Encantado
+4306908;Encruzilhada do Sul;Encruzilhada do Sul
+4306924;Engenho Velho;Engenho Velho
+4306957;Entre Rios do Sul;Entre Rios do Sul
+4306932;Entre-Ijuís;Entre-Ijuis
+4306973;Erebango;Erebango
+4307005;Erechim;Erechim
+4307054;Ernestina;Ernestina
+4307203;Erval Grande;Erval Grande
+4307302;Erval Seco;Erval Seco
+4307401;Esmeralda;Esmeralda
+4307450;Esperança do Sul;Esperanca do Sul
+4307500;Espumoso;Espumoso
+4307559;Estação;Estacao
+4307609;Estância Velha;Estancia Velha
+4307708;Esteio;Esteio
+4307807;Estrela;Estrela
+4307815;Estrela Velha;Estrela Velha
+4307831;Eugênio de Castro;Eugenio de Castro
+4307864;Fagundes Varela;Fagundes Varela
+4307906;Farroupilha;Farroupilha
+4308003;Faxinal do Soturno;Faxinal do Soturno
+4308052;Faxinalzinho;Faxinalzinho
+4308078;Fazenda Vilanova;Fazenda Vilanova
+4308102;Feliz;Feliz
+4308201;Flores da Cunha;Flores da Cunha
+4308250;Floriano Peixoto;Floriano Peixoto
+4308300;Fontoura Xavier;Fontoura Xavier
+4308409;Formigueiro;Formigueiro
+4308433;Forquetinha;Forquetinha
+4308458;Fortaleza dos Valos;Fortaleza dos Valos
+4308508;Frederico Westphalen;Frederico Westphalen
+4308607;Garibaldi;Garibaldi
+4308656;Garruchos;Garruchos
+4308706;Gaurama;Gaurama
+4308805;General Câmara;General Camara
+4308854;Gentil;Gentil
+4308904;Getúlio Vargas;Getulio Vargas
+4309001;Giruá;Girua
+4309050;Glorinha;Glorinha
+4309100;Gramado;Gramado
+4309126;Gramado dos Loureiros;Gramado dos Loureiros
+4309159;Gramado Xavier;Gramado Xavier
+4309209;Gravataí;Gravatai
+4309258;Guabiju;Guabiju
+4309308;Guaíba;Guaiba
+4309407;Guaporé;Guapore
+4309506;Guarani das Missões;Guarani das Missoes
+4309555;Harmonia;Harmonia
+4307104;Herval;Herval
+4309571;Herveiras;Herveiras
+4309605;Horizontina;Horizontina
+4309654;Hulha Negra;Hulha Negra
+4309704;Humaitá;Humaita
+4309753;Ibarama;Ibarama
+4309803;Ibiaçá;Ibiaca
+4309902;Ibiraiaras;Ibiraiaras
+4309951;Ibirapuitã;Ibirapuita
+4310009;Ibirubá;Ibiruba
+4310108;Igrejinha;Igrejinha
+4310207;Ijuí;Ijui
+4310306;Ilópolis;Ilopolis
+4310330;Imbé;Imbe
+4310363;Imigrante;Imigrante
+4310405;Independência;Independencia
+4310413;Inhacorá;Inhacora
+4310439;Ipê;Ipe
+4310462;Ipiranga do Sul;Ipiranga do Sul
+4310504;Iraí;Irai
+4310538;Itaara;Itaara
+4310553;Itacurubi;Itacurubi
+4310579;Itapuca;Itapuca
+4310603;Itaqui;Itaqui
+4310652;Itati;Itati
+4310702;Itatiba do Sul;Itatiba do Sul
+4310751;Ivorá;Ivora
+4310801;Ivoti;Ivoti
+4310850;Jaboticaba;Jaboticaba
+4310876;Jacuizinho;Jacuizinho
+4310900;Jacutinga;Jacutinga
+4311007;Jaguarão;Jaguarao
+4311106;Jaguari;Jaguari
+4311122;Jaquirana;Jaquirana
+4311130;Jari;Jari
+4311155;Jóia;Joia
+4311205;Júlio de Castilhos;Julio de Castilhos
+4311239;Lagoa Bonita do Sul;Lagoa Bonita do Sul
+4311270;Lagoa dos Três Cantos;Lagoa dos Tres Cantos
+4311304;Lagoa Vermelha;Lagoa Vermelha
+4311254;Lagoão;Lagoao
+4311403;Lajeado;Lajeado
+4311429;Lajeado do Bugre;Lajeado do Bugre
+4311502;Lavras do Sul;Lavras do Sul
+4311601;Liberato Salzano;Liberato Salzano
+4311627;Lindolfo Collor;Lindolfo Collor
+4311643;Linha Nova;Linha Nova
+4311718;Maçambará;Macambara
+4311700;Machadinho;Machadinho
+4311734;Mampituba;Mampituba
+4311759;Manoel Viana;Manoel Viana
+4311775;Maquiné;Maquine
+4311791;Maratá;Marata
+4311809;Marau;Marau
+4311908;Marcelino Ramos;Marcelino Ramos
+4311981;Mariana Pimentel;Mariana Pimentel
+4312005;Mariano Moro;Mariano Moro
+4312054;Marques de Souza;Marques de Souza
+4312104;Mata;Mata
+4312138;Mato Castelhano;Mato Castelhano
+4312153;Mato Leitão;Mato Leitao
+4312179;Mato Queimado;Mato Queimado
+4312203;Maximiliano de Almeida;Maximiliano de Almeida
+4312252;Minas do Leão;Minas do Leao
+4312302;Miraguaí;Miraguai
+4312351;Montauri;Montauri
+4312377;Monte Alegre dos Campos;Monte Alegre dos Campos
+4312385;Monte Belo do Sul;Monte Belo do Sul
+4312401;Montenegro;Montenegro
+4312427;Mormaço;Mormaco
+4312443;Morrinhos do Sul;Morrinhos do Sul
+4312450;Morro Redondo;Morro Redondo
+4312476;Morro Reuter;Morro Reuter
+4312500;Mostardas;Mostardas
+4312609;Muçum;Mucum
+4312617;Muitos Capões;Muitos Capoes
+4312625;Muliterno;Muliterno
+4312658;Não-Me-Toque;Nao-Me-Toque
+4312674;Nicolau Vergueiro;Nicolau Vergueiro
+4312708;Nonoai;Nonoai
+4312757;Nova Alvorada;Nova Alvorada
+4312807;Nova Araçá;Nova Araca
+4312906;Nova Bassano;Nova Bassano
+4312955;Nova Boa Vista;Nova Boa Vista
+4313003;Nova Bréscia;Nova Brescia
+4313011;Nova Candelária;Nova Candelaria
+4313037;Nova Esperança do Sul;Nova Esperanca do Sul
+4313060;Nova Hartz;Nova Hartz
+4313086;Nova Pádua;Nova Padua
+4313102;Nova Palma;Nova Palma
+4313201;Nova Petrópolis;Nova Petropolis
+4313300;Nova Prata;Nova Prata
+4313334;Nova Ramada;Nova Ramada
+4313359;Nova Roma do Sul;Nova Roma do Sul
+4313375;Nova Santa Rita;Nova Santa Rita
+4313490;Novo Barreiro;Novo Barreiro
+4313391;Novo Cabrais;Novo Cabrais
+4313409;Novo Hamburgo;Novo Hamburgo
+4313425;Novo Machado;Novo Machado
+4313441;Novo Tiradentes;Novo Tiradentes
+4313466;Novo Xingu;Novo Xingu
+4313508;Osório;Osorio
+4313607;Paim Filho;Paim Filho
+4313656;Palmares do Sul;Palmares do Sul
+4313706;Palmeira das Missões;Palmeira das Missoes
+4313805;Palmitinho;Palmitinho
+4313904;Panambi;Panambi
+4313953;Pantano Grande;Pantano Grande
+4314001;Paraí;Parai
+4314027;Paraíso do Sul;Paraiso do Sul
+4314035;Pareci Novo;Pareci Novo
+4314050;Parobé;Parobe
+4314068;Passa Sete;Passa Sete
+4314076;Passo do Sobrado;Passo do Sobrado
+4314100;Passo Fundo;Passo Fundo
+4314134;Paulo Bento;Paulo Bento
+4314159;Paverama;Paverama
+4314175;Pedras Altas;Pedras Altas
+4314209;Pedro Osório;Pedro Osorio
+4314308;Pejuçara;Pejucara
+4314407;Pelotas;Pelotas
+4314423;Picada Café;Picada Cafe
+4314456;Pinhal;Pinhal
+4314464;Pinhal da Serra;Pinhal da Serra
+4314472;Pinhal Grande;Pinhal Grande
+4314498;Pinheirinho do Vale;Pinheirinho do Vale
+4314506;Pinheiro Machado;Pinheiro Machado
+4314548;Pinto Bandeira;Pinto Bandeira
+4314555;Pirapó;Pirapo
+4314605;Piratini;Piratini
+4314704;Planalto;Planalto
+4314753;Poço das Antas;Poco das Antas
+4314779;Pontão;Pontao
+4314787;Ponte Preta;Ponte Preta
+4314803;Portão;Portao
+4314902;Porto Alegre;Porto Alegre
+4315008;Porto Lucena;Porto Lucena
+4315057;Porto Mauá;Porto Maua
+4315073;Porto Vera Cruz;Porto Vera Cruz
+4315107;Porto Xavier;Porto Xavier
+4315131;Pouso Novo;Pouso Novo
+4315149;Presidente Lucena;Presidente Lucena
+4315156;Progresso;Progresso
+4315172;Protásio Alves;Protasio Alves
+4315206;Putinga;Putinga
+4315305;Quaraí;Quarai
+4315313;Quatro Irmãos;Quatro Irmaos
+4315321;Quevedos;Quevedos
+4315354;Quinze de Novembro;Quinze de Novembro
+4315404;Redentora;Redentora
+4315453;Relvado;Relvado
+4315503;Restinga Sêca;Restinga Seca
+4315552;Rio dos Índios;Rio dos Indios
+4315602;Rio Grande;Rio Grande
+4315701;Rio Pardo;Rio Pardo
+4315750;Riozinho;Riozinho
+4315800;Roca Sales;Roca Sales
+4315909;Rodeio Bonito;Rodeio Bonito
+4315958;Rolador;Rolador
+4316006;Rolante;Rolante
+4316105;Ronda Alta;Ronda Alta
+4316204;Rondinha;Rondinha
+4316303;Roque Gonzales;Roque Gonzales
+4316402;Rosário do Sul;Rosario do Sul
+4316428;Sagrada Família;Sagrada Familia
+4316436;Saldanha Marinho;Saldanha Marinho
+4316451;Salto do Jacuí;Salto do Jacui
+4316477;Salvador das Missões;Salvador das Missoes
+4316501;Salvador do Sul;Salvador do Sul
+4316600;Sananduva;Sananduva
+4316709;Santa Bárbara do Sul;Santa Barbara do Sul
+4316733;Santa Cecília do Sul;Santa Cecilia do Sul
+4316758;Santa Clara do Sul;Santa Clara do Sul
+4316808;Santa Cruz do Sul;Santa Cruz do Sul
+4316972;Santa Margarida do Sul;Santa Margarida do Sul
+4316907;Santa Maria;Santa Maria
+4316956;Santa Maria do Herval;Santa Maria do Herval
+4317202;Santa Rosa;Santa Rosa
+4317251;Santa Tereza;Santa Tereza
+4317301;Santa Vitória do Palmar;Santa Vitoria do Palmar
+4317004;Santana da Boa Vista;Santana da Boa Vista
+4317103;Sant'Ana do Livramento;Sant'Ana do Livramento
+4317400;Santiago;Santiago
+4317509;Santo Ângelo;Santo Angelo
+4317608;Santo Antônio da Patrulha;Santo Antonio da Patrulha
+4317707;Santo Antônio das Missões;Santo Antonio das Missoes
+4317558;Santo Antônio do Palma;Santo Antonio do Palma
+4317756;Santo Antônio do Planalto;Santo Antonio do Planalto
+4317806;Santo Augusto;Santo Augusto
+4317905;Santo Cristo;Santo Cristo
+4317954;Santo Expedito do Sul;Santo Expedito do Sul
+4318002;São Borja;Sao Borja
+4318051;São Domingos do Sul;Sao Domingos do Sul
+4318101;São Francisco de Assis;Sao Francisco de Assis
+4318200;São Francisco de Paula;Sao Francisco de Paula
+4318309;São Gabriel;Sao Gabriel
+4318408;São Jerônimo;Sao Jeronimo
+4318424;São João da Urtiga;Sao Joao da Urtiga
+4318432;São João do Polêsine;Sao Joao do Polesine
+4318440;São Jorge;Sao Jorge
+4318457;São José das Missões;Sao Jose das Missoes
+4318465;São José do Herval;Sao Jose do Herval
+4318481;São José do Hortêncio;Sao Jose do Hortencio
+4318499;São José do Inhacorá;Sao Jose do Inhacora
+4318507;São José do Norte;Sao Jose do Norte
+4318606;São José do Ouro;Sao Jose do Ouro
+4318614;São José do Sul;Sao Jose do Sul
+4318622;São José dos Ausentes;Sao Jose dos Ausentes
+4318705;São Leopoldo;Sao Leopoldo
+4318804;São Lourenço do Sul;Sao Lourenco do Sul
+4318903;São Luiz Gonzaga;Sao Luiz Gonzaga
+4319000;São Marcos;Sao Marcos
+4319109;São Martinho;Sao Martinho
+4319125;São Martinho da Serra;Sao Martinho da Serra
+4319158;São Miguel das Missões;Sao Miguel das Missoes
+4319208;São Nicolau;Sao Nicolau
+4319307;São Paulo das Missões;Sao Paulo das Missoes
+4319356;São Pedro da Serra;Sao Pedro da Serra
+4319364;São Pedro das Missões;Sao Pedro das Missoes
+4319372;São Pedro do Butiá;Sao Pedro do Butia
+4319406;São Pedro do Sul;Sao Pedro do Sul
+4319505;São Sebastião do Caí;Sao Sebastiao do Cai
+4319604;São Sepé;Sao Sepe
+4319703;São Valentim;Sao Valentim
+4319711;São Valentim do Sul;Sao Valentim do Sul
+4319737;São Valério do Sul;Sao Valerio do Sul
+4319752;São Vendelino;Sao Vendelino
+4319802;São Vicente do Sul;Sao Vicente do Sul
+4319901;Sapiranga;Sapiranga
+4320008;Sapucaia do Sul;Sapucaia do Sul
+4320107;Sarandi;Sarandi
+4320206;Seberi;Seberi
+4320230;Sede Nova;Sede Nova
+4320263;Segredo;Segredo
+4320305;Selbach;Selbach
+4320321;Senador Salgado Filho;Senador Salgado Filho
+4320354;Sentinela do Sul;Sentinela do Sul
+4320404;Serafina Corrêa;Serafina Correa
+4320453;Sério;Serio
+4320503;Sertão;Sertao
+4320552;Sertão Santana;Sertao Santana
+4320578;Sete de Setembro;Sete de Setembro
+4320602;Severiano de Almeida;Severiano de Almeida
+4320651;Silveira Martins;Silveira Martins
+4320677;Sinimbu;Sinimbu
+4320701;Sobradinho;Sobradinho
+4320800;Soledade;Soledade
+4320859;Tabaí;Tabai
+4320909;Tapejara;Tapejara
+4321006;Tapera;Tapera
+4321105;Tapes;Tapes
+4321204;Taquara;Taquara
+4321303;Taquari;Taquari
+4321329;Taquaruçu do Sul;Taquarucu do Sul
+4321352;Tavares;Tavares
+4321402;Tenente Portela;Tenente Portela
+4321436;Terra de Areia;Terra de Areia
+4321451;Teutônia;Teutonia
+4321469;Tio Hugo;Tio Hugo
+4321477;Tiradentes do Sul;Tiradentes do Sul
+4321493;Toropi;Toropi
+4321501;Torres;Torres
+4321600;Tramandaí;Tramandai
+4321626;Travesseiro;Travesseiro
+4321634;Três Arroios;Tres Arroios
+4321667;Três Cachoeiras;Tres Cachoeiras
+4321709;Três Coroas;Tres Coroas
+4321808;Três de Maio;Tres de Maio
+4321832;Três Forquilhas;Tres Forquilhas
+4321857;Três Palmeiras;Tres Palmeiras
+4321907;Três Passos;Tres Passos
+4321956;Trindade do Sul;Trindade do Sul
+4322004;Triunfo;Triunfo
+4322103;Tucunduva;Tucunduva
+4322152;Tunas;Tunas
+4322186;Tupanci do Sul;Tupanci do Sul
+4322202;Tupanciretã;Tupancireta
+4322251;Tupandi;Tupandi
+4322301;Tuparendi;Tuparendi
+4322327;Turuçu;Turucu
+4322343;Ubiretama;Ubiretama
+4322350;União da Serra;Uniao da Serra
+4322376;Unistalda;Unistalda
+4322400;Uruguaiana;Uruguaiana
+4322509;Vacaria;Vacaria
+4322533;Vale do Sol;Vale do Sol
+4322541;Vale Real;Vale Real
+4322525;Vale Verde;Vale Verde
+4322558;Vanini;Vanini
+4322608;Venâncio Aires;Venancio Aires
+4322707;Vera Cruz;Vera Cruz
+4322806;Veranópolis;Veranopolis
+4322855;Vespasiano Corrêa;Vespasiano Correa
+4322905;Viadutos;Viadutos
+4323002;Viamão;Viamao
+4323101;Vicente Dutra;Vicente Dutra
+4323200;Victor Graeff;Victor Graeff
+4323309;Vila Flores;Vila Flores
+4323358;Vila Lângaro;Vila Langaro
+4323408;Vila Maria;Vila Maria
+4323457;Vila Nova do Sul;Vila Nova do Sul
+4323507;Vista Alegre;Vista Alegre
+4323606;Vista Alegre do Prata;Vista Alegre do Prata
+4323705;Vista Gaúcha;Vista Gaucha
+4323754;Vitória das Missões;Vitoria das Missoes
+4323770;Westfália;Westfalia
+4323804;Xangri-lá;Xangri-la
+5000203;Água Clara;Agua Clara
+5000252;Alcinópolis;Alcinopolis
+5000609;Amambai;Amambai
+5000708;Anastácio;Anastacio
+5000807;Anaurilândia;Anaurilandia
+5000856;Angélica;Angelica
+5000906;Antônio João;Antonio Joao
+5001003;Aparecida do Taboado;Aparecida do Taboado
+5001102;Aquidauana;Aquidauana
+5001243;Aral Moreira;Aral Moreira
+5001508;Bandeirantes;Bandeirantes
+5001904;Bataguassu;Bataguassu
+5002001;Batayporã;Bataypora
+5002100;Bela Vista;Bela Vista
+5002159;Bodoquena;Bodoquena
+5002209;Bonito;Bonito
+5002308;Brasilândia;Brasilandia
+5002407;Caarapó;Caarapo
+5002605;Camapuã;Camapua
+5002704;Campo Grande;Campo Grande
+5002803;Caracol;Caracol
+5002902;Cassilândia;Cassilandia
+5002951;Chapadão do Sul;Chapadao do Sul
+5003108;Corguinho;Corguinho
+5003157;Coronel Sapucaia;Coronel Sapucaia
+5003207;Corumbá;Corumba
+5003256;Costa Rica;Costa Rica
+5003306;Coxim;Coxim
+5003454;Deodápolis;Deodapolis
+5003488;Dois Irmãos do Buriti;Dois Irmaos do Buriti
+5003504;Douradina;Douradina
+5003702;Dourados;Dourados
+5003751;Eldorado;Eldorado
+5003801;Fátima do Sul;Fatima do Sul
+5003900;Figueirão;Figueirao
+5004007;Glória de Dourados;Gloria de Dourados
+5004106;Guia Lopes da Laguna;Guia Lopes da Laguna
+5004304;Iguatemi;Iguatemi
+5004403;Inocência;Inocencia
+5004502;Itaporã;Itapora
+5004601;Itaquiraí;Itaquirai
+5004700;Ivinhema;Ivinhema
+5004809;Japorã;Japora
+5004908;Jaraguari;Jaraguari
+5005004;Jardim;Jardim
+5005103;Jateí;Jatei
+5005152;Juti;Juti
+5005202;Ladário;Ladario
+5005251;Laguna Carapã;Laguna Carapa
+5005400;Maracaju;Maracaju
+5005608;Miranda;Miranda
+5005681;Mundo Novo;Mundo Novo
+5005707;Naviraí;Navirai
+5005806;Nioaque;Nioaque
+5006002;Nova Alvorada do Sul;Nova Alvorada do Sul
+5006200;Nova Andradina;Nova Andradina
+5006259;Novo Horizonte do Sul;Novo Horizonte do Sul
+5006275;Paraíso das Águas;Paraiso das Aguas
+5006309;Paranaíba;Paranaiba
+5006358;Paranhos;Paranhos
+5006408;Pedro Gomes;Pedro Gomes
+5006606;Ponta Porã;Ponta Pora
+5006903;Porto Murtinho;Porto Murtinho
+5007109;Ribas do Rio Pardo;Ribas do Rio Pardo
+5007208;Rio Brilhante;Rio Brilhante
+5007307;Rio Negro;Rio Negro
+5007406;Rio Verde de Mato Grosso;Rio Verde de Mato Grosso
+5007505;Rochedo;Rochedo
+5007554;Santa Rita do Pardo;Santa Rita do Pardo
+5007695;São Gabriel do Oeste;Sao Gabriel do Oeste
+5007802;Selvíria;Selviria
+5007703;Sete Quedas;Sete Quedas
+5007901;Sidrolândia;Sidrolandia
+5007935;Sonora;Sonora
+5007950;Tacuru;Tacuru
+5007976;Taquarussu;Taquarussu
+5008008;Terenos;Terenos
+5008305;Três Lagoas;Tres Lagoas
+5008404;Vicentina;Vicentina
+5100102;Acorizal;Acorizal
+5100201;Água Boa;Agua Boa
+5100250;Alta Floresta;Alta Floresta
+5100300;Alto Araguaia;Alto Araguaia
+5100359;Alto Boa Vista;Alto Boa Vista
+5100409;Alto Garças;Alto Garcas
+5100508;Alto Paraguai;Alto Paraguai
+5100607;Alto Taquari;Alto Taquari
+5100805;Apiacás;Apiacas
+5101001;Araguaiana;Araguaiana
+5101209;Araguainha;Araguainha
+5101258;Araputanga;Araputanga
+5101308;Arenápolis;Arenapolis
+5101407;Aripuanã;Aripuana
+5101605;Barão de Melgaço;Barao de Melgaco
+5101704;Barra do Bugres;Barra do Bugres
+5101803;Barra do Garças;Barra do Garcas
+5101852;Bom Jesus do Araguaia;Bom Jesus do Araguaia
+5101902;Brasnorte;Brasnorte
+5102504;Cáceres;Caceres
+5102603;Campinápolis;Campinapolis
+5102637;Campo Novo do Parecis;Campo Novo do Parecis
+5102678;Campo Verde;Campo Verde
+5102686;Campos de Júlio;Campos de Julio
+5102694;Canabrava do Norte;Canabrava do Norte
+5102702;Canarana;Canarana
+5102793;Carlinda;Carlinda
+5102850;Castanheira;Castanheira
+5103007;Chapada dos Guimarães;Chapada dos Guimaraes
+5103056;Cláudia;Claudia
+5103106;Cocalinho;Cocalinho
+5103205;Colíder;Colider
+5103254;Colniza;Colniza
+5103304;Comodoro;Comodoro
+5103353;Confresa;Confresa
+5103361;Conquista D'Oeste;Conquista D'Oeste
+5103379;Cotriguaçu;Cotriguacu
+5103403;Cuiabá;Cuiaba
+5103437;Curvelândia;Curvelandia
+5103452;Denise;Denise
+5103502;Diamantino;Diamantino
+5103601;Dom Aquino;Dom Aquino
+5103700;Feliz Natal;Feliz Natal
+5103809;Figueirópolis D'Oeste;Figueiropolis D'Oeste
+5103858;Gaúcha do Norte;Gaucha do Norte
+5103908;General Carneiro;General Carneiro
+5103957;Glória D'Oeste;Gloria D'Oeste
+5104104;Guarantã do Norte;Guaranta do Norte
+5104203;Guiratinga;Guiratinga
+5104500;Indiavaí;Indiavai
+5104526;Ipiranga do Norte;Ipiranga do Norte
+5104542;Itanhangá;Itanhanga
+5104559;Itaúba;Itauba
+5104609;Itiquira;Itiquira
+5104807;Jaciara;Jaciara
+5104906;Jangada;Jangada
+5105002;Jauru;Jauru
+5105101;Juara;Juara
+5105150;Juína;Juina
+5105176;Juruena;Juruena
+5105200;Juscimeira;Juscimeira
+5105234;Lambari D'Oeste;Lambari D'Oeste
+5105259;Lucas do Rio Verde;Lucas do Rio Verde
+5105309;Luciara;Luciara
+5105580;Marcelândia;Marcelandia
+5105606;Matupá;Matupa
+5105622;Mirassol d'Oeste;Mirassol d'Oeste
+5105903;Nobres;Nobres
+5106000;Nortelândia;Nortelandia
+5106109;Nossa Senhora do Livramento;Nossa Senhora do Livramento
+5106158;Nova Bandeirantes;Nova Bandeirantes
+5106208;Nova Brasilândia;Nova Brasilandia
+5106216;Nova Canaã do Norte;Nova Canaa do Norte
+5108808;Nova Guarita;Nova Guarita
+5106182;Nova Lacerda;Nova Lacerda
+5108857;Nova Marilândia;Nova Marilandia
+5108907;Nova Maringá;Nova Maringa
+5108956;Nova Monte Verde;Nova Monte Verde
+5106224;Nova Mutum;Nova Mutum
+5106174;Nova Nazaré;Nova Nazare
+5106232;Nova Olímpia;Nova Olimpia
+5106190;Nova Santa Helena;Nova Santa Helena
+5106240;Nova Ubiratã;Nova Ubirata
+5106257;Nova Xavantina;Nova Xavantina
+5106273;Novo Horizonte do Norte;Novo Horizonte do Norte
+5106265;Novo Mundo;Novo Mundo
+5106315;Novo Santo Antônio;Novo Santo Antonio
+5106281;Novo São Joaquim;Novo Sao Joaquim
+5106299;Paranaíta;Paranaita
+5106307;Paranatinga;Paranatinga
+5106372;Pedra Preta;Pedra Preta
+5106422;Peixoto de Azevedo;Peixoto de Azevedo
+5106455;Planalto da Serra;Planalto da Serra
+5106505;Poconé;Pocone
+5106653;Pontal do Araguaia;Pontal do Araguaia
+5106703;Ponte Branca;Ponte Branca
+5106752;Pontes e Lacerda;Pontes e Lacerda
+5106778;Porto Alegre do Norte;Porto Alegre do Norte
+5106802;Porto dos Gaúchos;Porto dos Gauchos
+5106828;Porto Esperidião;Porto Esperidiao
+5106851;Porto Estrela;Porto Estrela
+5107008;Poxoréu;Poxoreu
+5107040;Primavera do Leste;Primavera do Leste
+5107065;Querência;Querencia
+5107156;Reserva do Cabaçal;Reserva do Cabacal
+5107180;Ribeirão Cascalheira;Ribeirao Cascalheira
+5107198;Ribeirãozinho;Ribeiraozinho
+5107206;Rio Branco;Rio Branco
+5107578;Rondolândia;Rondolandia
+5107602;Rondonópolis;Rondonopolis
+5107701;Rosário Oeste;Rosario Oeste
+5107750;Salto do Céu;Salto do Ceu
+5107248;Santa Carmem;Santa Carmem
+5107743;Santa Cruz do Xingu;Santa Cruz do Xingu
+5107768;Santa Rita do Trivelato;Santa Rita do Trivelato
+5107776;Santa Terezinha;Santa Terezinha
+5107263;Santo Afonso;Santo Afonso
+5107792;Santo Antônio do Leste;Santo Antonio do Leste
+5107800;Santo Antônio do Leverger;Santo Antonio do Leverger
+5107859;São Félix do Araguaia;Sao Felix do Araguaia
+5107297;São José do Povo;Sao Jose do Povo
+5107305;São José do Rio Claro;Sao Jose do Rio Claro
+5107354;São José do Xingu;Sao Jose do Xingu
+5107107;São José dos Quatro Marcos;Sao Jose dos Quatro Marcos
+5107404;São Pedro da Cipa;Sao Pedro da Cipa
+5107875;Sapezal;Sapezal
+5107883;Serra Nova Dourada;Serra Nova Dourada
+5107909;Sinop;Sinop
+5107925;Sorriso;Sorriso
+5107941;Tabaporã;Tabapora
+5107958;Tangará da Serra;Tangara da Serra
+5108006;Tapurah;Tapurah
+5108055;Terra Nova do Norte;Terra Nova do Norte
+5108105;Tesouro;Tesouro
+5108204;Torixoréu;Torixoreu
+5108303;União do Sul;Uniao do Sul
+5108352;Vale de São Domingos;Vale de Sao Domingos
+5108402;Várzea Grande;Varzea Grande
+5108501;Vera;Vera
+5105507;Vila Bela da Santíssima Trindade;Vila Bela da Santissima Trindade
+5108600;Vila Rica;Vila Rica
+5200050;Abadia de Goiás;Abadia de Goias
+5200100;Abadiânia;Abadiania
+5200134;Acreúna;Acreuna
+5200159;Adelândia;Adelandia
+5200175;Água Fria de Goiás;Agua Fria de Goias
+5200209;Água Limpa;Agua Limpa
+5200258;Águas Lindas de Goiás;Aguas Lindas de Goias
+5200308;Alexânia;Alexania
+5200506;Aloândia;Aloandia
+5200555;Alto Horizonte;Alto Horizonte
+5200605;Alto Paraíso de Goiás;Alto Paraiso de Goias
+5200803;Alvorada do Norte;Alvorada do Norte
+5200829;Amaralina;Amaralina
+5200852;Americano do Brasil;Americano do Brasil
+5200902;Amorinópolis;Amorinopolis
+5201108;Anápolis;Anapolis
+5201207;Anhanguera;Anhanguera
+5201306;Anicuns;Anicuns
+5201405;Aparecida de Goiânia;Aparecida de Goiania
+5201454;Aparecida do Rio Doce;Aparecida do Rio Doce
+5201504;Aporé;Apore
+5201603;Araçu;Aracu
+5201702;Aragarças;Aragarcas
+5201801;Aragoiânia;Aragoiania
+5202155;Araguapaz;Araguapaz
+5202353;Arenópolis;Arenopolis
+5202502;Aruanã;Aruana
+5202601;Aurilândia;Aurilandia
+5202809;Avelinópolis;Avelinopolis
+5203104;Baliza;Baliza
+5203203;Barro Alto;Barro Alto
+5203302;Bela Vista de Goiás;Bela Vista de Goias
+5203401;Bom Jardim de Goiás;Bom Jardim de Goias
+5203500;Bom Jesus de Goiás;Bom Jesus de Goias
+5203559;Bonfinópolis;Bonfinopolis
+5203575;Bonópolis;Bonopolis
+5203609;Brazabrantes;Brazabrantes
+5203807;Britânia;Britania
+5203906;Buriti Alegre;Buriti Alegre
+5203939;Buriti de Goiás;Buriti de Goias
+5203962;Buritinópolis;Buritinopolis
+5204003;Cabeceiras;Cabeceiras
+5204102;Cachoeira Alta;Cachoeira Alta
+5204201;Cachoeira de Goiás;Cachoeira de Goias
+5204250;Cachoeira Dourada;Cachoeira Dourada
+5204300;Caçu;Cacu
+5204409;Caiapônia;Caiaponia
+5204508;Caldas Novas;Caldas Novas
+5204557;Caldazinha;Caldazinha
+5204607;Campestre de Goiás;Campestre de Goias
+5204656;Campinaçu;Campinacu
+5204706;Campinorte;Campinorte
+5204805;Campo Alegre de Goiás;Campo Alegre de Goias
+5204854;Campo Limpo de Goiás;Campo Limpo de Goias
+5204904;Campos Belos;Campos Belos
+5204953;Campos Verdes;Campos Verdes
+5205000;Carmo do Rio Verde;Carmo do Rio Verde
+5205059;Castelândia;Castelandia
+5205109;Catalão;Catalao
+5205208;Caturaí;Caturai
+5205307;Cavalcante;Cavalcante
+5205406;Ceres;Ceres
+5205455;Cezarina;Cezarina
+5205471;Chapadão do Céu;Chapadao do Ceu
+5205497;Cidade Ocidental;Cidade Ocidental
+5205513;Cocalzinho de Goiás;Cocalzinho de Goias
+5205521;Colinas do Sul;Colinas do Sul
+5205703;Córrego do Ouro;Corrego do Ouro
+5205802;Corumbá de Goiás;Corumba de Goias
+5205901;Corumbaíba;Corumbaiba
+5206206;Cristalina;Cristalina
+5206305;Cristianópolis;Cristianopolis
+5206404;Crixás;Crixas
+5206503;Cromínia;Crominia
+5206602;Cumari;Cumari
+5206701;Damianópolis;Damianopolis
+5206800;Damolândia;Damolandia
+5206909;Davinópolis;Davinopolis
+5207105;Diorama;Diorama
+5208301;Divinópolis de Goiás;Divinopolis de Goias
+5207253;Doverlândia;Doverlandia
+5207352;Edealina;Edealina
+5207402;Edéia;Edeia
+5207501;Estrela do Norte;Estrela do Norte
+5207535;Faina;Faina
+5207600;Fazenda Nova;Fazenda Nova
+5207808;Firminópolis;Firminopolis
+5207907;Flores de Goiás;Flores de Goias
+5208004;Formosa;Formosa
+5208103;Formoso;Formoso
+5208152;Gameleira de Goiás;Gameleira de Goias
+5208400;Goianápolis;Goianapolis
+5208509;Goiandira;Goiandira
+5208608;Goianésia;Goianesia
+5208707;Goiânia;Goiania
+5208806;Goianira;Goianira
+5208905;Goiás;Goias
+5209101;Goiatuba;Goiatuba
+5209150;Gouvelândia;Gouvelandia
+5209200;Guapó;Guapo
+5209291;Guaraíta;Guaraita
+5209408;Guarani de Goiás;Guarani de Goias
+5209457;Guarinos;Guarinos
+5209606;Heitoraí;Heitorai
+5209705;Hidrolândia;Hidrolandia
+5209804;Hidrolina;Hidrolina
+5209903;Iaciara;Iaciara
+5209937;Inaciolândia;Inaciolandia
+5209952;Indiara;Indiara
+5210000;Inhumas;Inhumas
+5210109;Ipameri;Ipameri
+5210158;Ipiranga de Goiás;Ipiranga de Goias
+5210208;Iporá;Ipora
+5210307;Israelândia;Israelandia
+5210406;Itaberaí;Itaberai
+5210562;Itaguari;Itaguari
+5210604;Itaguaru;Itaguaru
+5210802;Itajá;Itaja
+5210901;Itapaci;Itapaci
+5211008;Itapirapuã;Itapirapua
+5211206;Itapuranga;Itapuranga
+5211305;Itarumã;Itaruma
+5211404;Itauçu;Itaucu
+5211503;Itumbiara;Itumbiara
+5211602;Ivolândia;Ivolandia
+5211701;Jandaia;Jandaia
+5211800;Jaraguá;Jaragua
+5211909;Jataí;Jatai
+5212006;Jaupaci;Jaupaci
+5212055;Jesúpolis;Jesupolis
+5212105;Joviânia;Joviania
+5212204;Jussara;Jussara
+5212253;Lagoa Santa;Lagoa Santa
+5212303;Leopoldo de Bulhões;Leopoldo de Bulhoes
+5212501;Luziânia;Luziania
+5212600;Mairipotaba;Mairipotaba
+5212709;Mambaí;Mambai
+5212808;Mara Rosa;Mara Rosa
+5212907;Marzagão;Marzagao
+5212956;Matrinchã;Matrincha
+5213004;Maurilândia;Maurilandia
+5213053;Mimoso de Goiás;Mimoso de Goias
+5213087;Minaçu;Minacu
+5213103;Mineiros;Mineiros
+5213400;Moiporá;Moipora
+5213509;Monte Alegre de Goiás;Monte Alegre de Goias
+5213707;Montes Claros de Goiás;Montes Claros de Goias
+5213756;Montividiu;Montividiu
+5213772;Montividiu do Norte;Montividiu do Norte
+5213806;Morrinhos;Morrinhos
+5213855;Morro Agudo de Goiás;Morro Agudo de Goias
+5213905;Mossâmedes;Mossamedes
+5214002;Mozarlândia;Mozarlandia
+5214051;Mundo Novo;Mundo Novo
+5214101;Mutunópolis;Mutunopolis
+5214408;Nazário;Nazario
+5214507;Nerópolis;Neropolis
+5214606;Niquelândia;Niquelandia
+5214705;Nova América;Nova America
+5214804;Nova Aurora;Nova Aurora
+5214838;Nova Crixás;Nova Crixas
+5214861;Nova Glória;Nova Gloria
+5214879;Nova Iguaçu de Goiás;Nova Iguacu de Goias
+5214903;Nova Roma;Nova Roma
+5215009;Nova Veneza;Nova Veneza
+5215207;Novo Brasil;Novo Brasil
+5215231;Novo Gama;Novo Gama
+5215256;Novo Planalto;Novo Planalto
+5215306;Orizona;Orizona
+5215405;Ouro Verde de Goiás;Ouro Verde de Goias
+5215504;Ouvidor;Ouvidor
+5215603;Padre Bernardo;Padre Bernardo
+5215652;Palestina de Goiás;Palestina de Goias
+5215702;Palmeiras de Goiás;Palmeiras de Goias
+5215801;Palmelo;Palmelo
+5215900;Palminópolis;Palminopolis
+5216007;Panamá;Panama
+5216304;Paranaiguara;Paranaiguara
+5216403;Paraúna;Parauna
+5216452;Perolândia;Perolandia
+5216809;Petrolina de Goiás;Petrolina de Goias
+5216908;Pilar de Goiás;Pilar de Goias
+5217104;Piracanjuba;Piracanjuba
+5217203;Piranhas;Piranhas
+5217302;Pirenópolis;Pirenopolis
+5217401;Pires do Rio;Pires do Rio
+5217609;Planaltina;Planaltina
+5217708;Pontalina;Pontalina
+5218003;Porangatu;Porangatu
+5218052;Porteirão;Porteirao
+5218102;Portelândia;Portelandia
+5218300;Posse;Posse
+5218391;Professor Jamil;Professor Jamil
+5218508;Quirinópolis;Quirinopolis
+5218607;Rialma;Rialma
+5218706;Rianápolis;Rianapolis
+5218789;Rio Quente;Rio Quente
+5218805;Rio Verde;Rio Verde
+5218904;Rubiataba;Rubiataba
+5219001;Sanclerlândia;Sanclerlandia
+5219100;Santa Bárbara de Goiás;Santa Barbara de Goias
+5219209;Santa Cruz de Goiás;Santa Cruz de Goias
+5219258;Santa Fé de Goiás;Santa Fe de Goias
+5219308;Santa Helena de Goiás;Santa Helena de Goias
+5219357;Santa Isabel;Santa Isabel
+5219407;Santa Rita do Araguaia;Santa Rita do Araguaia
+5219456;Santa Rita do Novo Destino;Santa Rita do Novo Destino
+5219506;Santa Rosa de Goiás;Santa Rosa de Goias
+5219605;Santa Tereza de Goiás;Santa Tereza de Goias
+5219704;Santa Terezinha de Goiás;Santa Terezinha de Goias
+5219712;Santo Antônio da Barra;Santo Antonio da Barra
+5219738;Santo Antônio de Goiás;Santo Antonio de Goias
+5219753;Santo Antônio do Descoberto;Santo Antonio do Descoberto
+5219803;São Domingos;Sao Domingos
+5219902;São Francisco de Goiás;Sao Francisco de Goias
+5220058;São João da Paraúna;Sao Joao da Parauna
+5220009;São João d'Aliança;Sao Joao d'Alianca
+5220108;São Luís de Montes Belos;Sao Luis de Montes Belos
+5220157;São Luiz do Norte;Sao Luiz do Norte
+5220207;São Miguel do Araguaia;Sao Miguel do Araguaia
+5220264;São Miguel do Passa Quatro;Sao Miguel do Passa Quatro
+5220280;São Patrício;Sao Patricio
+5220405;São Simão;Sao Simao
+5220454;Senador Canedo;Senador Canedo
+5220504;Serranópolis;Serranopolis
+5220603;Silvânia;Silvania
+5220686;Simolândia;Simolandia
+5220702;Sítio d'Abadia;Sitio d'Abadia
+5221007;Taquaral de Goiás;Taquaral de Goias
+5221080;Teresina de Goiás;Teresina de Goias
+5221197;Terezópolis de Goiás;Terezopolis de Goias
+5221304;Três Ranchos;Tres Ranchos
+5221403;Trindade;Trindade
+5221452;Trombas;Trombas
+5221502;Turvânia;Turvania
+5221551;Turvelândia;Turvelandia
+5221577;Uirapuru;Uirapuru
+5221601;Uruaçu;Uruacu
+5221700;Uruana;Uruana
+5221809;Urutaí;Urutai
+5221858;Valparaíso de Goiás;Valparaiso de Goias
+5221908;Varjão;Varjao
+5222005;Vianópolis;Vianopolis
+5222054;Vicentinópolis;Vicentinopolis
+5222203;Vila Boa;Vila Boa
+5222302;Vila Propício;Vila Propicio
+5300108;Brasília;Brasilia

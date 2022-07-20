@@ -1,0 +1,45 @@
+locale;nfseStatus;txtStatus
+pt;1;Erro na busca de NFS-E
+pt;2;Erro ao executar transformação
+pt;3;Cancelada
+pt;4;Não considerada(exceção)
+pt;5;Pendente de informações
+pt;6;Pendente de envio
+pt;7;Pendente de envio de cancelamento
+pt;8;Erro no envio
+pt;9;Cancelamento processado
+pt;10;Processado
+pt;11;Não considerada manualmente
+pt_BR;1;Erro na busca de NFS-E
+pt_BR;2;Erro ao executar transformação
+pt_BR;3;Cancelada
+pt_BR;4;Não considerada(exceção)
+pt_BR;5;Pendente de informações
+pt_BR;6;Pendente de envio
+pt_BR;7;Pendente de envio de cancelamento
+pt_BR;8;Erro no envio
+pt_BR;9;Cancelamento processado
+pt_BR;10;Processado
+pt_BR;11;Não considerada manualmente
+en;1;Error on searching NFSE
+en;2;Erro on transformation
+en;3;Canceled
+en;4;Not Considered(exception)
+en;5;Pending Information
+en;6;Send pending
+en;7;Cancel send pending
+en;8;Sending error
+en;9;Cancel proccessed
+en;10;Proccessed  
+en;11;Not Considered manually
+es;1;Error al obtener NFS-E
+es;2;Error al realizar la transformación
+es;3;Cancelada
+es;4;No considerado (excepción)
+es;5;Pendiente de información
+es;6;Pendiente de envío
+es;7;Pendiente envío de cancelación
+es;8;Error al enviar
+es;9;Cancelación procesada
+es;10;Procesada
+es;11;No considerado manualmente

@@ -1,0 +1,79 @@
+# CAP nfse
+_out
+*.db
+connection.properties
+default-*.json
+gen/
+node_modules/
+target/
+
+ 
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+ 
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+ 
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+ 
+
+*.iml
+*.flattened-pom.xml
+
+ 
+
+# IDEs
+# .vscode
+# .idea
+
+ 
+
+
+app/cities/dist
+app/companies/dist
+app/layoutpatterns/dist
+app/mappings/dist
+app/nfsearchive/dist
+app/nfsearchivelog/dist
+app/nfseexceptions/dist
+app/nfselog/dist
+app/nfsemonitor/dist
+app/nfseschedulelog/dist
+app/nfseschedulelog_old/dist
+app/prefectures/dist
+app/nfsepostlog/dist
+app/nfsepostparam/dist
+app/nfsedisplay/dist
+app/nfsevendor/dist
+app/nfselist/dist
+app/nfsepdflog/dist
+app/nfseloaddata/dist
+app/nfsetxtexceptions/dist
+app/nfsedash/dist
+app/nfseloadcompref/dist
+
+ 
+
+# added by cds deploy
+default-env.json
+
+ 
+
+# auto generated wildcard
+.env
+
+#deployer
+deployer/
+.vscode/settings.json

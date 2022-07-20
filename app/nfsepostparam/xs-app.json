@@ -1,0 +1,27 @@
+{
+    "welcomeFile": "/index.html",
+    "authenticationMethod": "route",
+    "logout": {
+        "logoutEndpoint": "/do/logout"
+    },
+    "routes": [
+        {
+            "csrfProtection": false,
+            "source": "^/nfse-post/",
+            "destination": "nfse",
+            "authenticationType": "xsuaa",
+            "scope": {
+                "default": [
+                    "$XSAPPNAME.nfse_admin",
+                    "$XSAPPNAME.nfse_adminview"
+                ]
+            }
+        },
+        {
+            "source": "^(.*)$",
+            "target": "$1",
+            "service": "html5-apps-repo-rt",
+            "authenticationType": "xsuaa"
+        }
+    ]
+}

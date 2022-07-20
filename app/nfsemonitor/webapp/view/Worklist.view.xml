@@ -1,0 +1,290 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfsemonitor.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic"
+    xmlns:l="sap.ui.layout"
+>
+
+	<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		toggleHeaderOnTitleClick="false">
+
+		<semantic:titleHeading>
+            <Title
+                text="{i18n>worklistTitle}"
+                textAlign="Center"/>
+		</semantic:titleHeading>
+        
+		<semantic:content>
+			<IconTabBar
+				id="iconTabBar"
+				select=".onQuickFilter"
+				expandable="false"
+				headerBackgroundDesign="Transparent">
+				<items>
+                    <IconTabFilter
+						key="countAll"
+                        showAll="true"
+                        count="{worklistView>/countAll}"
+						text="{i18n>WorklistFilterProductsAll}"
+                    />
+					<IconTabSeparator/>
+                    <IconTabFilter
+						key="pendInfo"
+						icon="sap-icon://message-warning"
+						iconColor="Critical"
+						count="{worklistView>/pendInfo}"
+						text="{i18n>WorklistFilterPendInfo}"
+                    />
+					<IconTabFilter
+						key="pendSend"
+						icon="sap-icon://pending"
+                        iconColor="Neutral"
+                        count="{worklistView>/pendSend}"
+						text="{i18n>WorklistFilterPendSend}"
+                    />
+                    <IconTabFilter
+                        id="pendCancel"
+						key="pendCancel"
+						icon="sap-icon://pending"
+                        iconColor="Neutral"
+                        count="{worklistView>/pendCancel}"
+                        text="{i18n>WorklistFilterPendCancel}"
+                    />
+                    <IconTabFilter
+                        id="cancel"
+						key="cancel"
+						icon="sap-icon://cancel"
+                        iconColor="Neutral"
+                        count="{worklistView>/cancel}"
+                        text="{i18n>WorklistFilterCancel}"
+                    />
+                    <IconTabFilter
+                        id="sendError"
+						key="sendError"
+						icon="sap-icon://message-error"
+                        iconColor="Negative"
+                        count="{worklistView>/sendError}"
+						text="{i18n>WorklistFilterSendError}"
+                    />                       
+				</items>
+                
+				<content>              
+                    <Table
+                        id="table"
+                        width="auto"
+                        mode="MultiSelect"
+                        noDataText="{worklistView>/tableNoDataText}"
+                        busyIndicatorDelay="{worklistView>/tableBusyDelay}"
+                        class="sapUiResponsiveMargin sapUiNoMarginTop"
+                        growing="true"
+                        growingScrollToLoad="true"
+                        updateFinished=".onUpdateFinished"
+                        sticky="ColumnHeaders,HeaderToolbar"
+				        inset="false"
+                        items="{ 
+                            path: '/NotasFiscais',
+                            parameters: {
+                                expand: 'company,prefecture,status,city,srvCity'
+                            },
+                            sorter: {
+                                path: 'docDate',
+                                descending: true
+                            }
+                        }">
+                        <headerToolbar>
+                            <Toolbar>
+                                <Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
+                                <ToolbarSpacer />
+                                <Label text="{i18n>worklistMultInputLabel}" labelFor="srvDueDateInput"/>
+                                <DateRangeSelection 
+                                    id="srvDueDateInput"
+                                    delimiter="-"
+                                    width="250px"
+                                    displayFormat="dd-MM-yyyy"
+                                    change="onHandleChange"
+                                    valueState="{fieldControl>/State/selectionDate/ValueState}"
+									valueStateText="{fieldControl>/State/selectionDate/ValueStateText}"
+                                />
+                                <Button 
+                                    icon="sap-icon://search"
+                                    type="Emphasized" 
+                                    press="onSelectionDate"
+                                    enabled="{fieldControl>/State/selectionButton/Enabled}"
+                                />
+                                <SearchField
+                                    id="searchField"
+                                    tooltip="{i18n>worklistSearchTooltip}"
+                                    search=".onSearch"
+                                    width="auto">
+                                </SearchField>
+                                <Button 
+                                    icon="sap-icon://paper-plane"
+                                    type="Emphasized"
+                                    press="onHandleSend"
+                                    tooltip="{i18n>worklistSendTooltip}"
+                                    text="{i18n>worklistSendTooltip}"
+                                    visible="{fieldControl>/selectionButtonUpStatus}"
+                                />
+                                <Button 
+                                    icon="sap-icon://decline"
+                                    type="Reject" 
+                                    press="onPressIgnore" 
+                                    text="{i18n>ObjectbuttonIgnore}"
+                                    visible="true"
+                                />
+                                <Button 
+                                    icon="sap-icon://cancel"
+                                    type="Accept" 
+                                    press="onPressCancel" 
+                                    text="{i18n>ObjectbuttonCancel}"
+                                    visible="{fieldControl>/selectionButtonCancel}"
+                                />
+                                <Button 
+                                    icon="sap-icon://download"
+                                    type="Emphasized"
+                                    press="onDonwloadPDFs"
+                                    text="{i18n>worklistDownloadPDFs}"
+                                />
+                            </Toolbar>
+                        </headerToolbar>
+
+                        <columns>
+                            <Column id="nameColumn"
+                             width="7em">
+                                <Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
+                            </Column>
+                            <Column 
+                                id="companyColumn"
+                                demandPopin="true"
+                                minScreenWidth="Large"
+                                popinDisplay="Inline">
+                                <Text text="{i18n>tablecompanyTitle}" id="companyTitle"/>
+                            </Column>
+                            <Column 
+                                id="companyNameColumn"
+                                demandPopin="true"
+                                minScreenWidth="Desktop">
+                                <Text text="{i18n>tablecompanyNameTitle}" id="companyNameTitle"/>
+                            </Column>
+                            <Column 
+                                id="prefectureColumn"
+                                demandPopin="true"
+                                minScreenWidth="Tablet"
+                                popinDisplay="Inline">
+                                <Text text="{i18n>tableprefectureTitle}" id="prefectureTitle"/>
+                            </Column>                            
+                            <Column id="nfseNoColumn"
+                                width="6em">
+                                <Text text="{i18n>tablenfseNoTitle}" id="nfseNoTitle"/>
+                            </Column>
+                             <Column 
+                                id="vendorColumn"
+                                demandPopin="true"
+                                minScreenWidth="Large"
+                                popinDisplay="Inline">
+                                <Text text="{i18n>tablevendorTitle}" id="vendorTitle"/>
+                            </Column>
+                            <Column 
+                                id="vendorNameColumn"
+                                demandPopin="true"
+                                minScreenWidth="Desktop">
+                                <Text text="{i18n>tablevendorNameTitle}" id="vendorNameTitle"/>
+                            </Column>                            
+                            <Column id="statusiconColumn"
+                                    width="5em">
+                                <Text text="{i18n>tablestatusTitle}" id="statusTitle"/>
+                            </Column>  
+                            <Column id="statusColumn"
+                              minScreenWidth="Large">
+                                <Text text="{i18n>tablestatusTextTitle}" id="statusTextTitle"/>
+                            </Column>   
+                            <Column id="srvDueDateColumn" 
+                                hAlign="End">
+                                <Text text="{i18n>tablesrvDueDateColumnTitle}" id="srvDueDateColumnTitle"/>
+                            </Column>
+                            <Column id="unitNumberColumn" 
+                                hAlign="End">
+                                <Text text="{i18n>tableUnitNumberColumnTitle}" id="unitNumberColumnTitle"/>
+                            </Column>
+                            <Column id="pdfUploadedColumn" 
+                                hAlign="End">
+                                <Text text="{i18n>pdfUploadedColumnTitle}" id="pdfUploadedColumnTitle"/>
+                            </Column>
+                        </columns>
+
+                        <items>
+                            <ColumnListItem
+                                type="Navigation"
+                                press=".onPress">
+                                <cells>
+                                    <ObjectIdentifier
+                                        title="{
+                                            path: 'docDate',
+                                            type: 'sap.ui.model.type.DateTime',
+                                            formatOptions: {
+                                                style: 'short'
+                                            }
+                                        }"/>
+                                    <Text text="{company/CNPJ}"/>
+                                    <Text text="{company/companyName}"/>
+                                    <Text text="{prefecture/prefectureName}"/>
+                                    <Text text='{nfseNo}'/>
+                                    <Text text="{vendor}"/>
+                                    <Text text="{vendorName}"/>
+                                    <ObjectStatus
+                                        state="{
+                                            path: 'status_nfseStatus',
+                                            formatter: '.formatter.nfseStatusState'
+                                        }"
+                                        icon="{
+                                            path: 'status_nfseStatus',
+                                            formatter: '.formatter.nfseStatusIcon'
+                                        }"
+                                    />
+                                    <ObjectStatus
+                                        text="{status/txtStatus}"
+                                        state="{
+                                            path: 'status_nfseStatus',
+                                            formatter: '.formatter.nfseStatusState'
+                                        }"
+                                    />
+                                    <Text text="{
+                                            path: 'srvDueDate',
+                                            type: 'sap.ui.model.type.Date',
+                                            formatOptions: {
+                                                style: 'short',
+                                                UTC: true
+                                            }
+                                        }"
+                                    />
+                                    <ObjectNumber
+                                        number="{
+                                            path: 'totalAmount',
+                                            formatter: '.formatter.numberUnit'
+                                        }"
+                                        unit="{currency_code}"
+                                    />
+                                    <Text text="{
+                                        path: 'upPDF',
+                                        formatter: '.formatter.pdfUploaded'
+                                        }"
+                                    />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+				</content>
+			</IconTabBar>  
+		</semantic:content>
+
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+
+
+	</semantic:SemanticPage>
+
+</mvc:View>

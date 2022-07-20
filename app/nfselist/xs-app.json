@@ -1,0 +1,37 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+        "logoutEndpoint": "/do/logout"
+   },
+  "routes": [
+    {
+      "csrfProtection": false,
+      "source": "^/v2/nfse-list/",
+      "destination": "nfse",
+      "authenticationType": "xsuaa",
+            "scope": {
+                "default": [
+                    "$XSAPPNAME.nfse_display"
+                ]
+            }
+    },
+    {
+      "csrfProtection": false,
+      "source": "^/catalog/",
+      "destination": "nfse",
+      "authenticationType": "xsuaa",
+            "scope": {
+                "default": [
+                    "$XSAPPNAME.nfse_display"
+                ]
+            }
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

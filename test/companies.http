@@ -1,0 +1,20 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+
+
+
+### ------------------------------------------------------------------------
+# nfse queries geral
+POST {{server}}/companies/Companies(IsActiveEntity=true);
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{
+    "ID": "016d3067-840d-49e8-809c-36822e10889d",
+    "companyName": "Santander Ag - CENTRO",
+    "CNPJ": "90400888029710",
+    "certificate": "SANTANDER_MATRIZ_CER",
+    "description": "AG São Paulo/SP - R BOA VISTA,263 AG São Paulo/SP -  CENTRO",
+    
+}

@@ -1,0 +1,160 @@
+{
+    "_version": "1.29.0",
+    "sap.app": {
+        "id": "com.santander.nfse.app.nfsetxtexceptions",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "dataSources": {
+            "mainService": {
+                "uri": "nfse-exceptions/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0"
+                }
+            }
+        },
+        "offline": false,
+        "resources": "resources.json",
+        "sourceTemplate": {
+            "id": "ui5template.fiorielements.v4.lrop",
+            "version": "1.0.0"
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "fe-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "nfsetxtexceptions",
+                    "action": "manage",
+                    "title": "{{appTile}}",
+                    "subTitle": "",
+                    "icon": "sap-icon://SAP-icons-TNT/exceptions"
+                }
+            }
+        }
+    },
+    "sap.cloud": {
+        "service": "nfse",
+        "public": true
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "resources": {
+            "js": [],
+            "css": []
+        },
+        "dependencies": {
+            "minUI5Version": "1.80.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.fe.templates": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "dataSource": "mainService",
+                "preload": true,
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true
+                }
+            }
+        },
+        "routing": {
+            "routes": [
+                {
+                    "pattern": ":?query:",
+                    "name": "NotasFiscaisTextExceptionList",
+                    "target": "NotasFiscaisTextExceptionList"
+                },
+                {
+                    "pattern": "NotasFiscaisTextException({key}):?query:",
+                    "name": "NotasFiscaisTextExceptionObjectPage",
+                    "target": "NotasFiscaisTextExceptionObjectPage"
+                }
+            ],
+            "targets": {
+                "NotasFiscaisTextExceptionList": {
+                    "type": "Component",
+                    "id": "NotasFiscaisTextExceptionList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "entitySet": "NotasFiscaisTextException",
+                            "variantManagement": "Page",
+                            "navigation": {
+                                "NotasFiscaisTextException": {
+                                    "detail": {
+                                        "route": "NotasFiscaisTextExceptionObjectPage"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "NotasFiscaisTextExceptionObjectPage": {
+                    "type": "Component",
+                    "id": "NotasFiscaisTextExceptionObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "NotasFiscaisTextException"
+                        }
+                    }
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.platform.abap": {
+        "_version": "1.1.0",
+        "uri": ""
+    },
+    "sap.platform.hcp": {
+        "_version": "1.1.0",
+        "uri": ""
+    },
+    "sap.fiori": {
+        "_version": "1.1.0",
+        "registrationIds": [],
+        "archeType": "transactional"
+    },
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.nfse_admin",
+            "$XSAPPNAME.nfse_adminview",
+            "$XSAPPNAME.nfse_adminkeyuser"
+        ]
+    }
+}

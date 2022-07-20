@@ -1,0 +1,98 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfseschedulelog.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+	xmlns:semantic="sap.f.semantic"
+    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+    xmlns:smartMultiInput="sap.ui.comp.smartmultiinput"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:smartField="sap.ui.comp.smartfield"
+>
+    <semantic:SemanticPage
+            id="page"
+            headerPinnable="false"
+            headerExpanded="false"
+            toggleHeaderOnTitleClick="false"
+            fitContent="true">
+        <VBox fitContainer="true">
+            <smartFilterBar:SmartFilterBar 
+                id="smartFilterBar"
+                entitySet="NotasFiscaisScheduleLog"
+                persistencyKey="ID"
+                considerSelectionVariants="true" 
+            >
+                <smartFilterBar:controlConfiguration>
+                    <smartFilterBar:ControlConfiguration 
+                        key="CustomFilterField" 
+                        index="1" 
+                        label="{i18n>CreatedAt}"
+                        groupId="_BASIC" 
+                        width="300px" 
+                        visibleInAdvancedArea="true"
+                        conditionType="{
+                            module: 'sap.ui.comp.config.condition.DateRangeType',
+                            ignoreTime: false,
+                            operations: {
+                                filter: [
+                                    {path: 'createdAt', between: 'IN', exclude:true}
+                                ]
+                            }
+                        }"
+                        filterType="interval"
+                    >
+                        <smartFilterBar:customControl>
+                            <smartMultiInput:SmartMultiInput 
+                                id="createdAtInput"
+                                entitySet="NotasFiscaisScheduleLog" 
+                                value="{createdAt}"
+                                supportRanges="true"
+                            />
+                        </smartFilterBar:customControl>
+                    </smartFilterBar:ControlConfiguration>
+                </smartFilterBar:controlConfiguration>
+            </smartFilterBar:SmartFilterBar>
+
+            <smartTable:SmartTable 
+                id="LineItemSmartTable" 
+                entitySet="NotasFiscaisScheduleLog"
+                smartFilterId="smartFilterBar" 
+                tableType="ResponsiveTable"
+                useExportToExcel="true" 
+                useVariantManagement="true"
+                useTablePersonalisation="true" 
+                showTablePersonalisation="true" 
+                header="{i18n>worklistTableTitle}" 
+                showRowCount="true"
+                persistencyKey="SmartTableAnalytical_Explored" 
+                enableAutoBinding="true"
+                demandPopin="true" 
+                class="sapUiResponsiveContentPadding" 
+                placeToolbarInTable="true"
+                showDetailsButton="true"
+                beforeRebindTable="onBeforeRebindTable"
+            >
+                <smartTable:customToolbar>
+                    <OverflowToolbar design="Transparent">
+                    <ToolbarSpacer/>
+                    <OverflowToolbarButton icon="sap-icon://sort"    tooltip="{i18n>Sort}"   text="{i18n>Sort}"   press="onSort"/>
+                    <OverflowToolbarButton icon="sap-icon://filter"  tooltip="{i18n>Filter}" text="{i18n>Filter}" press="onFilter"/>
+                    <OverflowToolbarButton icon="sap-icon://group-2" tooltip="{i18n>Group}"  text="{i18n>Group}"  press="onGroup"/>
+                    </OverflowToolbar>
+                </smartTable:customToolbar>
+                <Table 
+                    width="auto"
+                    sticky="ColumnHeaders,HeaderToolbar"
+                    class="sapUiResponsiveMargin sapUiNoMarginTop sapUiNoMarginLeft">
+                    <columns>
+                    </columns>
+                    <items>
+                        <ColumnListItem
+                            type="Navigation"
+                            press=".onPress"/>
+                    </items>
+                </Table>
+            </smartTable:SmartTable>
+        </VBox>
+    </semantic:SemanticPage>
+</mvc:View>

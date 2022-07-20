@@ -1,0 +1,60 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfselist.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic"
+    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable">
+<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		headerExpanded="false"
+        toggleHeaderOnTitleClick="false"
+        fitContent="true">
+	<VBox fitContainer="true">
+        <smartFilterBar:SmartFilterBar 
+            id="smartFilterBar"
+            entitySet="NotasFiscais" 
+            persistencyKey="SmartFilter_Explored"
+            onsiderSelectionVariants="true" />
+        <smartTable:SmartTable 
+            id="LineItemSmartTable" 
+            entitySet="NotasFiscais"
+            smartFilterId="smartFilterBar" 
+            tableType="ResponsiveTable"
+            useExportToExcel="true" 
+            useVariantManagement="true"
+            useTablePersonalisation="true" 
+            showTablePersonalisation="true" 
+            header="{i18n>worklistTableTitle}" 
+            showRowCount="true"
+            persistencyKey="SmartTableAnalytical_Explored" 
+            enableAutoBinding="true"
+            demandPopin="true" 
+            class="sapUiResponsiveContentPadding" 
+            placeToolbarInTable="true"
+            showDetailsButton="true">
+            <smartTable:customToolbar>
+                <OverflowToolbar design="Transparent">
+                <ToolbarSpacer/>
+                <OverflowToolbarButton icon="sap-icon://sort" tooltip="{i18n>Sort}" text="{i18n>Sort}" press="onSort"/>
+                <OverflowToolbarButton icon="sap-icon://filter" tooltip="{i18n>Filter}" text="{i18n>Filter}" press="onFilter"/>
+                <OverflowToolbarButton icon="sap-icon://group-2" tooltip="{i18n>Group}" text="{i18n>Group}"  press="onGroup"/>
+                </OverflowToolbar>
+            </smartTable:customToolbar>
+            <Table 
+                width="auto"
+                sticky="ColumnHeaders,HeaderToolbar"
+                class="sapUiResponsiveMargin sapUiNoMarginTop sapUiNoMarginLeft">
+                <columns>
+                </columns>
+                <items>
+                    <ColumnListItem
+                        type="Navigation"
+                        press=".onPress"/>
+                </items>
+            </Table>
+        </smartTable:SmartTable>
+    </VBox>
+    </semantic:SemanticPage>
+</mvc:View>

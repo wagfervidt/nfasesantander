@@ -1,0 +1,12 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+
+### ------------------------------------------------------------------------
+# UPLOAD ReadException file
+POST {{server}}/nfse-load-data/uploadReadException
+Content-Type: application/json
+Authorization: Basic nfseadmin:nfseadmin
+
+
+{}

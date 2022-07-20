@@ -1,0 +1,88 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfseloaddata.controller.Main"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:form="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+    xmlns:u="sap.ui.unified">
+    <NavContainer id="wizardNavContainer">
+		<pages>
+			<Page id="wizardContentPage" showHeader="false">
+				<content>
+					<Wizard 
+						id="CreateWizard" 
+						class="sapUiResponsivePadding--header sapUiResponsivePadding--content"
+						finishButtonText="{i18n>mainFinishButtonText}"
+						complete="onWizardCompletedHandler">
+						<WizardStep id="selectFile" title="{i18n>mainSelectionData}" validated="false" activate="onWizardStepValidation">
+							<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>mainInfoSelectionData}"/>
+							<l:VerticalLayout>
+								<Label labelFor="rbg1" text="{i18n>mainLabelTypeText}" required="true" />
+								<l:HorizontalLayout class="sapUiContentPadding">
+									<RadioButtonGroup id="rbg1" width="100%" >
+										<RadioButton 
+											id="company" 
+											text="{i18n>mainCheckTextCompany}" 
+											selected="{fieldControl>/selectionCheckCompany}"
+											valueState="{fieldControl>/State/selectionCheckCompany/ValueState}"
+											enabled="{fieldControl>/State/selectionCheckCompany/Enabled}"
+										/>
+										<RadioButton 
+											id="schedule" 
+											text="{i18n>mainCheckTextSchedule}"
+											selected="{fieldControl>/selectionCheckSchedule}"
+											valueState="{fieldControl>/State/selectionCheckSchedule/ValueState}"
+											enabled="{fieldControl>/State/selectionCheckSchedule/Enabled}" 
+										/>
+										<RadioButton 
+											id="exception" 
+											text="{i18n>mainCheckTextException}"
+											selected="{fieldControl>/selectionCheckException}"
+											valueState="{fieldControl>/State/selectionCheckException/ValueState}"
+											enabled="{fieldControl>/State/selectionCheckException/Enabled}" 
+										/>
+										<RadioButton 
+											id="vendor" 
+											text="{i18n>mainCheckTextVendor}"
+											selected="{fieldControl>/selectionCheckVendor}"
+											valueState="{fieldControl>/State/selectionCheckVendor/ValueState}"
+											enabled="{fieldControl>/State/selectionCheckVendor/Enabled}" 
+										/>
+									</RadioButtonGroup> 
+									<Button 
+										id="mainButtonTemplate" 
+										text="{i18n>mainTextTemplate}" 
+										press="onDownloadTemplate"
+									/>         
+								</l:HorizontalLayout>           
+								<Label text="{i18n>mainLabelFile}" required="true"/>
+								<u:FileUploader 
+									width="100%" 
+									id="fileUploader" 
+									tooltip="{i18n>mainTooltipFile}" 
+									change="onWizardStepValidation"
+									typeMissmatch="onHandleTypeMissmatch" 
+									style="Emphasized" 
+									fileType="xlsx,XSLX" 
+									placeholder="Escolha o arquivo para upload"
+									value="{fieldControl>/selectionFile}" 
+									valueState="{fieldControl>/State/selectionFile/ValueState}"
+									valueStateText="{fieldControl>/State/selectionFile/ValueStateText}" 
+									enabled="{fieldControl>/State/selectionFile/Enabled}">
+									<u:parameters>
+										<u:FileUploaderParameter name="param1" value="Foo"/>
+										<u:FileUploaderParameter name="param2" value="bar"/>
+									</u:parameters>
+									<u:headerParameters>
+										<u:FileUploaderParameter name="headerParam1" value="Foo"/>
+										<u:FileUploaderParameter name="headerParam2" value="bar"/>
+									</u:headerParameters>
+								</u:FileUploader>
+							</l:VerticalLayout>                           								
+						</WizardStep>
+					</Wizard>
+				</content>
+			</Page>
+		</pages>
+	</NavContainer>
+</mvc:View>

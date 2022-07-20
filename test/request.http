@@ -1,0 +1,78 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+ 
+### ------------------------------------------------------------------------
+# Create Companies
+POST {{server}}/catalog/Companies
+Content-Type: application/json;IEEE754Compatible=true
+
+    {
+        "companyName": "ITS GROUP",
+        "CNPJ": "50505050505050331159",
+        "CCM": "22222222",
+        "certificate": "SANTANDER_SP_A1",
+        "description": "Empresa its - São Paulo",
+        "inactive": false,
+        "homePrefecture_ID": "d443db40-c825-4c64-aace-8bbf54081ed5",
+        "prefectures": [
+            {
+                "prefectures_ID": "d443db40-c825-4c64-aace-8bbf54081ed5"
+            }
+        ]  
+    }
+
+### ------------------------------------------------------------------------
+# Create Companies
+POST {{server}}/catalog/NotasFiscaisReadException
+Content-Type: application/json;IEEE754Compatible=true
+ 
+    {
+      "createdAt": "2021-02-09T19:59:02.183Z",
+      "createdBy": "augusto.agostini@itsgroup.com.br",
+      "modifiedAt": "2021-02-09T20:00:33.482Z",
+      "modifiedBy": "augusto.agostini@itsgroup.com.br",
+      "vendor": "12312312312",
+      "vendorExcName": "131231230",
+      "validFrom": "2021-02-12T03:00:00.000Z",
+      "validTo": "2021-02-20T03:00:00.000Z",
+      "companies": [
+        {
+          "company_ID": "1e5cbca5-c972-40c6-a3a3-b11535642144"
+        }
+      ]
+    }
+
+### ------------------------------------------------------------------------
+# Create Archive parameters
+POST {{server}}/catalog/NotasFiscaisArchive
+Content-Type: application/json;IEEE754Compatible=true
+ 
+    {
+      "status_nfseStatus": 3,
+      "lifeTime": 10
+    }
+
+
+### ------------------------------------------------------------------------
+# Create Archive parameters
+GET {{server}}/catalog/NotasFiscaisArchive
+Content-Type: application/json;IEEE754Compatible=true
+ 
+
+###
+POST {{server}}/catalog/nfseArchive
+Content-Type: application/json
+{{me}}
+###
+
+POST {{server}}/catalog/NotasFiscais
+Content-Type: application/json;IEEE754Compatible=true
+ 
+{
+    "vendor": "aaaa",
+    "vendorCCM": "123344",
+    "nfseNo": "121213",
+    "docDate" : "2021-02-18T00:00:00Z",
+    "modifiedAt" : "2021-02-18T00:00:00Z",
+    "status_nfseStatus" : 6
+}

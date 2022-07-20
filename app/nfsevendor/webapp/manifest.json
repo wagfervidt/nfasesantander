@@ -1,0 +1,169 @@
+{
+    "_version": "1.29.0",
+    "sap.app": {
+        "id": "com.santander.nfse.app.nfsevendor",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "dataSources": {
+            "mainService": {
+                "uri": "nfse-vendor/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0"
+                }
+            }
+        },
+        "offline": false,
+        "resources": "resources.json",
+        "sourceTemplate": {
+            "id": "ui5template.fiorielements.v4.lrop",
+            "version": "1.0.0"
+        },
+        "crossNavigation": {
+          "inbounds": {
+              "fe-inbound": {
+                  "signature": {
+                      "parameters": {},
+                      "additionalParameters": "allowed"
+                  },
+                  "semanticObject": "nfsevendor",
+                  "action": "manage",
+                  "title": "{{appTile}}",
+                  "subTitle": "{{appDescription}}",
+                  "icon": "sap-icon://supplier"
+              }
+          }
+        }          
+    },
+    "sap.cloud": {
+        "service": "nfse",
+        "public": true
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "resources": {
+            "js": [],
+            "css": []
+        },
+        "dependencies": {
+            "minUI5Version": "1.80.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.fe.templates": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "dataSource": "mainService",
+                "preload": true,
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true
+                }
+            }
+        },
+        "routing": {
+            "routes": [
+                {
+                    "pattern": ":?query:",
+                    "name": "NotasFiscaisVendorList",
+                    "target": "NotasFiscaisVendorList"
+                },
+                {
+                    "pattern": "NotasFiscaisVendor({key}):?query:",
+                    "name": "NotasFiscaisVendorObjectPage",
+                    "target": "NotasFiscaisVendorObjectPage"
+                }
+            ],
+            "targets": {
+                "NotasFiscaisVendorList": {
+                    "type": "Component",
+                    "id": "NotasFiscaisVendorList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "entitySet": "NotasFiscaisVendor",
+                            "variantManagement": "Page",
+                            "initialLoad": true,
+                            "controlConfiguration": {
+                                "@com.sap.vocabularies.UI.v1.LineItem": {
+                                   "tableSettings": {
+                                      "type": "ResponsiveTable",
+                                      "enableExport": "true"
+                                   }
+                                }
+                            }, 
+                            "navigation": {
+                                "NotasFiscaisVendor": {
+                                    "detail": {
+                                        "route": "NotasFiscaisVendorObjectPage"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "NotasFiscaisVendorObjectPage": {
+                    "type": "Component",
+                    "id": "NotasFiscaisVendorObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "NotasFiscaisVendor"
+                        }
+                    }
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.platform.abap": {
+        "_version": "1.1.0",
+        "uri": ""
+    },
+    "sap.platform.hcp": {
+        "_version": "1.1.0",
+        "uri": ""
+    },
+    "sap.fiori": {
+        "_version": "1.1.0",
+        "registrationIds": [],
+        "archeType": "transactional"
+    },
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.nfse_admin",
+            "$XSAPPNAME.nfse_adminview",
+            "$XSAPPNAME.nfse_adminkeyuser"            
+        ]
+    }      
+}

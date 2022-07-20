@@ -1,0 +1,17 @@
+locale;param;txtParam
+pt;1;Endereço serviço
+pt;2;Método serviço
+pt;3;Certificado
+pt;4;XML serviço
+pt_BR;1;Endereço serviço
+pt_BR;2;Método serviço
+pt_BR;3;Certificado
+pt_BR;4;XML serviço
+en;1;Service address
+en;2;Service method
+en;3;Certificate
+en;4;Service XML
+es;1;Dirección servicio
+es;2;Metodo servicio
+es;3;Certificate
+es;4;XML servicio

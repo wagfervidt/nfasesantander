@@ -1,0 +1,32 @@
+{
+  "name": "nfsepdflog",
+  "version": "1.0.0",
+  "description": "Logs de envio Nota Fiscal",
+  "private": true,
+  "scripts": {
+    "build": "npm run clean && ui5 build --include-task=generateManifestBundle generateCachebusterInfo && npm run zip",
+    "clean": "npx rimraf dist",
+    "zip": "cd dist && npx bestzip nfsepdflog-content.zip * && rimraf \"!(*content.zip)\" ",
+    "start": "ui5 serve --port 8097"
+  },
+  "devDependencies": {
+    "@sap/ui5-builder-webide-extension": "^1.1.8",
+    "ui5-middleware-livereload": "^0.4.3",
+    "ui5-middleware-simpleproxy": "^0.5.1"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy",
+      "ui5-middleware-livereload",
+      "@sap/ui5-builder-webide-extension"
+    ]
+  },
+  "keywords": [
+    "Santander",
+    "NFSE",
+    "Post",
+    "Log"
+  ],
+  "author": "ITS Group",
+  "license": "ISC"
+}

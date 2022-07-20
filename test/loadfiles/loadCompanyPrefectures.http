@@ -1,0 +1,12 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+
+### ------------------------------------------------------------------------
+# LOAD CompanieSPrefectures from prefectureName
+POST {{server}}/nfse-load-data/loadCompanyPrefectures?prefectureName=Aracaju/SE
+Content-Type: application/json
+Authorization: Basic nfseadmin:nfseadmin
+
+
+{}

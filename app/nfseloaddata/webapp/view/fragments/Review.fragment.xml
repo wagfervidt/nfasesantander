@@ -1,0 +1,74 @@
+<core:FragmentDefinition height="100%" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:u="sap.ui.unified">
+	<Page id="wizardReviewPage" title="{i18n>ReviewPageTitle}" showHeader="false">
+		<content>
+			<form:SimpleForm title="1. {i18n>ReviewSelectedInformation}" minWidth="1024" id="form-content" editable="false" layout="ResponsiveGridLayout">
+				<form:content>
+					<Label text="{i18n>mainLabelTypeText}" required="true" />
+        			<RadioButtonGroup columns="4" width="100%">
+						<RadioButton 
+							text="{i18n>mainCheckTextCompany}" 
+							selected="{fieldControl>/selectionCheckCompany}"
+							select="onWizardStepValidation"
+							valueState="{fieldControl>/State/selectionCheckCompany/ValueState}"
+							enabled="{fieldControl>/State/selectionCheckCompany/Enabled}"
+						/>
+						<RadioButton 
+							text="{i18n>mainCheckTextSchedule}"
+							selected="{fieldControl>/selectionCheckSchedule}"
+							select="onWizardStepValidation"
+							valueState="{fieldControl>/State/selectionCheckSchedule/ValueState}"
+							enabled="{fieldControl>/State/selectionCheckSchedule/Enabled}" 
+						/>
+						<RadioButton 
+							text="{i18n>mainCheckTextException}"
+							selected="{fieldControl>/selectionCheckException}"
+							select="onWizardStepValidation"
+							valueState="{fieldControl>/State/selectionCheckException/ValueState}"
+							enabled="{fieldControl>/State/selectionCheckException/Enabled}" 
+						/>
+						<RadioButton
+							text="{i18n>mainCheckTextVendor}"
+							selected="{fieldControl>/selectionCheckVendor}"
+							valueState="{fieldControl>/State/selectionCheckVendor/ValueState}"
+							enabled="{fieldControl>/State/selectionCheckVendor/Enabled}" 
+						/>
+					</RadioButtonGroup>          
+					<Label text="{i18n>mainLabelFile}" required="true"/>
+					<u:FileUploader 
+						width="100%"
+						tooltip="{i18n>mainTooltipFile}" 
+						change="onWizardStepValidation"
+						typeMissmatch="handleTypeMissmatch" 
+						style="Emphasized" 
+						fileType="xlsx,XSLX" 
+						placeholder="Escolha o arquivo para upload"
+						value="{fieldControl>/selectionFile}" 
+						valueState="{fieldControl>/State/selectionFile/ValueState}"
+		    			valueStateText="{fieldControl>/State/selectionFile/ValueStateText}" 
+						enabled="{fieldControl>/State/selectionFile/Enabled}">
+						<u:parameters>
+							<u:FileUploaderParameter name="param1" value="Foo"/>
+							<u:FileUploaderParameter name="param2" value="bar"/>
+						</u:parameters>
+						<u:headerParameters>
+						    <u:FileUploaderParameter name="headerParam1" value="Foo"/>
+							<u:FileUploaderParameter name="headerParam2" value="bar"/>
+						</u:headerParameters>
+					</u:FileUploader>
+				</form:content>
+			</form:SimpleForm>
+			<form:SimpleForm title="2. {i18n>ReviewLogsData}" minWidth="1024" editable="false" layout="ResponsiveGridLayout">
+				<form:content>
+					<core:Fragment fragmentName="com.santander.nfse.app.nfseloaddata.view.fragments.LogsData" type="XML"/>
+				</form:content>
+			</form:SimpleForm>
+		</content>
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button text="{i18n>ReviewButtonRestarting}" press="onRestartingDataLoading" icon="sap-icon://restart"/>
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</core:FragmentDefinition>

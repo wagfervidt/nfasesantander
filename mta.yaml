@@ -1,0 +1,591 @@
+## Generated mta.yaml based on template version 0.4.0
+## appName = nfse
+## language=nodejs; multiTenant=false
+## approuter=
+_schema-version: '3.1'
+ID: nfse
+version: 1.0.3
+description: "Santander NFSE"
+parameters:
+  enable-parallel-deployments: true
+##  deploy_mode: html5-repo
+   
+build-parameters:
+  before-all:
+   - builder: custom
+     commands:
+      - npm install --production
+      - npx -p @sap/cds-dk@6.0.3 cds build --production
+
+modules:
+# ------------------- HTML5 Content ---------------------
+ - name: nfse-destination-content
+# ---------------------------------------------------------
+   type: com.sap.application.content
+   requires:
+   - name: nfse-xsuaa-service
+     parameters:
+       service-key:
+         name: nfse_xsuaa-key
+   - name: nfse-html5-host
+     parameters:
+       service-key:
+         name: nfse_html5_host-key
+   - name: nfse-destination-service
+     parameters:
+       content-target: true        
+   parameters:
+     content:
+       subaccount:
+         destinations:
+         - Name: nfse_html5_host
+           ServiceInstanceName: nfse-html5-host-service
+           ServiceKeyName: nfse_html5_host-key
+           sap.cloud.service: nfse
+         - Authentication: OAuth2UserTokenExchange
+           Name: nfse_xsuaa
+           ServiceInstanceName: nfse-xsuaa-service
+           ServiceKeyName: nfse_xsuaa-key
+           sap.cloud.service: nfse
+         existing_destinations_policy: update    
+   build-parameters:
+     no-source: true
+
+
+ # ------------ UI DEPLOYER MODULE ------------ OK
+ - name: nfse-ui-deployer 
+ # ------------------------------------------------------------
+   type: com.sap.application.content
+   path: deployer
+   requires:
+    - name: nfse-html5-host
+      parameters:
+        content-target: true
+   build-parameters:
+    build-result: resources
+    requires:
+      - name: nfse-nfsemonitor-fiori
+        artifacts:
+          - nfsemonitor-content.zip
+        target-path: resources/       
+      - name: nfse-layoutpatterns-fiori
+        artifacts:
+          - layoutpatterns-content.zip
+        target-path: resources/    
+      - name: nfse-prefectures-fiori
+        artifacts:
+          - prefectures-content.zip
+        target-path: resources/        
+      - name: nfse-companies-fiori
+        artifacts:
+          - companies-content.zip
+        target-path: resources/
+      - name: nfse-cities-fiori
+        artifacts:
+          - cities-content.zip
+        target-path: resources/
+      - name: nfse-mappings-fiori
+        artifacts:
+          - mappings-content.zip
+        target-path: resources/              
+      - name: nfse-nfseexceptions-fiori
+        artifacts:
+          - nfseexceptions-content.zip
+        target-path: resources/  
+      - name: nfse-nfsetxtexceptions-fiori
+        artifacts:
+          - nfsetxtexceptions-content.zip
+        target-path: resources/
+      - name: nfse-nfseschedulelog-fiori
+        artifacts:
+          - nfseschedulelog-content.zip
+        target-path: resources/                           
+      - name: nfse-nfselog-fiori
+        artifacts:
+          - nfselog-content.zip
+        target-path: resources/    
+      - name: nfse-nfsearchive-fiori
+        artifacts:
+          - nfsearchive-content.zip
+        target-path: resources/            
+      - name: nfse-nfsearchivelog-fiori
+        artifacts:
+          - nfsearchivelog-content.zip
+        target-path: resources/    
+      - name: nfse-nfsepostparam-fiori
+        artifacts:
+          - nfsepostparam-content.zip
+        target-path: resources/                     
+      - name: nfse-nfsepostlog-fiori
+        artifacts:
+          - nfsepostlog-content.zip
+        target-path: resources/   
+      - name: nfse-nfsepdflog-fiori
+        artifacts:
+          - nfsepdflog-content.zip
+        target-path: resources/   
+      - name: nfse-nfsevendor-fiori
+        artifacts:
+          - nfsevendor-content.zip
+        target-path: resources/   
+      - name: nfse-nfselist-fiori
+        artifacts:
+          - nfselist-content.zip
+        target-path: resources/ 
+      - name: nfse-nfseloaddata-fiori
+        artifacts:
+          - nfseloaddata-content.zip
+        target-path: resources/
+      - name: nfse-nfseloadcompref-fiori
+        artifacts:
+          - nfseloadcompref-content.zip
+        target-path: resources/     
+        
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsemonitor-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsemonitor
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-companies-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/companies
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: []
+        build-result: dist
+
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-layoutpatterns-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/layoutpatterns
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build 
+        supported-platforms: []
+        build-result: dist 
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-prefectures-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/prefectures
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist 
+
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-mappings-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/mappings
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist 
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-cities-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/cities
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist   
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfseexceptions-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfseexceptions
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist         
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsetxtexceptions-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsetxtexceptions
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist    
+
+ # ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfseschedulelog-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfseschedulelog
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfselog-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfselog
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsearchive-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsearchive
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsearchivelog-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsearchivelog
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsepostparam-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsepostparam
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsepostlog-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsepostlog
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsepdflog-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsepdflog
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist             
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfsevendor-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfsevendor
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist     
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfselist-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfselist
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist  
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfseloaddata-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfseloaddata
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist
+
+# ok------------------- HTML5 MODULE -------------------------
+ - name: nfse-nfseloadcompref-fiori
+ # ------------------------------------------------------------
+   type: html5
+   path: app/nfseloadcompref
+   build-parameters:
+        builder: custom
+        commands:
+          - npm run build
+        supported-platforms: [] 
+        build-result: dist
+        
+ # ok------------------- SERVER MODULE ------------------------
+ - name: nfse-srv
+ # ------------------------------------------------------------
+   type: nodejs
+   path: gen/srv
+   parameters:
+     memory: 8192M
+     disk-quota: 2048M
+     instances: 5 
+   properties: 
+     SAP_JWT_TRUST_ACL: "[{\"clientid\":\"*\",\"identityzone\":\"*\"}]"
+   provides:
+    - name: srv-api      # required by consumers of CAP services (e.g. approuter)
+      properties:
+        srv-url: ${default-url}
+   requires:
+    # Resources extracted from CAP configuration
+    - name: nfse-xsuaa-service
+    - name: nfse-db
+    - name: nfse-job-sched  
+    - name: nfse-credential-store
+    - name: nfse-objectstore-service  
+    - name: nfse-destination-service
+      parameters:
+        content-target: true  
+    - name: nfse-autoscaler-service
+      parameters:
+        config:
+          instance_min_count: 5
+          instance_max_count: 10
+          scaling_rules: 
+            - metric_type: "cpu"
+              threshold: 80
+              stat_window_secs: 60
+              breach_duration_secs: 60
+              cool_down_secs: 60
+              operator: ">"
+              adjustment: "+1"
+            - metric_type: "cpu"
+              threshold: 50
+              stat_window_secs: 180
+              breach_duration_secs: 180
+              cool_down_secs: 180
+              operator: "<="
+              adjustment: "-1"
+
+
+ # ok-------------------- SIDECAR MODULE ----------------------
+ - name: nfse-db-deployer
+ # ------------------------------------------------------------
+   type: hdb
+   path: gen/db  
+   parameters:
+     buildpack: nodejs_buildpack
+   requires:
+    # 'hana' and 'xsuaa' resources extracted from CAP configuration
+    - name: nfse-db
+    - name: nfse-xsuaa-service
+
+
+
+
+resources:
+ # services extracted from CAP configuration
+ # 'service-plan' can be configured via 'cds.requires.<name>.vcap.plan'
+# ok------------------------------------------------------------
+ - name: nfse-db
+# ------------------------------------------------------------
+   type: com.sap.xs.hdi-container
+   parameters:
+     service: hana  # or 'hanatrial' on trial landscapes
+     service-plan: hdi-shared
+   properties:
+     hdi-service-name: ${service-name}
+
+
+# ----------------- Destination Service -------------------
+ - name: nfse-destination-service
+# ---------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   requires:
+     - name: srv-api
+     - name: srv-docker-api
+     - name: srv-python-api
+   parameters:
+     service: destination
+     service-name: nfse-destination-service
+     service-plan: lite
+     config:
+       init_data:
+         subaccount:
+           existing_destinations_policy: update
+           destinations:
+             - Name: nfse
+               Description: Nfse Destination Service
+               Authentication: NoAuthentication
+               ProxyType: Internet
+               Type: HTTP
+               URL: ~{srv-api/srv-url}
+               HTML5.DynamicDestination: true
+               HTML5.ForwardAuthToken: true
+               HTML5.Timeout: 300000
+             - Name: nfse-docker
+               Description: Nfse Docker Destination Service
+               Authentication: NoAuthentication
+               ProxyType: Internet
+               Type: HTTP
+               URL: ~{srv-docker-api/srv-url}
+               HTML5.DynamicDestination: true
+               HTML5.ForwardAuthToken: true
+               HTML5.Timeout: 300000                               
+             - Name: nfse-python
+               Description: Nfse Python Destination Service
+               Authentication: NoAuthentication
+               ProxyType: Internet
+               Type: HTTP
+               URL: ~{srv-python-api/srv-url}
+               HTML5.DynamicDestination: true
+               HTML5.ForwardAuthToken: true
+               HTML5.Timeout: 300000  
+             - Name: NFSE-MAIL
+               Type: MAIL
+               ProxyType: Internet
+               mail.description: Nfse Mail Destination Service
+               mail.user: "8648f6fbe7aed5"
+               mail.password: "5b9fd35b0bd8e6"
+               mail.from: "nfse@santander.com"
+               mail.smtp: "smtp.mailtrap.io"
+               mail.port: 2525               
+
+# ok -------------------- HTML5 Host ------------------------
+ - name: nfse-html5-host
+# -----------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+     service: html5-apps-repo
+     service-plan: app-host
+     service-name: nfse-html5-host-service
+     config:
+       sizeLimit: 5
+
+# ok ------------------- XSUAA Service ---------------------
+ - name: nfse-xsuaa-service
+# ---------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service-name: nfse-xsuaa-service
+      service: xsuaa
+
+ # ok--------------- JOB SCHEDULER Service --------------------
+ - name: nfse-job-sched
+ # ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+      service: jobscheduler
+      service-plan: standard
+      service-name: nfse-job-sched-service
+      config:
+         enable-xsuaa-support: true
+
+ # ok------------- Credential Store Service -------------------
+ - name: nfse-credential-store
+ # ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+      service: credstore
+      service-plan: standard
+      service-name: nfse-credential-store
+
+
+
+ # ok------------- AutoScaler Service -------------------
+ - name: nfse-autoscaler-service
+ # ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+      service: autoscaler
+      service-plan: standard
+      service-name: nfse-autoscaler-service
+
+
+ # ok------------- Azure Objectore Service -------------------
+ - name: nfse-objectstore-service
+ # ------------------------------------------------------------
+   type: org.cloudfoundry.managed-service
+   parameters:
+      service: objectstore
+      service-plan: azure-standard
+      service-name: nfse-objectstore-service
+
+
+
+
+ # --------- Docker Application from nfse-docker.mta-----------
+ - name: srv-docker-api
+ # ------------------------------------------------------------ 
+   type: configuration
+   description: Application Docker
+   optional: true  # default value
+   parameters:
+      provider-id: 'nfse-docker:srv-docker-api'
+      version: '>=1.0.0'      
+
+ # --------- Python Application from nfse-python.mta-----------
+ - name: srv-python-api
+ # ------------------------------------------------------------ 
+   type: configuration
+   description: Application Python
+   optional: true  # default value
+   parameters:
+      provider-id: 'nfse-python:srv-python-api'
+      version: '>=1.0.0'      

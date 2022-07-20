@@ -1,0 +1,15 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+### ------------------------------------------------------------------------
+# nfse queries parallels
+POST {{server}}/testing/callExtApp
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{
+  "destination": "nfse-docker",
+  "path": "/pdf",
+  "body": "[{\"ID\":\"4caaba5f-926a-4f49-b411-f2bcb5ebec58\",\"methodPDF\":\"PortoVelhoRO\",\"nfseNo\":\"50501\",\"vendor\":\"27216869000809      \",\"vendorCCM\":\"14247011\",\"veriCode\":\"N4FZOGYYE\",\"companyCNPJ\":\"90400888000142\",\"totalAmount\":\"208.95\"},{\"ID\":\"49dba95b-fda0-4199-8ae6-454f0f0d8016\",\"methodPDF\":\"PortoVelhoRO\",\"nfseNo\":\"50499\",\"vendor\":\"27216869000809      \",\"vendorCCM\":\"14247011\",\"veriCode\":\"FLDCNYHYU\",\"companyCNPJ\":\"90400888000142\",\"totalAmount\":\"219.45\"}]"
+
+}

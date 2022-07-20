@@ -1,0 +1,12 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+
+### ------------------------------------------------------------------------
+# UPLOAD ScheduleLog FILE 
+POST {{server}}/nfse-load-data/uploadScheduleLog
+Content-Type: application/json
+Authorization: Basic nfseadmin:nfseadmin
+
+
+{}

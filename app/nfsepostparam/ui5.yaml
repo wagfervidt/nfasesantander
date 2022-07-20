@@ -1,0 +1,42 @@
+specVersion: '2.0'
+metadata:
+  name: com.santander.nfse.app.nfsepostparam
+type: application
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8
+server:
+  customMiddleware:
+  - name: ui5-middleware-simpleproxy
+    afterMiddleware: compression
+    mountPath: /companies
+    configuration:
+      baseUri: "http://localhost:4004/nfse-post"
+      removeETag: true
+  - name: ui5-middleware-livereload
+    afterMiddleware: compression
+    configuration:
+      debug: true
+      extraExts: "xml,json,properties"
+      port: 35741
+      path: "webapp"    
+builder:
+  resources:
+    excludes:
+      - "/test/**"
+      - "/localService/**"
+  customTasks:
+  - name: webide-extension-task-updateManifestJson
+    beforeTask: generateManifestBundle
+    configuration:
+      appFolder: webapp
+      destDir: dist
+  - name: webide-extension-task-resources
+    afterTask: webide-extension-task-updateManifestJson
+    configuration:
+      nameSpace: com.santander.nfse.app.nfsepostparam
+  - name: webide-extension-task-copyFile
+    afterTask: webide-extension-task-resources
+    configuration:
+      srcFile: "/xs-app.json"
+      destFile: "/xs-app.json"

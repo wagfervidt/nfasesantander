@@ -1,0 +1,13 @@
+locale;status;txtStatus
+pt;1;Erro
+pt;2;Cancelado
+pt;3;Sucesso
+pt_BR;1;Erro
+pt_BR;2;Cancelado
+pt_BR;3;Sucesso
+en;1;Error
+en;2;Canceled
+en;3;Success
+es;1;Error 
+es;2;Cancelado
+es;3;Éxito

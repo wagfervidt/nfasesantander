@@ -1,0 +1,12 @@
+nfseStatus;txtStatus
+1;Erro na busca de NFS-E
+2;Erro ao executar transformação
+3;Cancelada
+4;Não considerada(exceção)
+5;Pendente de informações
+6;Pendente de envio
+7;Pendente de envio de cancelamento
+8;Erro no envio
+9;Cancelamento processado
+10;Processado
+11;Não considerada manualmente

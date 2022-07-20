@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xmlConsulta>
+    <Company_CNPJ>{CNPJ_Company}</Company_CNPJ>
+    <Dt_Ini>{Date_begin}</Dt_Ini>
+    <Dt_Fim>{Date_end}</Dt_Fim>
+    <Company_CCM>{CCM_Company}</Company_CCM>
+    <Vendor_CNPJ>{CNPJ_Vendor}</Vendor_CNPJ>
+    <Vendor_CCM>{CCM_Vendor}</Vendor_CCM>
+    <Pagina>{Page_counter}</Pagina>
+    <Prefecture_CCM>{Prefecture_CCM}</Prefecture_CCM>
+</xmlConsulta>

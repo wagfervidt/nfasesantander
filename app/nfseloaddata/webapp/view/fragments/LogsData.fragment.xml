@@ -1,0 +1,83 @@
+<core:FragmentDefinition 
+    controllerName="com.santander.nfse.app.nfseloaddata.controller.Main"
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:core="sap.ui.core"
+    xmlns:table="sap.ui.table">
+    	<table:Table rows="{logsFile>/logs}" visibleRowCount="10" selectionMode="None">
+		<table:noData><Text text="{i18n>tableNoItems}"/></table:noData>
+		<table:columns>
+			<!--Companies-->
+			<table:Column width="10rem" visible="{= ${logsFile>/file}=== 'companies' ? true : false }">
+				<Label text="{i18n>logsFileCompanyCNPJ}"/>
+				<table:template>
+					<Text text="{logsFile>log/CNPJ}"/>
+				</table:template>
+			</table:Column>
+			<!--Companies-->
+			<table:Column visible="{= ${logsFile>/file}=== 'companies' ? true : false }">
+				<Label text="{i18n>logsFileCompanyName}"/>
+				<table:template>
+					<Text text="{logsFile>log/name}"/>
+				</table:template>
+			</table:Column>
+			<!--Schedule-->
+			<table:Column width="10rem" visible="{= ${logsFile>/file}=== 'schedule' ? true : false }">
+				<Label text="{i18n>logsFileScheduleCNPJ}"/>
+				<table:template>
+					<Text text="{logsFile>log/CNPJ}"/>
+				</table:template>
+			</table:Column>
+			<!--Schedule-->
+			<table:Column visible="{= ${logsFile>/file}=== 'schedule' ? true : false }">
+				<Label text="{i18n>logsFileScheduleReadDate}"/>
+				<table:template>
+					<Text text="{logsFile>log/readDate}"/>
+				</table:template>
+			</table:Column>
+			<!--Exeception-->
+			<table:Column width="10rem" visible="{= ${logsFile>/file}=== 'exeception' ? true : false }">
+				<Label text="{i18n>logsFileExeceptionVendor}"/>
+				<table:template>
+					<Text text="{logsFile>log/vendor}"/>
+				</table:template>
+			</table:Column>
+			<!--Exeception-->
+			<table:Column visible="{= ${logsFile>/file}=== 'exeception' ? true : false }">
+				<Label text="{i18n>logsFileExeceptionVendorName}"/>
+				<table:template>
+					<Text text="{logsFile>log/vendorExcName}"/>
+				</table:template>
+			</table:Column>
+
+			<!--Vendor-->
+			<table:Column width="10rem" visible="{= ${logsFile>/file}=== 'vendor' ? true : false }">
+				<Label text="{i18n>logsFileExeceptionVendor}"/>
+				<table:template>
+					<Text text="{logsFile>log/CNPJ}"/>
+				</table:template>
+			</table:Column>
+			<!--Vendor-->
+			<table:Column visible="{= ${logsFile>/file}=== 'vendor' ? true : false }">
+				<Label text="{i18n>logsFileExeceptionVendorName}"/>
+				<table:template>
+					<Text text="{logsFile>log/name}"/>
+				</table:template>
+			</table:Column>
+			<!--Vendor-->
+			<table:Column width="10rem" visible="{= ${logsFile>/file}=== 'vendor' ? true : false }">
+				<Label text="{i18n>logsFileVendorRegistration}"/>
+				<table:template>
+					<Text text="{logsFile>log/registration}"/>
+				</table:template>
+			</table:Column>
+			<!--Message-->
+			<table:Column>
+				<Label text="{i18n>logsFileMessage}"/>
+				<table:template>
+					<Text text="{logsFile>log/message}"/>
+				</table:template>
+			</table:Column>
+		</table:columns>
+	</table:Table>
+</core:FragmentDefinition>

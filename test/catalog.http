@@ -1,0 +1,185 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+###
+# nfse multi PDF
+POST {{server}}/catalog/getMultiPDF
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{ "notasID" : "4f4b9288-6775-4099-bc1b-a308d111d537;3ed4e69a-0c52-4ced-ba32-1291e8b50370"}
+
+### ------------------------------------------------------------------------
+# nfse queries geral
+POST {{server}}/catalog/nfseQueries
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# nfse queries not Parallel Prefectures
+POST {{server}}/catalog/nfseNotParallelPref
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# nfse queries parallels
+POST {{server}}/catalog/nfseQueriesParallel
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{"lastDate":"2022-07-16T03:00:00.000Z","todayDate":"2022-07-16T15:18:11.262Z","companyPrefectureID":"027979e3-9d9e-44c2-ba75-466c11e19b83"}
+
+### ------------------------------------------------------------------------
+# nfse queries retries
+POST {{server}}/catalog/nfseQueriesRetries
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# nfse queries publica PRE
+POST https://santander-global-technology-cf-bra-its-pre-bra-its-pre-nfse-srv.cfapps.eu20.hana.ondemand.com/catalog/nfseQueries
+Content-Type: application/json
+
+{}
+
+### ------------------------------------------------------------------------
+# POST TO VIM individual
+POST {{server}}/v2/catalog/nfsePost?ID='0001d2e5-cc6b-4415-94a8-20ea36b0c84f'
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# POST TO VIM Multiples
+POST {{server}}/v2/catalog/nfsePost?ID='4126c35b-ad20-4607-860f-768d64fd0f6a','4287f4fd-a8b2-4e98-8a0a-738861971205','431d1ce8-5dc0-472e-a8da-c1f9a566d96c','462332c2-765b-431f-a0ec-88ac502a89ae','485488da-3abd-49fb-b0cc-b4787b4fb794','4de02e5c-0f6d-4fc9-ae16-a3fc29f5f4e3','526092e8-714f-4a65-82b8-f71d97ddaf61','559ac858-ca69-4f72-9368-868b2a13a179'
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+
+### ------------------------------------------------------------------------
+# POST TO VIM
+POST {{server}}/catalog/nfsePost
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# POST TO VIM PARALLEL
+POST {{server}}/catalog/nfsePostParallel
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{"ID":"00f155a8-d112-404d-9421-37febb36d119"}
+
+### ------------------------------------------------------------------------
+# CALL DOCKER TO GET PDF INDIVIDUAL
+POST {{server}}/v2/catalog/nfsePDF?ID='51ff6c43-b321-4ec1-bec3-934b74d1d3d5'
+Content-Type: application/json
+{{me}}
+
+### ------------------------------------------------------------------------
+# CALL DOCKER TO GET PDF 
+POST {{server}}/v2/catalog/nfsePDF
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{}
+
+### ------------------------------------------------------------------------
+# Get PDF
+GET {{server}}/testing/NotasFiscais(00063282-dd3c-4ffe-87ed-98d5a134fca5)/Testing.getPDF()
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+
+### ------------------------------------------------------------------------
+# Get NOTAS FISCAIS
+GET {{server}}/v2/catalog/NotasFiscais(909e9cb1-bd0c-408b-9a05-ec269097dc39)
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+
+
+
+
+
+### ------------------------------------------------------------------------
+# Post PDF
+POST {{server}}/catalog/NotasFiscais(5b8e7d6a-ee8c-4376-97db-196cfed5cd9a)/CatalogService.postPDF
+Content-Type: application/json;IEEE754Compatible=true
+Authorization: Basic nfse:nfse
+
+{ 
+
+}
+
+### ------------------------------------------------------------------------
+# NFSE Archive
+POST {{server}}/catalog/nfseArchive
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+
+
+### ------------------------------------------------------------------------
+# NFSE Mail
+POST {{server}}/catalog/nfseMail
+Content-Type: application/json
+{{me}}
+
+
+
+### ------------------------------------------------------------------------
+# isKeyUser - Verificar se é KEY USER
+GET {{server}}/v2/nfse-list/isKeyUser
+Content-Type: application/json
+{{me}}
+
+
+
+
+### ------------------------------------------------------------------------
+# CALL DOCKER TO GET PDF 
+POST {{server}}/catalog/updateNotaFiscalStatus
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{
+  "Notas":[
+    {
+      "ID":"a4342bec-4b6c-4ad2-9ed5-431082f2561e",
+      "status_nfseStatus":11
+    },
+    {
+      "ID":"58e75bd4-26f9-49f9-821d-1ca7262b1ada",
+      "status_nfseStatus":11
+    }
+  ],
+  "Status":5
+}
+
+
+### ------------------------------------------------------------------------
+# CALL DOCKER TO GET PDF 
+POST {{server}}/catalog/updateNotaFiscalStatusIndividual
+Content-Type: application/json
+Authorization: Basic nfse:nfse
+
+{
+  "Nota":
+    {
+      "ID":"a4342bec-4b6c-4ad2-9ed5-431082f2561e",
+      "status_nfseStatus":5
+    },
+  "Status":11
+}

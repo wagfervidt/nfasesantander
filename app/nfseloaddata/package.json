@@ -1,0 +1,33 @@
+{
+    "name": "nfseloaddata",
+    "version": "1.0.0",
+    "description": "Carregamento de Dados",
+    "private": true,
+    "scripts": {
+        "build": "ui5 build -a --clean-dest --include-task=generateManifestBundle generateCachebusterInfo && npm run zip",
+        "zip": "cd dist && npx bestzip nfseloaddata-content.zip * && rimraf \"!(*content.zip)\" ",
+        "clean": "npx rimraf dist",
+        "start": "ui5 serve --port 8098",
+        "deploy": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
+    },
+    "devDependencies": {
+        "@sap/ux-ui5-tooling": "1",
+        "ui5-middleware-livereload": "^0.4.3",
+        "ui5-middleware-simpleproxy": "^0.5.1",
+        "@sap/ui5-builder-webide-extension": "^1.1.8"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ux-ui5-tooling",
+            "@sap/ui5-builder-webide-extension"
+        ]
+    },
+    "keywords": [
+        "Santander",
+        "NFSE",
+        "Uploader",
+        "Nota Fiscal"
+    ],
+    "author": "ITS Group",
+    "license": "ISC"
+}

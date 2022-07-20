@@ -1,0 +1,32 @@
+{
+    "auth": {
+        "passport": {
+            "strategy": "mock",
+            "users": {
+                "nfse": {
+                    "password": "nfse",
+                    "ID": "nfse",
+                    "roles": [
+                        "nfse_jobscheduler",
+                        "nfse_admin",
+                        "nfse_display",
+                        "nfse_adminkeyuser",
+                        "nfse_adminview",
+                        "nfse_log",
+                        "nfse_monitor"                        
+                    ]                    
+                },
+                "nfseadmin": {
+                    "password": "nfseadmin",
+                    "ID": "nfseadmin",
+                    "roles": [
+                        "nfse_admin",
+                        "nfse_adminview",
+                        "nfse_log",
+                        "nfse_monitor"
+                    ]                    
+                }
+            }
+        }
+    }    
+}

@@ -1,0 +1,175 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfseschedulelog.controller.Object"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:semantic="sap.f.semantic"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:codeeditor="sap.ui.codeeditor">
+
+	<semantic:SemanticPage
+		id="page"
+		busy="{objectView>/busy}"
+        busyIndicatorDelay="{objectView>/delay}"
+        headerPinnable="true"
+		toggleHeaderOnTitleClick="true"
+		preserveHeaderStateOnScroll="false"
+		titleAreaShrinkRatio="1:1.6:1.6"
+		showFooter="true">
+		<semantic:titleHeading>
+            <Title text="{i18n>objectTitle}: {ID}" />    
+		</semantic:titleHeading>
+
+
+        <semantic:headerContent>
+			<FlexBox
+				alignItems="Start"
+                justifyContent="SpaceBetween">
+                <Panel backgroundDesign="Transparent">    
+                    <f:SimpleForm id="SimpleFormDadosGerais"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                        adjustLabelSpan="true"
+			            singleContainerFullSize="true">
+                        <f:content alignItems="Start" display="Flex">
+                            <Label text="{i18n>ObjectCreatedBy}" />
+                            <Text text="{
+                                    path: 'createdBy',
+                                    type: 'sap.ui.model.odata.type.String',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }
+                                }"
+                            />
+                            <Label text="{i18n>ObjectCreatedAt}" />
+                            <Text text="{
+                                    path: 'createdAt',
+                                    type: 'sap.ui.model.odata.type.DateTimeOffset',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }
+                                }"
+                            />
+                        </f:content>      
+                    </f:SimpleForm>                                     
+                </Panel>
+                <Panel backgroundDesign="Transparent">
+                    <f:SimpleForm 
+                        id="SimpleModify"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                        singleContainerFullSize="true">
+                        <f:content>
+                            <Label text="{i18n>ObjectmodifiedBy}" />
+                            <Text text="{
+                                    path: 'modifiedBy',
+                                    type: 'sap.ui.model.odata.type.String',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }
+                                }"
+                            />
+                            <Label text="{i18n>ObjectmodifiedAt}" />
+                            <Text text="{
+                                    path: 'modifiedAt',
+                                    type: 'sap.ui.model.odata.type.DateTimeOffset',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }
+                                }"
+                            />
+                        </f:content>      
+                    </f:SimpleForm>                                     
+                </Panel>
+                <Panel backgroundDesign="Transparent">
+                    <f:SimpleForm 
+                        id="SimpleStatus"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                        singleContainerFullSize="true">
+                        <f:content>
+                            <ObjectStatus
+                                title="{i18n>ObjectnfseStatus}"
+                                text="{status/txtStatus}"
+                                state="{
+                                    path: 'status_nfseStatus',
+                                    formatter: '.formatter.nfseStatusState'
+                                }"
+                                icon="{
+                                    path: 'status_nfseStatus',
+                                    formatter: '.formatter.nfseStatusIcon'
+                                }"
+                            />
+                        </f:content>      
+                    </f:SimpleForm>                                     
+                </Panel>
+            </FlexBox>  
+        </semantic:headerContent>   
+        <semantic:content>
+            <VBox>
+                <Panel 
+                    backgroundDesign="Transparent"
+                    expanded="true"
+                    headerText="{i18n>ObjectgeneralData}"> 
+                    <f:SimpleForm id="SimpleFormFornecedor"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                        labelSpanXL="4"
+                        labelSpanL="4"
+                        labelSpanM="4"
+                        labelSpanS="12"
+                        adjustLabelSpan="false"
+                        emptySpanXL="0"
+                        emptySpanL="4"
+                        emptySpanM="0"
+                        emptySpanS="0"
+                        columnsXL="2"
+                        columnsL="2"
+                        columnsM="2"
+                        singleContainerFullSize="false">
+                        <f:content>
+                            <core:Title text="{i18n>ObjectCompany}"/>
+                            <Label text="{i18n>ObjectCompanyName}"/>
+                            <Text  text="{company/companyName}"/>
+                            <Label text="{i18n>ObjectCompanyDescription}"/>
+                            <Text  text="{company/description}"/>  
+                            <Label text="{i18n>ObjectCompanyCNPJ}"/>
+                            <Text  text="{company/CNPJ}"/>
+                            <Label text="{i18n>ObjectCompanyCCM}"/>
+                            <Text  text="{company/CCM}"/>                       
+                            <Label text="{i18n>ObjectCompanyInactive}"/>    
+                            <ObjectStatus
+                                    icon="{= ${company/inactive} ? 'sap-icon://status-inactive' : 'sap-icon://status-positive' }" 
+                                    state="{= ${company/inactive} ? 'Success' : 'None' }" />                                    
+                        
+                            <core:Title text="{i18n>ObjectPrefecture}"/>
+                            <Label text="{i18n>ObjectPrefectureName}"/>
+                            <Text  text="{prefecture/prefectureName}"/>
+                            <Label text="{i18n>ObjectPrefectureDescription}"/>
+                            <Text  text="{prefecture/description}"/>
+                            <Label text="{i18n>ObjectPrefectureServiceAddress}"/>
+                            <Text  text="{prefecture/serviceAddress}"/>
+                            <Label text="{i18n>ObjectPrefectureServiceMethod}"/>
+                            <Text  text="{prefecture/serviceMethod}"/>   
+                            <Label text="{i18n>ObjectPrefectureCCM}"/>
+                            <Text  text="{CCMPrefecture}"/>                      
+                        </f:content>      
+                    </f:SimpleForm>
+                </Panel>
+                <Panel 
+                    backgroundDesign="Transparent"
+                    headerText="{i18n>i18n>ObjectnfseStatusLog}">
+                    <TextArea  
+                        class="sapUiResponsiveMargin sapUiNoMarginTop"
+                        value="{txtStatus}"
+                        growing="true"
+                        growingMaxLines="20"
+                        editable="false"
+                        width="95%"
+                    />
+                </Panel> 
+            </VBox>
+        </semantic:content>     
+	</semantic:SemanticPage>
+</mvc:View>

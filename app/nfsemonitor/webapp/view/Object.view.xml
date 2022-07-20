@@ -1,0 +1,588 @@
+<mvc:View
+	controllerName="com.santander.nfse.app.nfsemonitor.controller.Object"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:semantic="sap.f.semantic"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:codeeditor="sap.ui.codeeditor">
+
+	<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		toggleHeaderOnTitleClick="false"
+		busy="{objectView>/busy}"
+        busyIndicatorDelay="{objectView>/delay}"
+        showFooter="{= ${status_nfseStatus}=== 5 ? true : false}">
+
+		<semantic:titleHeading>
+            <Title text="{i18n>objectTitle}: {nfseNo}" />    
+		</semantic:titleHeading>
+
+        <semantic:headerContent>
+			<FlexBox
+				alignItems="Start"
+                justifyContent="SpaceBetween">
+                <Panel backgroundDesign="Transparent">    
+                    <f:SimpleForm id="SimpleFormDadosGerais"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                        adjustLabelSpan="true"
+			            singleContainerFullSize="true">
+                        <f:content>
+                           <Label text="{i18n>ObjectdocDate}" />
+                            <Text text="{
+                                    path: 'docDate',
+                                    type: 'sap.ui.model.type.DateTime',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }
+                                }"/>
+                            <Label text="{i18n>ObjecttotalAmount}"/>
+                            <ObjectNumber
+                                number="{
+                                    path: 'totalAmount',
+                                    formatter: '.formatter.numberUnit'
+                                }"
+                                unit="{currency_code}"/>  
+                        </f:content>      
+                    </f:SimpleForm>                                     
+                </Panel>
+                <Panel 
+                    backgroundDesign="Transparent">
+                    
+                       <f:SimpleForm id="SimpleStatus"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                         singleContainerFullSize="true" >
+                        <f:content>
+                            <ObjectStatus
+                                title="{i18n>ObjectnfseStatus}"
+                                text="{status/txtStatus}"
+                                state="{
+                                    path: 'status_nfseStatus',
+                                    formatter: '.formatter.nfseStatusState'
+                                }"
+                                icon="{
+                                    path: 'status_nfseStatus',
+                                    formatter: '.formatter.nfseStatusIcon'
+                                }"/>
+                            <Label 
+                                text="{i18n>ObjectcancelDate}"
+                                visible="{= ${cancelDate} ? true : false }"/>
+                            <Text 
+                                text="{ 
+                                    path: 'cancelDate',
+                                    type: 'sap.ui.model.type.DateTime',
+                                    formatOptions: {
+                                        style: 'short'
+                                    }}"
+                                visible="{= ${cancelDate} ? true : false }"/>
+                            <Label 
+                                text="{i18n>ObjectsrvDate}"
+                                visible="{= ${srvDate} ? true : false }"/>
+                            <Text 
+                                text="{ 
+                                    path: 'srvDate',
+                                    type: 'sap.ui.model.type.Date',
+                                    formatOptions: {
+                                        style: 'short',
+                                        UTC: true
+                                    }}"
+                                visible="{= ${srvDate} ? true : false }"/>                                
+                            <Label 
+                                text="{i18n>ObjectnfseSubs}"
+                                visible="{= ${nfseSubst} ? true : false }"/>
+                            <Text 
+                                text="{nfseSubst}"
+                                visible="{= ${nfseSubst} ? true : false }"/>
+                            <Button 
+                                icon="sap-icon://pdf-reader"
+                                press="onPressPDF" 
+                                text="{i18n>ObjectbuttonPDF}"
+                                visible="{upPDF}"
+                            />
+                            <Button 
+                                icon="sap-icon://paper-plane"
+                                type="Emphasized" 
+                                press="onPressSend" 
+                                text="{i18n>ObjectbuttonSend}"
+                                visible="{fieldControl>/selectionButtonSend}"
+                            />  
+                            <Button 
+                                icon="sap-icon://paper-plane"
+                                type="Emphasized"
+                                press="onPressSendPending" 
+                                text="{i18n>ObjectbuttonSendPending}"
+                                visible="{= ${status_nfseStatus}=== 5 ? true : false}"
+                            />
+                            <Button 
+                                icon="sap-icon://undo"
+                                type="Reject" 
+                                press="onPressAdjust" 
+                                text="{i18n>ObjectbuttonAdjust}"
+                                visible="{fieldControl>/selectionButtonSend}"
+                            />    
+                            <Button 
+                                icon="sap-icon://decline"
+                                type="Reject" 
+                                press="onPressIgnore" 
+                                text="{i18n>ObjectbuttonIgnore}"
+                                visible="{fieldControl>/selectionButtonIgnore}"
+                            />
+                            <Button 
+                                icon="sap-icon://cancel"
+                                type="Accept" 
+                                press="onPressCancel" 
+                                text="{i18n>ObjectbuttonCancel}"
+                                visible="{fieldControl>/selectionButtonCancel}"
+                            />
+                        </f:content>      
+                    </f:SimpleForm>                        
+				</Panel>
+            </FlexBox>  
+                <Panel backgroundDesign="Transparent"
+                    expandable="{device>/system/phone}"
+		            expanded="{= !${device>/system/phone} }">                     
+                    <f:SimpleForm id="SimpleFormID"
+                        editable="false"
+                        layout="ResponsiveGridLayout"
+                         singleContainerFullSize="true" >
+                        <f:content>
+                            <Label text="{i18n>ObjectID}"/>
+                            <Text text="{ID}"/>
+                            <Label text="{i18n>ObjectveriCode}"/>
+                            <Text text="{veriCode}"/>
+                            <Label text="{i18n>Objectsignature}"/>
+                            <Text text="{signature}"/>
+                        </f:content>      
+                    </f:SimpleForm>
+                </Panel>
+         
+		</semantic:headerContent>
+        <semantic:content>
+            <VBox>
+                <Panel backgroundDesign="Transparent"
+                    expandable="{device>/system/phone}"
+                    expanded="true"
+                    headerText="{i18n>ObjectgeneralData}"> 
+                <f:SimpleForm id="SimpleFormFornecedor"
+			        editable="false"
+                    layout="ResponsiveGridLayout"
+                    labelSpanXL="4"
+                    labelSpanL="4"
+                    labelSpanM="4"
+                    labelSpanS="12"
+                    adjustLabelSpan="false"
+                    emptySpanXL="0"
+                    emptySpanL="4"
+                    emptySpanM="0"
+                    emptySpanS="0"
+                    columnsXL="2"
+                    columnsL="2"
+                    columnsM="2"
+                    singleContainerFullSize="false">
+			        <f:content>
+			            <core:Title text="{i18n>Objectvendor}"/>
+                        <Label text="{i18n>Objectvendor}"/>
+                        <Text  text="{vendor}"/>
+                        <Label text="{i18n>ObjectvendorName}"/>
+                        <Text  text="{vendorName}"/>
+                        <Label text="{i18n>ObjectvendorCCM}"/>
+                        <Text  text="{vendorCCM}"/>
+                        <Label text="{i18n>Objectcity}"/>
+                        <Text  text="{city/cityCode} - {city/cityName}"/>                            
+                        <Label text="{i18n>ObjectsimpleTax}"/>    
+                        <ObjectStatus
+                                icon="{= ${simpleTax} ? 'sap-icon://message-success' : 'sap-icon://message-error' }" 
+                                state="{= ${simpleTax} ? 'Success' : 'None' }" />                                    
+                       
+                        <core:Title text="{i18n>Objectcompany}"/>
+                        <Label text="{i18n>Objectcompany}"/>
+                        <Text  text="{company/CNPJ}"/>
+                        <Label text="{i18n>ObjectcompanyName}"/>
+                        <Text  text="{company/companyName}"/>
+                        <Label text="{i18n>Objectprefecture}"/>
+                        <Text  text="{prefecture/prefectureName}"/>
+                        <Label text="{i18n>ObjectsrvCity}"/>
+                        <Text  
+                            text="{srvCity/cityCode} - {srvCity/cityName}"
+                            visible="{= ${srvCity/cityCode} ? true : false }" />                        
+                    </f:content>      
+                </f:SimpleForm>
+            </Panel>   
+
+            <Panel backgroundDesign="Transparent"
+                    expandable="{device>/system/phone}"
+                    expanded="true"
+                    headerText="{i18n>ObjectdataSRV}"> 
+                <f:SimpleForm id="SimpleFormSRV"
+			        editable="false"
+                    layout="ResponsiveGridLayout"
+                    labelSpanXL="4"
+                    labelSpanL="3"
+                    labelSpanM="4"
+                    labelSpanS="12"
+                    adjustLabelSpan="false"
+                    emptySpanXL="0"
+                    emptySpanL="2"
+                    emptySpanM="0"
+                    emptySpanS="0"
+                    columnsXL="2"
+                    columnsL="2"
+                    columnsM="2"
+                    singleContainerFullSize="false">
+                     
+			        <f:content>
+				        <core:Title text="{i18n>ObjectSRV}"/>
+                        <Label text="{i18n>ObjectserviceCode}"/>
+                        <Text  text="{serviceCode}"/>
+                        <Label text="{i18n>ObjecttotalAmount}"/>
+                        <ObjectNumber
+                            number="{
+                                path: 'totalAmount',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/> 
+                        <Label text="{i18n>ObjectnetAmount}"/>
+                        <ObjectNumber
+                            number="{
+                                path: 'netAmount',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                                unit="{currency_code}"/>                                 
+                        <Label text="{i18n>ObjecttotalDeductions}"/>
+                        <ObjectNumber
+                            number="{
+                                path: 'totalDeductions',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>        
+                        <Label text="{i18n>ObjecttotalCredit}"/>                                
+                        <ObjectNumber
+                            number="{
+                                path: 'totalCredit',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>
+                        <Label text="{i18n>ObjectceiCode}"/>
+                        <Text  text="{ceiCode}"/>
+                        <Label text="{i18n>ObjectartCode}"/>
+                        <Text  text="{artCode}"/>
+                        <Label text="{i18n>ObjectconstructionID}"/>
+                        <Text  text="{constructionID}"/>
+                        <Label text="{i18n>ObjecttotalReceipt}"/>
+                        <Text  text="{totalReceipt}"/>  
+                        <Label text="{i18n>ObjectdescUnconditioned}"/>
+                        <Text  text="{descUnconditioned}"/>  
+                        <Label text="{i18n>ObjectdescConditioned}"/>
+                        <Text  text="{descConditioned}"/>                            
+                           
+                        <core:Title text="{i18n>ObjectSRVTax}"/>
+                        <Label text="{i18n>ObjectretISS}"/>                              
+                        <ObjectStatus
+                            icon="{= ${retISS} ? 'sap-icon://message-success' : 'sap-icon://message-error' }" 
+                            state="{= ${retISS} ? 'Success' : 'None' }" />  
+                           <Label text="{i18n>ObjecttotalTax}"/>                                
+                        <ObjectNumber
+                            number="{
+                                path: 'totalTax',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>       
+                        <Label text="{i18n>ObjecttotalISS}"/>                                
+                        <ObjectNumber
+                            number="{
+                                path: 'totalISS',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>    
+                        <Label text="{i18n>ObjectotalPIS}"/>                                
+                        <ObjectNumber
+                            number="{
+                                path: 'totalPIS',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>    
+                        <Label text="{i18n>ObjectotalCOFINS}"/>                                
+                        <ObjectNumber
+                            number="{
+                                path: 'totalCOFINS',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>             
+                        <Label text="{i18n>ObjectotalINSS}"/>                                                    
+                        <ObjectNumber
+                            number="{
+                                path: 'totalINSS',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>                               
+                        <Label text="{i18n>ObjectotalIR}"/>                                                    
+                        <ObjectNumber
+                            number="{
+                                path: 'totalIR',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/>
+                        <Label text="{i18n>ObjectotalCSLL}"/>                                                    
+                        <ObjectNumber
+                            number="{
+                                path: 'totalCSLL',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/> 
+                        <Label text="{i18n>ObjecttotalOtherRet}"/>                                                    
+                        <ObjectNumber
+                            number="{
+                                path: 'totalOtherRet',
+                                formatter: '.formatter.numberUnit'
+                            }"
+                            unit="{currency_code}"/> 
+                        <Label text="{i18n>ObjectrateTax}"/>
+                        <Text  text="{rateTax}"/>
+                        <core:Title text="{i18n>ObjectSRVDesc}"/>
+                        <TextArea  
+                            value="{serviceDescription}"
+                            growing="true"
+                            editable="false"/>
+                        <core:Title text="{i18n>ObjectSRVInput}"/>
+                        <Label text="{i18n>ObjectsrvAccount}"/>
+                        <Input 
+                            id="inputsrvAccount"
+                            value="{srvAccount}"
+                            type="Text"
+                            maxLength="10"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvCostCenter}"/>
+                        <Input 
+                            id="inputsrvCostCenter"
+                            value="{srvCostCenter}"
+                            type="Text"
+                            maxLength="10"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvPOPOITM}"/>
+                        <Input 
+                            id="inputsrvPO"
+                            value="{srvPO}"
+                            type="Text"
+                            maxLength="10"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL3 L3 M3 S8" />
+                            </layoutData>
+                        </Input>                              
+                        <Input 
+                            id="inputsrvPOItem"
+                            value="{srvPOItem}"
+                            type="Text"
+                            maxLength="5"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">         
+                            <layoutData>
+						        <l:GridData span="XL2 L2 M2 S4" />
+                            </layoutData>
+                        </Input>  
+                        <Label text="{i18n>ObjectsrvDueDate}"/>
+                        <DatePicker 
+                            id="inputsrvDueDate"
+                            value="{
+                                path:'srvDueDate', 
+                                type: 'sap.ui.model.type.Date',
+                                formatOptions: {
+                                    style: 'short',
+                                    UTC: true
+                                }
+                            }"
+                            displayFormat="yyyy-MM-dd"
+                            editable="{objectView>/update}">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </DatePicker>   
+                        <Label text="{i18n>ObjectsrvBank}"/>
+                        <Input 
+                            id="inputsrvBank"
+                            value="{srvBank}"
+                            type="Text"
+                            maxLength="3"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvBankAgency}"/>
+                        <Input 
+                            id="inputsrvBankAgency"
+                            value="{srvBankAgency}"
+                            type="Text"
+                            maxLength="5"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvBankAccount}"/>
+                        <Input 
+                            id="inputsrvBankAccount"
+                            value="{srvBankAccount}"                          
+                            type="Text"
+                            maxLength="10"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvContact}"/>                        
+                        <Input 
+                            id="inputsrvContact"
+                            value="{srvContact}"
+                            type="Text"
+                            maxLength="100"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>        
+                        <Label text="{i18n>ObjectsrvArea}"/>                        
+                        <Input 
+                            id="inputsrvArea"
+                            value="{srvArea}"
+                            type="Text"
+                            maxLength="100"
+                            editable="{objectView>/update}"
+                            valueLiveUpdate="true"
+                            liveChange="onLiveChangeNumber">
+                            <layoutData>
+						        <l:GridData span="XL5 L5 M5 S12" />
+                            </layoutData>
+                        </Input>   
+                    </f:content>      
+                </f:SimpleForm> 
+            </Panel>
+            <Panel backgroundDesign="Transparent"
+                    expandable="{device>/system/phone}"
+                    expanded="{= !${device>/system/phone} }"
+                    headerText="{i18n>ObjectnfseXML}">
+                <TextArea  
+                    class="sapUiResponsiveMargin sapUiNoMarginTop"
+                    value="{nfseXML}"
+                    growing="true"
+                    growingMaxLines="20"
+                    editable="false"/>
+            </Panel>   
+            <Panel backgroundDesign="Transparent"
+                   expandable="{device>/system/phone}"
+                   expanded="{= !${device>/system/phone} }"
+                   headerText="{i18n>ObjectLog}">       
+                <Table
+                        id="tableLog"
+                        width="auto"
+                        noDataText="{worklistView>/tableNoDataText}"
+                        busyIndicatorDelay="{worklistView>/tableBusyDelay}"
+                        class="sapUiResponsiveMargin sapUiNoMarginTop"
+                        growing="true"
+                        growingScrollToLoad="true"
+                        sticky="ColumnHeaders"
+				        
+                        items="{ 
+                            path: 'Log',
+                            sorter: {
+                                path: 'createdAt',
+                                descending: true
+                            }
+                        }">
+                        
+                        <columns>
+                            <Column id="createdAtColumn"
+                             width="7em">
+                                <Text text="{i18n>tablecreatedAtTitle}" id="createdAtTitle"/>
+                            </Column>                         
+                            <Column id="createdByColumn"
+                                    width="5em">
+                                <Text text="{i18n>tablecreatedByTitle}" id="createdByTitle"/>
+                            </Column>  
+                            <Column id="oldstatusiconColumn"
+                                    width="5em">
+                                <Text text="{i18n>tableoldstatusTitle}" id="oldstatusTitle"/>
+                            </Column>  
+                            <Column id="newstatusiconColumn"
+                                    width="5em">
+                                <Text text="{i18n>tablenewstatusTitle}" id="newstatusTitle"/>
+                            </Column> 
+                        </columns>
+
+                        <items>
+                            <ColumnListItem>
+                                <cells>
+                                    <ObjectIdentifier
+                                        title="{
+                                            path: 'createdAt',
+                                            type: 'sap.ui.model.type.DateTime',
+                                            formatOptions: {
+                                                style: 'short'
+                                            }
+                                        }"
+                                    />
+                                    <Text text="{createdBy}"/>
+                                    <ObjectStatus
+                                        text="{oldTxtStatus}"
+                                        state="{
+                                            path: 'oldStatus_nfseStatus',
+                                            formatter: '.formatter.nfseStatusState'
+                                        }"
+                                        icon="{
+                                            path: 'oldStatus_nfseStatus',
+                                            formatter: '.formatter.nfseStatusIcon'
+                                        }"
+                                    />
+                                    <ObjectStatus
+                                        text="{newTxtStatus}"
+                                        state="{
+                                            path: 'newStatus_nfseStatus',
+                                            formatter: '.formatter.nfseStatusState'
+                                        }"
+                                        icon="{
+                                            path: 'newStatus_nfseStatus',
+                                            formatter: '.formatter.nfseStatusIcon'
+                                        }"
+                                    />  
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </Panel>
+            </VBox>             
+        </semantic:content>
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+        </semantic:sendEmailAction>
+        <!-- Semantic Footer Buttons -->
+		<semantic:footerMainAction>
+			<semantic:FooterMainAction text="{i18n>ObjectButtonSave}" press="onPressSave"/>
+		</semantic:footerMainAction>
+	</semantic:SemanticPage>
+</mvc:View>

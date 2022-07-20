@@ -1,0 +1,40 @@
+<core:FragmentDefinition 
+    controllerName="com.santander.nfse.app.nfseloadcompref.controller.Main"
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:core="sap.ui.core"
+    xmlns:table="sap.ui.table">
+    	<table:Table rows="{logsCompanyPrefecture>/logs}" visibleRowCount="10" selectionMode="None" resizable="false">
+		<table:noData><Text text="{i18n>tableNoItems}"/></table:noData>
+		<table:columns resizable="false">
+			<!--CompaniesPrefectures-->
+			<table:Column width="10rem" visible="true">
+				<Label text="{i18n>logsCompanyCNPJ}"/>
+				<table:template>
+					<Text text="{logsCompanyPrefecture>CNPJ}"/>
+				</table:template>
+			</table:Column>
+			<!--CompaniesPrefectures-->
+			<table:Column visible="true">
+				<Label text="{i18n>logsCompanyName}"/>
+				<table:template>
+					<Text text="{logsCompanyPrefecture>companyName}"/>
+				</table:template>
+			</table:Column>
+			<!--CompaniesPrefectures-->
+			<table:Column width="10rem" visible="true">
+				<Label text="{i18n>logsPrefectureName}"/>
+				<table:template>
+					<Text text="{logsCompanyPrefecture>prefectureName}"/>
+				</table:template>
+			</table:Column>
+			<!--Message-->
+			<table:Column>
+				<Label text="{i18n>logsMessage}"/>
+				<table:template>
+					<Text text="{logsCompanyPrefecture>message}"/>
+				</table:template>
+			</table:Column>
+		</table:columns>
+	</table:Table>
+</core:FragmentDefinition>

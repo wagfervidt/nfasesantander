@@ -1,0 +1,12 @@
+@server = http://localhost:4004
+@me = Authorization: Basic {{$processEnv USER}}:
+
+
+### ------------------------------------------------------------------------
+# UPLOAD COMPANIES FILE 
+POST {{server}}/nfse-load-data/uploadCompanies
+Content-Type: application/json
+Authorization: Basic nfseadmin:nfseadmin
+
+
+{}
